@@ -1,0 +1,43 @@
+\gdef \the@ipfilectr {@-2}
+\select@language {british}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\contentsline {chapter}{\chapternumberline {2}Theoretical Background}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}NV-center in diamond}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Optical level structure}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Ground state level structure}{3}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Coupling to nuclear spins}{3}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Quantum measurements}{3}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Von Neaumann picture}{3}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Projection operator}{3}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Measurements as a tool for quantum information}{3}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}The measurement problem}{3}{subsection.2.2.4}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\contentsline {chapter}{\chapternumberline {3}Experimental methods}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Samples and fabrication}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Localization}{5}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}SILs}{5}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Anti reflection coating}{5}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Setup}{5}{section.3.2}
+\contentsline {section}{\numberline {3.3}Optical initialisation and readout of electron spin}{5}{section.3.3}
+\contentsline {section}{\numberline {3.4}Electron and nuclear spin manipulation}{5}{section.3.4}
+\contentsline {section}{\numberline {3.5}Real-time feedback}{5}{section.3.5}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-6}
+\contentsline {chapter}{\chapternumberline {4}Manipulating a qubit through the backaction of sequential partial measurements \\ and real-time feedback }{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{8}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methods}{14}{section.4.2}
+\contentsline {section}{\numberline {4.3}Acknowledgements}{16}{section.4.3}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-7}
+\contentsline {chapter}{\chapternumberline {5}Heralded entanglement between solid-state qubits separated by three metres}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{18}{section.5.1}
+\contentsline {section}{\numberline {5.2}Protocol}{18}{section.5.2}
+\contentsline {section}{\numberline {5.3}Implementation}{20}{section.5.3}
+\contentsline {section}{\numberline {5.4}Results}{23}{section.5.4}
+\contentsline {section}{\numberline {5.5}Conclusion}{26}{section.5.5}
+\gdef \the@ipfilectr {}
