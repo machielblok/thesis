@@ -1,0 +1,37 @@
+
+
+\graphicspath{{./ch_adptv_msmnt_magnetometry/figures/}}
+
+
+\chapter{ Optimized quantum sensing with a single electron spinusing real-time adaptive measurements}
+\label{ch:AMM}
+
+
+{\renewcommand{\thefootnote}{}\footnote{This chapter has been submitted to
+    {\em Nature Nanotechnology} (2015).}}
+
+\begin{center} 
+    \vspace{-1cm} {C.~Bonato, M.S.~Blok, H.T. ~Dinani, D.W. ~Berry, M.L. ~Markham, D.J. ~Twitchen  and R.~Hanson} 
+\end{center}
+
+
+\vspace{-0.5cm} 
+Quantum sensors based on single solid-state spins promise a unique combination of sensitivity and spatial resolution1-20. The key challenge in sensing is to achieve minimum estimation uncertainty within a given time and with a high dynamic range. Adaptive strategies have been proposed to achieve optimal performance but their implementation in solid-state systems has been hindered by the demanding experimental requirements. Here we realize adaptive d.c. sensing by combining single-shot readout of an electron spin in diamond with fast feedback. By adapting the spin readout basis in real time based on previous outcomes we demonstrate a sensitivity in Ramsey interferometry surpassing the standard measurement limit. Furthermore, we find by simulations and experiments that adaptive protocols offer a distinctive advantage over the best-known non-adaptive protocols when overhead and limited estimation time are taken into account. Using an optimized adaptive protocol we achieve a magnetic field sensitivity of $6.1\pm 1.7$ nT Hz$^{-\frac{1}{2}}$ over a wide range of 1.78 mT. These results open up a new class of experiments for solid-state sensors in which real-time knowledge of the measurement history is exploited to obtain optimal performance.
+
+
+\clearpage
+
+\section{Introduction}
+Quantum sensors have the potential to achieve unprecedented sensitivity by exploiting control over individual quantum systems1,2. As a prominent example, sensors based on single electron spins associated with Nitrogen-Vacancy (NV) centers in diamond capitalize on the spin?s quantum coherence and the high spatial resolution resulting from the atomic-like electronic wave function3,4. Pioneering experiments have already demonstrated single-spin sensing of magnetic fields5-7, electric fields8, temperatures9,10 and strain11. NV sensors may therefore have a revolutionary impact on biology12-15, nanotechnology16-18 and material science19,20. 
+
+A spin-based magnetometer can sense a d.c. magnetic field \textit{B} through the Zeeman shift $E_z=\hbar \gamma B = \hbar 2 \pi f_B$ ($\gamma$ is the gyromagnetic ratio and $f_B$ the Larmor frequency) between two spin levels $\ket{0}$ and $\ket{1}$. In a Ramsey interferometry experiment, a superposition state  $\frac{1}{\sqrt{2}}$($\ket{0}$ + $\ket{1}$), prepared by a $\pi$/2 pulse, will evolve to $\frac{1}{\sqrt{2}}$($\ket{0}$ + $e^{i\phi}\ket{1}$)   over a sensing time \textit{t}. The phase $\phi = 2 \pi f_B t$ can be measured by reading out the spin in a suitable basis, by adjusting the phase $\vartheta$ of a second $\pi$/2 pulse.
+
+
+For a Ramsey experiment that is repeated with constant sensing time \textit{t} the uncertainty $\sigma_{f_B}$ decreases with the total sensing time \textit{T} as 1/(2??tT) (standard measurement sensitivity, SMS).  However, the field range also decreases with t because the signal is periodic, creating ambiguity whenever |2?f_B t| > ?. This results in a dynamic range bounded as  f_(B,max)/?_(f_B )  ? ??(T/t).  Recently, it was discovered that the use of multiple sensing times within an estimation sequence can yield a scaling of ?_(f_B ) as 1/T, resulting in a vastly improved dynamic range: f_(B,max)/?_(f_B )  ? ?T/?_min, where ?_min  is the shortest sensing time used. A major open question is whether adaptive protocols, in which the readout basis is optimized in real time based on previous outcomes, can outperform non-adaptive protocols. While scaling beating the standard measurement limit has been reported with non-adaptive protocols22,23, feedback techniques have only recently been demonstrated for solid-state quantum systems24-26 and adaptive sensing protocols have so far remained out of reach.
+
+\section{Methods}
+M
+\section{Acknowledgements}
+Bla
+
+%\bibliography{adptv_msmnt_cntrl}

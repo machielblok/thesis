@@ -34,10 +34,16 @@
 \contentsline {section}{\numberline {4.3}Acknowledgements}{16}{section.4.3}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
-\contentsline {chapter}{\chapternumberline {5}Heralded entanglement between solid-state qubits separated by three metres}{17}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5} Optimized quantum sensing with a single electron spin using real-time adaptive measurements}{17}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{18}{section.5.1}
-\contentsline {section}{\numberline {5.2}Protocol}{18}{section.5.2}
-\contentsline {section}{\numberline {5.3}Implementation}{20}{section.5.3}
-\contentsline {section}{\numberline {5.4}Results}{23}{section.5.4}
-\contentsline {section}{\numberline {5.5}Conclusion}{26}{section.5.5}
+\contentsline {section}{\numberline {5.2}Methods}{18}{section.5.2}
+\contentsline {section}{\numberline {5.3}Acknowledgements}{18}{section.5.3}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-8}
+\contentsline {chapter}{\chapternumberline {6}Heralded entanglement between solid-state qubits separated by three metres}{19}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{20}{section.6.1}
+\contentsline {section}{\numberline {6.2}Protocol}{20}{section.6.2}
+\contentsline {section}{\numberline {6.3}Implementation}{22}{section.6.3}
+\contentsline {section}{\numberline {6.4}Results}{25}{section.6.4}
+\contentsline {section}{\numberline {6.5}Conclusion}{28}{section.6.5}
 \gdef \the@ipfilectr {}

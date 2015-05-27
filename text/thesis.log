@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  19 MAY 2015 06:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  26 MAY 2015 18:10
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
@@ -1345,15 +1344,12 @@ def \the@ipfilectr{}}\@writefile{lot}{\gdef \the@ipfilectr{}}
 LaTeX Warning: Unused global option(s):
     [openright1].
 
-(./thesis.aux (./frontmatter.aux) (./ch_introduction/introduction.aux)
-(./ch_theory/theory.aux) (./ch_experimental/experimental.aux)
-(./ch_adptv_msmnt_cntrl/adptv_msmnt_cntrl.aux) (./ch_LDE/LDE.aux))
+No file thesis.aux.
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 62.
 LaTeX Font Info:    Try loading font information for OML+nxlmi on input line 62
 .
-
 (/usr/local/texlive/2014/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
@@ -1466,19 +1462,17 @@ LaTeX Info: Redefining \nameref on input line 62.
 LaTeX Info: Redefining \ref on input line 62.
 LaTeX Info: Redefining \pageref on input line 62.
 LaTeX Info: Redefining \nameref on input line 62.
-(./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
 
- ABD: EveryShipout initializing macros
+ABD: EveryShipout initializing macros
 \c@mv@tabular=\count225
 \c@mv@boldtabular=\count226
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \openout2 = `frontmatter.aux'.
 
-
-(./frontmatter.tex
+ (./frontmatter.tex
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
@@ -1539,7 +1533,7 @@ Overfull \hbox (1.6429pt too wide) in paragraph at lines 2--2
 []   [] 
  []
 
-<figures/logos_for_titlepage.pdf, id=162, 368.94739pt x 51.4442pt>
+<figures/logos_for_titlepage.pdf, id=24, 368.94739pt x 51.4442pt>
 File: figures/logos_for_titlepage.pdf Graphic file (type pdf)
 
 <use figures/logos_for_titlepage.pdf>
@@ -1621,17 +1615,21 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 20.74pt on input line 9.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 20.74pt on input line 9.
- (./thesis.toc [7]) [8])
+
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+[7] [8
+
+])
 \openout2 = `ch_introduction/introduction.aux'.
 
-
-(./ch_introduction/introduction.tex
+ (./ch_introduction/introduction.tex
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 3.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
 (Font)              scaled to size 20.74pt on input line 3.
  [1
-
 
 
 
@@ -1848,7 +1846,7 @@ Package natbib Warning: Citation `Robledo_Nature_2011' on page 8 undefined on i
 nput line 27.
 
 
-<./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf, id=263, 432.48576pt x 204.
+<./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf, id=115, 432.48576pt x 204.
 85533pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf Graphic file (type pdf
 )
@@ -1894,7 +1892,7 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 [8
 
 ] [9 <./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf>]
-<./ch_adptv_msmnt_cntrl/figures/fig2.pdf, id=446, 236.1623pt x 443.85826pt>
+<./ch_adptv_msmnt_cntrl/figures/fig2.pdf, id=299, 236.1623pt x 443.85826pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig2.pdf Graphic file (type pdf)
 
 <use ./ch_adptv_msmnt_cntrl/figures/fig2.pdf>
@@ -1926,7 +1924,7 @@ Package natbib Warning: Citation `Ashhab_PhysRevA_2010' on page 12 undefined on
  input line 58.
 
 
-<./ch_adptv_msmnt_cntrl/figures/fig3_twocolumns.pdf, id=532, 432.48576pt x 227.
+<./ch_adptv_msmnt_cntrl/figures/fig3_twocolumns.pdf, id=385, 432.48576pt x 227.
 62039pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig3_twocolumns.pdf Graphic file (type pdf
 )
@@ -1961,7 +1959,7 @@ Package natbib Warning: Citation `Kolkowitz_PRL_2012' on page 14 undefined on i
 nput line 71.
 
 
-<./ch_adptv_msmnt_cntrl/figures/fig4_twocolumns_resized.pdf, id=604, 432.48576p
+<./ch_adptv_msmnt_cntrl/figures/fig4_twocolumns_resized.pdf, id=457, 432.48576p
 t x 233.31165pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig4_twocolumns_resized.pdf Graphic file (
 type pdf)
@@ -1997,176 +1995,194 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
 [16]
+\openout2 = `ch_adptv_msmnt_magnetometry/adptv_msmnt_magnetometry.aux'.
+
+ (./ch_adptv_msmnt_magnetometry/adptv_msmnt_magnetometry.tex [17
+
+
+
+
+])
+Overfull \vbox (9.77364pt too high) has occurred while \output is active []
+
+
+[18
+
+]
 \openout2 = `ch_LDE/LDE.aux'.
 
  (./ch_LDE/LDE.tex
 
-Package natbib Warning: Citation `Nielsen2000' on page 17 undefined on input li
+Package natbib Warning: Citation `Nielsen2000' on page 19 undefined on input li
 ne 14.
 
 
-Package natbib Warning: Citation `Raussendorf2001' on page 17 undefined on inpu
+Package natbib Warning: Citation `Raussendorf2001' on page 19 undefined on inpu
 t line 14.
 
 
-Package natbib Warning: Citation `Moehring2007' on page 17 undefined on input l
+Package natbib Warning: Citation `Moehring2007' on page 19 undefined on input l
 ine 14.
 
 
-Package natbib Warning: Citation `Ritter2012' on page 17 undefined on input lin
+Package natbib Warning: Citation `Ritter2012' on page 19 undefined on input lin
 e 14.
 
 
-Package natbib Warning: Citation `Hofmann2012' on page 17 undefined on input li
+Package natbib Warning: Citation `Hofmann2012' on page 19 undefined on input li
 ne 14.
 
 
-Package natbib Warning: Citation `Kimble2008' on page 17 undefined on input lin
+Package natbib Warning: Citation `Kimble2008' on page 19 undefined on input lin
 e 14.
 
 
-Package natbib Warning: Citation `Duan2001' on page 17 undefined on input line 
+Package natbib Warning: Citation `Duan2001' on page 19 undefined on input line 
 14.
 
 
-Package natbib Warning: Citation `Childress2006a' on page 17 undefined on input
+Package natbib Warning: Citation `Childress2006a' on page 19 undefined on input
  line 14.
 
 
-Package natbib Warning: Citation `Robledo2011' on page 17 undefined on input li
+Package natbib Warning: Citation `Robledo2011' on page 19 undefined on input li
 ne 14.
 
 
-Package natbib Warning: Citation `Robledo2011' on page 17 undefined on input li
+Package natbib Warning: Citation `Robledo2011' on page 19 undefined on input li
 ne 14.
 
 
-Package natbib Warning: Citation `Neumann2010a' on page 17 undefined on input l
+Package natbib Warning: Citation `Neumann2010a' on page 19 undefined on input l
 ine 14.
 
 
-Package natbib Warning: Citation `Neumann2008' on page 17 undefined on input li
+Package natbib Warning: Citation `Neumann2008' on page 19 undefined on input li
 ne 14.
 
 
-Package natbib Warning: Citation `Maurer2012' on page 17 undefined on input lin
+Package natbib Warning: Citation `Maurer2012' on page 19 undefined on input lin
 e 14.
 
 
-Package natbib Warning: Citation `Pfaff2012' on page 17 undefined on input line
+Package natbib Warning: Citation `Pfaff2012' on page 19 undefined on input line
  14.
 
-[17
+[19
 
 
 
 
 ]
 
-Package natbib Warning: Citation `Kimble2008' on page 18 undefined on input lin
+Package natbib Warning: Citation `Kimble2008' on page 20 undefined on input lin
 e 20.
 
 
-Package natbib Warning: Citation `Ladd2010' on page 18 undefined on input line 
+Package natbib Warning: Citation `Ladd2010' on page 20 undefined on input line 
 20.
 
 
-Package natbib Warning: Citation `Togan2010' on page 18 undefined on input line
+Package natbib Warning: Citation `Togan2010' on page 20 undefined on input line
  20.
 
 
-Package natbib Warning: Citation `Gao2012' on page 18 undefined on input line 2
+Package natbib Warning: Citation `Gao2012' on page 20 undefined on input line 2
 0.
 
 
-Package natbib Warning: Citation `DeGreve2012' on page 18 undefined on input li
+Package natbib Warning: Citation `DeGreve2012' on page 20 undefined on input li
 ne 20.
 
 
-Package natbib Warning: Citation `Bernien2012a' on page 18 undefined on input l
+Package natbib Warning: Citation `Bernien2012a' on page 20 undefined on input l
 ine 20.
 
 
-Package natbib Warning: Citation `Sipahigil2012' on page 18 undefined on input 
+Package natbib Warning: Citation `Sipahigil2012' on page 20 undefined on input 
 line 20.
 
 
-Package natbib Warning: Citation `Patel2010' on page 18 undefined on input line
+Package natbib Warning: Citation `Patel2010' on page 20 undefined on input line
  20.
 
 
-Package natbib Warning: Citation `Flagg2010' on page 18 undefined on input line
+Package natbib Warning: Citation `Flagg2010' on page 20 undefined on input line
  20.
 
 
-Package natbib Warning: Citation `Togan2010' on page 18 undefined on input line
+Package natbib Warning: Citation `Togan2010' on page 20 undefined on input line
  22.
 
 
-Package natbib Warning: Citation `Fuchs2009' on page 18 undefined on input line
+Package natbib Warning: Citation `Fuchs2009' on page 20 undefined on input line
  22.
 
 
-Package natbib Warning: Citation `DeLange2010' on page 18 undefined on input li
+Package natbib Warning: Citation `DeLange2010' on page 20 undefined on input li
 ne 22.
 
 
-Package natbib Warning: Citation `VanderSar2012' on page 18 undefined on input 
+Package natbib Warning: Citation `VanderSar2012' on page 20 undefined on input 
 line 22.
 
 
-Package natbib Warning: Citation `Robledo2011' on page 18 undefined on input li
+Package natbib Warning: Citation `Robledo2011' on page 20 undefined on input li
 ne 22.
 
 
-Package natbib Warning: Citation `Neumann2010a' on page 18 undefined on input l
+Package natbib Warning: Citation `Neumann2010a' on page 20 undefined on input l
 ine 22.
 
 
-Package natbib Warning: Citation `Neumann2008' on page 18 undefined on input li
+Package natbib Warning: Citation `Neumann2008' on page 20 undefined on input li
 ne 22.
 
 
-Package natbib Warning: Citation `Maurer2012' on page 18 undefined on input lin
+Package natbib Warning: Citation `Maurer2012' on page 20 undefined on input lin
 e 22.
 
 
-Package natbib Warning: Citation `Pfaff2012' on page 18 undefined on input line
+Package natbib Warning: Citation `Pfaff2012' on page 20 undefined on input line
  22.
 
 
-Package natbib Warning: Citation `Robledo2011' on page 18 undefined on input li
+Package natbib Warning: Citation `Robledo2011' on page 20 undefined on input li
 ne 24.
 
 
-Package natbib Warning: Citation `Moehring2007' on page 18 undefined on input l
+Package natbib Warning: Citation `Moehring2007' on page 20 undefined on input l
 ine 24.
 
 
-Package natbib Warning: Citation `Ritter2012' on page 18 undefined on input lin
+Package natbib Warning: Citation `Ritter2012' on page 20 undefined on input lin
 e 24.
 
 
-Package natbib Warning: Citation `Hofmann2012' on page 18 undefined on input li
+Package natbib Warning: Citation `Hofmann2012' on page 20 undefined on input li
 ne 24.
 
 
-Package natbib Warning: Citation `Robledo2011' on page 18 undefined on input li
+LaTeX Warning: Reference `fig:LDE-fig1-setup' on page 20 undefined on input lin
+e 26.
+
+
+Package natbib Warning: Citation `Robledo2011' on page 20 undefined on input li
 ne 26.
 
 
-Package natbib Warning: Citation `DeLange2010' on page 18 undefined on input li
+Package natbib Warning: Citation `DeLange2010' on page 20 undefined on input li
 ne 26.
 
 
-Package natbib Warning: Citation `DeLange2010' on page 18 undefined on input li
+Package natbib Warning: Citation `DeLange2010' on page 20 undefined on input li
 ne 26.
 
 
-LaTeX Warning: Reference `fig:LDE-fig1-DD' on page 18 undefined on input line 2
+LaTeX Warning: Reference `fig:LDE-fig1-DD' on page 20 undefined on input line 2
 6.
 
-<./ch_LDE/figures/H_Bernien_fig1.pdf, id=719, 433.62pt x 390.793pt>
+<./ch_LDE/figures/H_Bernien_fig1.pdf, id=589, 433.62pt x 390.793pt>
 File: ./ch_LDE/figures/H_Bernien_fig1.pdf Graphic file (type pdf)
 
 <use ./ch_LDE/figures/H_Bernien_fig1.pdf>
@@ -2181,52 +2197,66 @@ Overfull \hbox (64.61894pt too wide) in paragraph at lines 30--34
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 7.3pt on input line 34.
 
-Package natbib Warning: Citation `Robledo2011' on page 18 undefined on input li
+Package natbib Warning: Citation `Robledo2011' on page 20 undefined on input li
 ne 34.
 
 
-Package natbib Warning: Citation `Robledo2011' on page 18 undefined on input li
+Package natbib Warning: Citation `Robledo2011' on page 20 undefined on input li
 ne 34.
 
 
-Package natbib Warning: Citation `Robledo2011' on page 18 undefined on input li
+Package natbib Warning: Citation `Robledo2011' on page 20 undefined on input li
 ne 34.
 
 
-Package natbib Warning: Citation `Robledo2011' on page 18 undefined on input li
+Package natbib Warning: Citation `Robledo2011' on page 20 undefined on input li
 ne 34.
 
 
 LaTeX Warning: Float too large for page by 42.79204pt on input line 35.
 
 
-Package natbib Warning: Citation `Barrett2005' on page 18 undefined on input li
+Package natbib Warning: Citation `Barrett2005' on page 20 undefined on input li
 ne 40.
 
 
-LaTeX Warning: Reference `fig:LDE-fig1-protocol' on page 18 undefined on input 
+LaTeX Warning: Reference `fig:LDE-fig1-protocol' on page 20 undefined on input 
 line 40.
 
-[18
 
-] [19 <./ch_LDE/figures/H_Bernien_fig1.pdf>]
+LaTeX Warning: Reference `fig:LDE-fig1-setup' on page 20 undefined on input lin
+e 40.
 
-Package natbib Warning: Citation `Barrett2005' on page 20 undefined on input li
+[20
+
+] [21 <./ch_LDE/figures/H_Bernien_fig1.pdf>]
+
+Package natbib Warning: Citation `Barrett2005' on page 22 undefined on input li
 ne 42.
 
 
-Package natbib Warning: Citation `Robledo2011' on page 20 undefined on input li
+LaTeX Warning: Reference `fig:LDE-fig2' on page 22 undefined on input line 46.
+
+
+Package natbib Warning: Citation `Robledo2011' on page 22 undefined on input li
 ne 46.
 
 
-Package natbib Warning: Citation `Bernien2012a' on page 20 undefined on input l
+LaTeX Warning: Reference `fig:LDE-fig1-setup' on page 22 undefined on input lin
+e 46.
+
+
+Package natbib Warning: Citation `Bernien2012a' on page 22 undefined on input l
 ine 46.
 
 
-Package natbib Warning: Citation `Bassett2011a' on page 20 undefined on input l
+Package natbib Warning: Citation `Bassett2011a' on page 22 undefined on input l
 ine 46.
 
-<./ch_LDE/figures/H_Bernien_fig2.pdf, id=1151, 433.04085pt x 348.63551pt>
+
+LaTeX Warning: Reference `fig:LDE-fig2' on page 22 undefined on input line 46.
+
+<./ch_LDE/figures/H_Bernien_fig2.pdf, id=1020, 433.04085pt x 348.63551pt>
 File: ./ch_LDE/figures/H_Bernien_fig2.pdf Graphic file (type pdf)
 
 <use ./ch_LDE/figures/H_Bernien_fig2.pdf>
@@ -2241,62 +2271,87 @@ Overfull \hbox (64.03978pt too wide) in paragraph at lines 50--56
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 5.5pt on input line 56.
 
-Package natbib Warning: Citation `Robledo2011' on page 20 undefined on input li
+Package natbib Warning: Citation `Robledo2011' on page 22 undefined on input li
 ne 56.
 
 
-Package natbib Warning: Citation `Robledo2010' on page 20 undefined on input li
+Package natbib Warning: Citation `Robledo2010' on page 22 undefined on input li
 ne 56.
 
 
-Package natbib Warning: Citation `Robledo2011' on page 20 undefined on input li
+Package natbib Warning: Citation `Robledo2011' on page 22 undefined on input li
 ne 56.
 
 
-Package natbib Warning: Citation `Robledo2010' on page 20 undefined on input li
+Package natbib Warning: Citation `Robledo2010' on page 22 undefined on input li
 ne 56.
 
 
 LaTeX Warning: Float too large for page by 75.9495pt on input line 57.
 
 
-Package natbib Warning: Citation `Robledo2010' on page 20 undefined on input li
+Package natbib Warning: Citation `Robledo2010' on page 22 undefined on input li
 ne 59.
 
 
-LaTeX Warning: Reference `sec:CR-verification' on page 20 undefined on input li
+LaTeX Warning: Reference `fig:LDE-fig2' on page 22 undefined on input line 59.
+
+
+LaTeX Warning: Reference `sec:CR-verification' on page 22 undefined on input li
 ne 59.
 
 
-Package natbib Warning: Citation `Robledo2010' on page 20 undefined on input li
+LaTeX Warning: Reference `fig:LDE-fig2' on page 22 undefined on input line 59.
+
+
+Package natbib Warning: Citation `Robledo2010' on page 22 undefined on input li
 ne 59.
 
-[20] [21 <./ch_LDE/figures/H_Bernien_fig2.pdf>]
+[22] [23 <./ch_LDE/figures/H_Bernien_fig2.pdf>]
 
-Package natbib Warning: Citation `Hong1987' on page 22 undefined on input line 
+LaTeX Warning: Reference `fig:LDE-fig2' on page 24 undefined on input line 61.
+
+
+LaTeX Warning: Reference `fig:LDE-fig2' on page 24 undefined on input line 61.
+
+
+LaTeX Warning: Reference `fig:LDE-fig1-setup' on page 24 undefined on input lin
+e 61.
+
+
+LaTeX Warning: Reference `fig:LDE-fig2' on page 24 undefined on input line 63.
+
+
+Package natbib Warning: Citation `Hong1987' on page 24 undefined on input line 
 63.
 
 
-Package natbib Warning: Citation `Fu2009' on page 22 undefined on input line 63
+Package natbib Warning: Citation `Fu2009' on page 24 undefined on input line 63
 .
 
 
-Package natbib Warning: Citation `Bernien2012a' on page 22 undefined on input l
+Package natbib Warning: Citation `Bernien2012a' on page 24 undefined on input l
 ine 63.
 
 
-Package natbib Warning: Citation `Sipahigil2012' on page 22 undefined on input 
+Package natbib Warning: Citation `Sipahigil2012' on page 24 undefined on input 
 line 63.
 
 
-LaTeX Warning: Reference `fig:LDE-fig1-protocol' on page 22 undefined on input 
+LaTeX Warning: Reference `fig:LDE-fig2' on page 24 undefined on input line 65.
+
+
+LaTeX Warning: Reference `fig:LDE-fig1-protocol' on page 24 undefined on input 
 line 65.
+
+
+LaTeX Warning: Reference `fig:LDE-fig3' on page 24 undefined on input line 69.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
-<./ch_LDE/figures/H_Bernien_fig3.pdf, id=1249, 253.23006pt x 334.2909pt>
+ [24]
+<./ch_LDE/figures/H_Bernien_fig3.pdf, id=1111, 253.23006pt x 334.2909pt>
 File: ./ch_LDE/figures/H_Bernien_fig3.pdf Graphic file (type pdf)
 
 <use ./ch_LDE/figures/H_Bernien_fig3.pdf>
@@ -2304,60 +2359,81 @@ Package pdftex.def Info: ./ch_LDE/figures/H_Bernien_fig3.pdf used on input line
  72.
 (pdftex.def)             Requested size: 253.22943pt x 334.29007pt.
 
-<./ch_LDE/figures/H_Bernien_fig4.pdf, id=1254, 253.22906pt x 284.37743pt>
+
+LaTeX Warning: Reference `fig:LDE-fig3' on page 25 undefined on input line 82.
+
+
+LaTeX Warning: Reference `fig:LDE-fig4' on page 25 undefined on input line 84.
+
+
+LaTeX Warning: Reference `fig:LDE-fig2' on page 25 undefined on input line 84.
+
+
+LaTeX Warning: Reference `fig:LDE-fig4' on page 25 undefined on input line 84.
+
+<./ch_LDE/figures/H_Bernien_fig4.pdf, id=1112, 253.22906pt x 284.37743pt>
 File: ./ch_LDE/figures/H_Bernien_fig4.pdf Graphic file (type pdf)
 
 <use ./ch_LDE/figures/H_Bernien_fig4.pdf>
 Package pdftex.def Info: ./ch_LDE/figures/H_Bernien_fig4.pdf used on input line
  87.
 (pdftex.def)             Requested size: 253.22842pt x 284.37672pt.
- [23] [24 <./ch_LDE/figures/H_Bernien_fig3.pdf>] [25 <./ch_LDE/figures/H_Bernie
-n_fig4.pdf>]
 
-Package natbib Warning: Citation `Fu2009' on page 26 undefined on input line 94
+
+LaTeX Warning: Reference `fig:LDE-fig3' on page 25 undefined on input line 89.
+
+
+LaTeX Warning: Reference `fig:LDE-fig3' on page 25 undefined on input line 89.
+
+
+LaTeX Warning: Reference `fig:LDE-fig3' on page 25 undefined on input line 92.
+
+[25] [26 <./ch_LDE/figures/H_Bernien_fig3.pdf>] [27 <./ch_LDE/figures/H_Bernien
+_fig4.pdf>]
+
+Package natbib Warning: Citation `Fu2009' on page 28 undefined on input line 94
 .
 
 
-Package natbib Warning: Citation `Maurer2012' on page 26 undefined on input lin
+Package natbib Warning: Citation `Maurer2012' on page 28 undefined on input lin
 e 94.
 
 
-Package natbib Warning: Citation `Robledo2011' on page 26 undefined on input li
+Package natbib Warning: Citation `Robledo2011' on page 28 undefined on input li
 ne 94.
 
 
-Package natbib Warning: Citation `Aharonovich2011' on page 26 undefined on inpu
+LaTeX Warning: Reference `fig:LDE-fig4' on page 28 undefined on input line 96.
+
+
+Package natbib Warning: Citation `Aharonovich2011' on page 28 undefined on inpu
 t line 96.
 
 
-Package natbib Warning: Citation `Maurer2012' on page 26 undefined on input lin
+Package natbib Warning: Citation `Maurer2012' on page 28 undefined on input lin
 e 100.
 
 
-Package natbib Warning: Citation `Raussendorf2001' on page 26 undefined on inpu
+Package natbib Warning: Citation `Raussendorf2001' on page 28 undefined on inpu
 t line 100.
 
 
-Package natbib Warning: Citation `Childress2006a' on page 26 undefined on input
+Package natbib Warning: Citation `Childress2006a' on page 28 undefined on input
  line 100.
 
-[26]
+[28]
 No file ch_LDE/LDE.bbl.
 )
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (14.22636pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 92.
+(in both cases you will find help in the memoir manual). on input line 93.
 
-[27
-
-
+[29
 
 
-] [28
 
-] [29
 
 ] [30
 
@@ -2389,29 +2465,40 @@ Package natbib Warning: There were undefined citations.
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
  (./thesis.aux (./frontmatter.aux) (./ch_introduction/introduction.aux)
 (./ch_theory/theory.aux) (./ch_experimental/experimental.aux)
-(./ch_adptv_msmnt_cntrl/adptv_msmnt_cntrl.aux) (./ch_LDE/LDE.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6C610A13A26DB52B67A568910D551325;5942.
+(./ch_adptv_msmnt_cntrl/adptv_msmnt_cntrl.aux)
+(./ch_adptv_msmnt_magnetometry/adptv_msmnt_magnetometry.aux) (./ch_LDE/LDE.aux)
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  7915FFB9335D895FE47B927770804259;6822.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 30685 strings out of 493117
- 529042 string characters out of 6135433
- 679045 words of memory out of 5000000
- 33187 multiletter control sequences out of 15000+600000
- 184810 words of font info for 317 fonts, out of 8000000 for 9000
+ 30638 strings out of 493117
+ 528497 string characters out of 6135433
+ 650286 words of memory out of 5000000
+ 33148 multiletter control sequences out of 15000+600000
+ 185069 words of font info for 318 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,12n,92p,4471b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,12n,92p,4469b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/
 usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texli
 ve/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/local/texliv
@@ -2435,12 +2522,13 @@ l/texlive/2014/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/newtx/txex-bar.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2014/texm
 f-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2014/texmf-dist/
-fonts/type1/public/newtx/zxlr.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
-e1/public/newtx/zxlri.pfb>
-Output written on thesis.pdf (48 pages, 7544208 bytes).
+fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2014/texmf-dist/fonts/
+type1/public/newtx/zxlr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
+lic/newtx/zxlri.pfb>
+Output written on thesis.pdf (48 pages, 7546220 bytes).
 PDF statistics:
- 1492 PDF objects out of 1728 (max. 8388607)
- 780 compressed objects within 8 object streams
- 96 named destinations out of 1000 (max. 500000)
- 34130 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1342 PDF objects out of 1440 (max. 8388607)
+ 631 compressed objects within 7 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 33850 words of extra memory for PDF output out of 35830 (max. 10000000)
 
