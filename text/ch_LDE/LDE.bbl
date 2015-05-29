@@ -1,0 +1,199 @@
+\begin{thebibliography}{10}
+
+\bibitem{Nielsen2000}
+M.~A. Nielsen and I.~L. Chuang.
+\newblock \textit{{Quantum Computation and Quantum Information}}.
+\newblock Cambridge University Press (2000).
+
+\bibitem{Raussendorf2001}
+R.~Raussendorf and H.~J. Briegel.
+\newblock {A One-Way Quantum Computer}.
+\newblock \textit{Phys. Rev. Lett.} \textbf{86}, 5188 (2001).
+
+\bibitem{Moehring2007}
+D.~L. Moehring \textit{et~al.}
+\newblock {Entanglement of single-atom quantum bits at a distance.}
+\newblock \textit{Nature} \textbf{449}, 68 (2007).
+
+\bibitem{Ritter2012}
+S.~Ritter \textit{et~al.}
+\newblock {An elementary quantum network of single atoms in optical cavities.}
+\newblock \textit{Nature} \textbf{484}, 195 (2012).
+
+\bibitem{Hofmann2012}
+J.~Hofmann \textit{et~al.}
+\newblock {Heralded Entanglement Between Widely Separated Atoms.}
+\newblock \textit{Science} \textbf{337}, 72 (2012).
+
+\bibitem{Kimble2008}
+H.~J. Kimble.
+\newblock {The quantum internet.}
+\newblock \textit{Nature} \textbf{453}, 1023 (2008).
+
+\bibitem{Duan2001}
+L.~M. Duan, M.~D. Lukin, J.~I. Cirac and P.~Zoller.
+\newblock {Long-distance quantum communication with atomic ensembles and linear
+  optics}.
+\newblock \textit{Nature} \textbf{414}, 413 (2001).
+
+\bibitem{Childress2006a}
+L.~Childress, J.~M. Taylor, A.~S. S{\o}rensen and M.~D. Lukin.
+\newblock {Fault-Tolerant Quantum Communication Based on Solid-State Photon
+  Emitters}.
+\newblock \textit{Phys. Rev. Lett.} \textbf{96}, 070504 (2006).
+
+\bibitem{Robledo2011}
+L.~Robledo \textit{et~al.}
+\newblock {High-fidelity projective read-out of a solid-state spin quantum
+  register.}
+\newblock \textit{Nature} \textbf{477}, 574 (2011).
+
+\bibitem{Neumann2010a}
+P.~Neumann \textit{et~al.}
+\newblock {Single-Shot Readout of a Single Nuclear Spin.}
+\newblock \textit{Science} \textbf{329}, 542 (2010).
+
+\bibitem{Neumann2008}
+P.~Neumann \textit{et~al.}
+\newblock {Multipartite Entanglement Among Single Spins in Diamond.}
+\newblock \textit{Science} \textbf{320}, 1326 (2008).
+
+\bibitem{Maurer2012}
+P.~C. Maurer \textit{et~al.}
+\newblock {Room-Temperature Quantum Bit Memory Exceeding One Second.}
+\newblock \textit{Science} \textbf{336}, 1283 (2012).
+
+\bibitem{Pfaff2012}
+W.~Pfaff \textit{et~al.}
+\newblock {Demonstration of entanglement-by-measurement of solid-state qubits}.
+\newblock \textit{Nature Physics} \textbf{9}, 29 (2013).
+
+\bibitem{Ladd2010}
+T.~D. Ladd \textit{et~al.}
+\newblock {Quantum computers.}
+\newblock \textit{Nature} \textbf{464}, 45 (2010).
+
+\bibitem{Togan2010}
+E.~Togan \textit{et~al.}
+\newblock {Quantum entanglement between an optical photon and a solid-state
+  spin qubit}.
+\newblock \textit{Nature} \textbf{466}, 730 (2010).
+
+\bibitem{Gao2012}
+W.~B. Gao, P.~Fallahi, E.~Togan, J.~Miguel-Sanchez and A.~Imamoglu.
+\newblock {Observation of entanglement between a quantum dot spin and a single
+  photon}.
+\newblock \textit{Nature} \textbf{491}, 426 (2012).
+
+\bibitem{DeGreve2012}
+K.~{De Greve} \textit{et~al.}
+\newblock {Quantum-dot spin--photon entanglement via frequency downconversion
+  to telecom wavelength}.
+\newblock \textit{Nature} \textbf{491}, 421 (2012).
+
+\bibitem{Bernien2012a}
+H.~Bernien \textit{et~al.}
+\newblock {Two-Photon Quantum Interference from Separate Nitrogen Vacancy
+  Centers in Diamond}.
+\newblock \textit{Phys. Rev. Lett.} \textbf{108}, 043604 (2012).
+
+\bibitem{Sipahigil2012}
+A.~Sipahigil \textit{et~al.}
+\newblock {Quantum Interference of Single Photons from Remote Nitrogen-Vacancy
+  Centers in Diamond}.
+\newblock \textit{Phys. Rev. Lett.} \textbf{108}, 143601 (2012).
+
+\bibitem{Patel2010}
+R.~B. Patel \textit{et~al.}
+\newblock {Two-photon interference of the emission from electrically tunable
+  remote quantum dots}.
+\newblock \textit{Nature Photon.} \textbf{4}, 632 (2010).
+
+\bibitem{Flagg2010}
+E.~B. Flagg \textit{et~al.}
+\newblock {Interference of Single Photons from Two Separate Semiconductor
+  Quantum Dots}.
+\newblock \textit{Phys. Rev. Lett.} \textbf{104}, 137401 (2010).
+
+\bibitem{Fuchs2009}
+G.~D. Fuchs, V.~V. Dobrovitski, D.~M. Toyli, F.~J. Heremans and D.~D.
+  Awschalom.
+\newblock {Gigahertz Dynamics of a Strongly Driven Single Quantum Spin.}
+\newblock \textit{Science} \textbf{326}, 1520 (2009).
+
+\bibitem{DeLange2010}
+G.~de~Lange, Z.~H. Wang, D.~Rist\`{e}, V.~V. Dobrovitski and R.~Hanson.
+\newblock {Universal Dynamical Decoupling of a Single Solid-State Spin from a
+  Spin Bath.}
+\newblock \textit{Science} \textbf{330}, 60 (2010).
+
+\bibitem{VanderSar2012}
+T.~van~der Sar \textit{et~al.}
+\newblock {Decoherence-protected quantum gates for a hybrid solid-state spin
+  register.}
+\newblock \textit{Nature} \textbf{484}, 82 (2012).
+
+\bibitem{Barrett2005}
+S.~D. Barrett and P.~Kok.
+\newblock {Efficient high-fidelity quantum computation using matter qubits and
+  linear optics}.
+\newblock \textit{Phys. Rev. A} \textbf{71}, 060310 (2005).
+
+\bibitem{Bassett2011a}
+L.~C. Bassett, F.~J. Heremans, C.~G. Yale, B.~B. Buckley and D.~D. Awschalom.
+\newblock {Electrical Tuning of Single Nitrogen-Vacancy Center Optical
+  Transitions Enhanced by Photoinduced Fields}.
+\newblock \textit{Phys. Rev. Lett.} \textbf{107}, 266403 (2011).
+
+\bibitem{Robledo2010}
+L.~Robledo, H.~Bernien, I.~van Weperen and R.~Hanson.
+\newblock {Control and Coherence of the Optical Transition of Single Nitrogen
+  Vacancy Centers in Diamond.}
+\newblock \textit{Phys. Rev. Lett.} \textbf{105}, 177403 (2010).
+
+\bibitem{Hong1987}
+C.~K. Hong, Z.~Y. Ou and L.~Mandel.
+\newblock {Measurement of subpicosecond time intervals between two photons by
+  interference}.
+\newblock \textit{Phys. Rev. Lett.} \textbf{59}, 2044 (1987).
+
+\bibitem{Fu2009}
+K.-M.~C. Fu \textit{et~al.}
+\newblock {Observation of the Dynamic Jahn-Teller Effect in the Excited States
+  of Nitrogen-Vacancy Centers in Diamond}.
+\newblock \textit{Phys. Rev. Lett.} \textbf{103}, 256404 (2009).
+
+\bibitem{Aharonovich2011}
+I.~Aharonovich, A.~D. Greentree and S.~Prawer.
+\newblock {Diamond photonics}.
+\newblock \textit{Nature Photon.} \textbf{5}, 397 (2011).
+
+\bibitem{Lindsey:ub}
+J.~K. Lindsey.
+\newblock \textit{{Parametric Statistical Inference}}.
+\newblock Clarendon Press, Oxford, UK (1996).
+
+\bibitem{2003PhRvA..67d2308C}
+H.~K. Cummins, G.~Llewellyn and J.~A. Jones.
+\newblock {Tackling systematic errors in quantum logic gates with composite
+  rotations}.
+\newblock \textit{Phys. Rev. A} \textbf{67}, 42308 (2003).
+
+\bibitem{Childress2006}
+L.~Childress \textit{et~al.}
+\newblock {Coherent dynamics of coupled electron and nuclear spin qubits in
+  diamond.}
+\newblock \textit{Science} \textbf{314}, 281 (2006).
+
+\bibitem{Gullion:1990uj}
+T.~Gullion, D.~B. Baker and M.~S. Conradi.
+\newblock {New, compensated carr-purcell sequences}.
+\newblock \textit{J. Magn. Reson.} \textbf{89}, 479 (1990).
+
+\bibitem{Legero:2006ur}
+T.~Legero, T.~Wilk, A.~Kuhn and G.~Rempe.
+\newblock {Characterization of Single Photons Using Two-Photon Interference}.
+\newblock M.~O. Scully and G.~Rempe (editors), \textit{Advances In Atomic,
+  Molecular, and Optical Physics}, Academic Press, 253--289 (2006).
+
+\end{thebibliography}

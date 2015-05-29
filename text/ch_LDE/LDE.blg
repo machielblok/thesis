@@ -1,0 +1,14 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: LDE.aux
+I couldn't open style file ../thesis.bst
+---line 60 of file LDE.aux
+ : \bibstyle{../thesis
+ :                    }
+I'm skipping whatever remains of this command
+I couldn't open database file lde.bib
+---line 61 of file LDE.aux
+ : \bibdata{lde
+ :             }
+I'm skipping whatever remains of this command
+I found no database files---while reading file LDE.aux
+I found no style file---while reading file LDE.aux
+(There were 4 error messages)

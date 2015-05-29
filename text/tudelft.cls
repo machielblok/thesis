@@ -35,7 +35,7 @@
 \usepackage[numbers,super,comma,sectionbib]{natbib}
 \usepackage{amsmath,amstext}
 \usepackage{multicol,multirow}
-\usepackage{hypernat}
+%\usepackage{hypernat}
 \usepackage{microtype}
 \usepackage{type1cm}                    % Scale Computer Modern fonts properly
 \usepackage{tocloft}

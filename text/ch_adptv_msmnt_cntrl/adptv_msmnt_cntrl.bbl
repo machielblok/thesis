@@ -1,0 +1,157 @@
+\begin{thebibliography}{10}
+
+\bibitem{Guerlin_Nature_2007}
+C.~Guerlin \textit{et~al.}
+\newblock {Progressive field-state collapse and quantum non-demolition photon
+  counting.}
+\newblock \textit{Nature} \textbf{448}, 889 (2007).
+
+\bibitem{Hatridge_Science_2013}
+M.~Hatridge \textit{et~al.}
+\newblock {Quantum Back-Action of an Individual Variable-Strength Measurement.}
+\newblock \textit{Science} \textbf{339}, 178 (2013).
+
+\bibitem{Murch_Nature_2013}
+K.~W. Murch, S.~J. Weber, C.~Macklin and I.~Siddiqi.
+\newblock {Observing single quantum trajectories of a superconducting quantum
+  bit.}
+\newblock \textit{Nature} \textbf{502}, 211 (2013).
+
+\bibitem{Ashhab_PhysRevA_2010}
+S.~Ashhab and F.~Nori.
+\newblock {Control-free control: Manipulating a quantum system using only a
+  limited set of measurements.}
+\newblock \textit{Physical Review A} \textbf{82}, 062103 (2010).
+
+\bibitem{Wiseman_NatureNV_2011}
+H.~Wiseman.
+\newblock {Quantum control: Squinting at quantum systems.}
+\newblock \textit{Nature} \textbf{470}, 178 (2011).
+
+\bibitem{Brun_PhysRevA_2008}
+T.~Brun, L.~Di{\'o}si and W.~Strunz.
+\newblock {Test of weak measurement on a two- or three-qubit computer.}
+\newblock \textit{Physical Review A} \textbf{77}, 032101 (2008).
+
+\bibitem{Groen_PRL_2013}
+J.~Groen \textit{et~al.}
+\newblock {Partial-Measurement Backaction and Nonclassical Weak Values in a
+  Superconducting Circuit.}
+\newblock \textit{Physical Review Letters} \textbf{111}, 090506 (2013).
+
+\bibitem{Aharonov_PRL_1988}
+Y.~Aharonov, D.~Z. Albert and L.~Vaidman.
+\newblock {How the result of a measurement of a component of the spin of a
+  spin-1/2 particle can turn out to be 100.}
+\newblock \textit{Physical Review Letters} \textbf{60}, 1351 (1988).
+
+\bibitem{Pryde_PRL_2005}
+G.~Pryde, J.~O'Brien, A.~White, T.~Ralph and H.~Wiseman.
+\newblock {Measurement of Quantum Weak Values of Photon Polarization.}
+\newblock \textit{Physical Review Letters} \textbf{94}, 220405 (2005).
+
+\bibitem{Dressel_ArXiv_2013}
+J.~Dressel, M.~Malik, F.~M. Miatto, A.~N. Jordan and R.~W. Boyd.
+\newblock {Understanding Quantum Weak Values: Basics and Applications.}
+  Preprint at http://arxiv.org/abs/1305.7154 (2013).
+
+\bibitem{Cappellaro_PhysRevA_2012}
+P.~Cappellaro.
+\newblock {Spin-bath narrowing with adaptive parameter estimation.}
+\newblock \textit{Physical Review A} 030301(R)--5 (2012).
+
+\bibitem{Higgins_Nature_2007}
+B.~L. Higgins, D.~W. Berry, S.~D. Bartlett, H.~M. Wiseman and G.~J. Pryde.
+\newblock {Entanglement-free Heisenberg-limited phase estimation.}
+\newblock \textit{Nature} \textbf{450}, 393 (2007).
+
+\bibitem{Raussendorf_PRL_2001}
+R.~Raussendorf and H.~Briegel.
+\newblock {A one-way quantum computer.}
+\newblock \textit{Physical Review Letters} \textbf{86}, 5188 (2001).
+
+\bibitem{Prevedel_Nature_2007}
+R.~Prevedel \textit{et~al.}
+\newblock {High-speed linear optics quantum computing using active
+  feed-forward.}
+\newblock \textit{Nature} \textbf{445}, 65 (2007).
+
+\bibitem{Robledo_Nature_2011}
+L.~Robledo \textit{et~al.}
+\newblock {High-fidelity projective read-out of a solid-state spin quantum
+  register.}
+\newblock \textit{Nature} \textbf{477}, 574 (2011).
+
+\bibitem{Riste_PRL_2012}
+D.~Rist{\`e}, J.~G. van Leeuwen, H.-S. Ku, K.~W. Lehnert and L.~DiCarlo.
+\newblock {Initialization by measurement of a superconducting quantum bit
+  circuit.}
+\newblock \textit{Physical Review Letters} \textbf{109}, 050507 (2012).
+
+\bibitem{Chou_Nature_2005}
+C.~W. Chou \textit{et~al.}
+\newblock {Measurement-induced entanglement for excitation stored in remote
+  atomic ensembles.}
+\newblock \textit{Nature} \textbf{438}, 828 (2005).
+
+\bibitem{Moehring_Nature_2007}
+D.~L. Moehring \textit{et~al.}
+\newblock {Entanglement of single-atom quantum bits at a distance.}
+\newblock \textit{Nature} \textbf{449}, 68 (2007).
+
+\bibitem{Pfaff_NatPhys_2012}
+W.~Pfaff \textit{et~al.}
+\newblock {Demonstration of entanglement-by-measurement of solid-state qubits.}
+\newblock \textit{Nature Physics} 29--33 (2012).
+
+\bibitem{Riste_Nature_2013}
+D.~Rist{\`e} \textit{et~al.}
+\newblock {Deterministic entanglement of superconducting qubits by parity
+  measurement and feedback.}
+\newblock \textit{Nature} \textbf{502}, 350 (2013).
+
+\bibitem{Chiaverini_Nature_2004}
+J.~Chiaverini \textit{et~al.}
+\newblock {Realization of quantum error correction.}
+\newblock \textit{Nature} \textbf{432}, 602 (2004).
+
+\bibitem{Gillett_PRL_2010}
+G.~G. Gillett \textit{et~al.}
+\newblock {Experimental Feedback Control of Quantum Systems Using Weak
+  Measurements.}
+\newblock \textit{Physical Review Letters} \textbf{104}, 080503 (2010).
+
+\bibitem{Sayrin_Nature_2011}
+C.~Sayrin \textit{et~al.}
+\newblock {Real-time quantum feedback prepares and stabilizes photon number
+  states.}
+\newblock \textit{Nature} \textbf{477}, 73 (2011).
+
+\bibitem{Vijay_Nature_2012}
+R.~Vijay \textit{et~al.}
+\newblock {Stabilizing Rabi oscillations in a superconducting qubit using
+  quantum feedback.}
+\newblock \textit{Nature} \textbf{490}, 77 (2012).
+
+\bibitem{Jiang_PRL_2008}
+L.~Jiang \textit{et~al.}
+\newblock {Coherence of an Optically Illuminated Single Nuclear Spin Qubit.}
+\newblock \textit{Physical Review Letters} \textbf{100}, 073001 (2008).
+
+\bibitem{Zhao_NatureNano_2012}
+N.~Zhao \textit{et~al.}
+\newblock {Sensing single remote nuclear spins.}
+\newblock \textit{Nature nanotechnology} \textbf{7}, 657 (2012).
+
+\bibitem{Taminiau_PRL_2012}
+T.~Taminiau \textit{et~al.}
+\newblock {Detection and Control of Individual Nuclear Spins Using a Weakly
+  Coupled Electron Spin.}
+\newblock \textit{Physical Review Letters} \textbf{109}, 137602 (2012).
+
+\bibitem{Kolkowitz_PRL_2012}
+S.~Kolkowitz, Q.~P. Unterreithmeier, S.~D. Bennett and M.~D. Lukin.
+\newblock {Sensing distant nuclear spins with a single electron spin.}
+\newblock \textit{Physical Review Letters} \textbf{109}, 137601 (2012).
+
+\end{thebibliography}
