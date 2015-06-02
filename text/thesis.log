@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  2 JUN 2015 20:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  2 JUN 2015 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1413,7 +1413,7 @@ Overfull \hbox (1.6429pt too wide) in paragraph at lines 2--2
 []   [] 
  []
 
-<figures/logos_for_titlepage.pdf, id=138, 368.94739pt x 51.4442pt>
+<figures/logos_for_titlepage.pdf, id=134, 368.94739pt x 51.4442pt>
 File: figures/logos_for_titlepage.pdf Graphic file (type pdf)
 
 <use figures/logos_for_titlepage.pdf>
@@ -1539,18 +1539,14 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 12.
  [7]
-<./ch_adptv_msmnt_magnetometry/figures/Fig_1.pdf, id=237, 597.51233pt x 845.047
-1pt>
-File: ./ch_adptv_msmnt_magnetometry/figures/Fig_1.pdf Graphic file (type pdf)
- <use ./ch_adptv_msmnt_magnetometry/figures/Fig_1.pdf>
-Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_1.pdf used o
-n input line 38.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-
-Overfull \hbox (228.51086pt too wide) in paragraph at lines 38--39
- [][] 
- []
-
+<./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf, id=232, 257.44882pt x 3
+07.13243pt>
+File: ./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf Graphic file (type 
+pdf)
+ <use ./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf 
+used on input line 38.
+(pdftex.def)             Requested size: 257.4482pt x 307.13167pt.
 LaTeX Font Info:    Try loading font information for T1+LinuxBiolinumT-TLF on i
 nput line 39.
 
@@ -1570,11 +1566,6 @@ ailable
 ut line 39.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 39.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
-
-LaTeX Warning: Float too large for page by 557.04504pt on input line 40.
 
 
 Class memoir Warning: The material used in the headers is too large
@@ -1588,21 +1579,71 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 [8
 
-] [9 <./ch_adptv_msmnt_magnetometry/figures/Fig_1.pdf>]
-<./ch_adptv_msmnt_magnetometry/figures/Fig_2.pdf, id=942, 597.51233pt x 845.047
-1pt>
-File: ./ch_adptv_msmnt_magnetometry/figures/Fig_2.pdf Graphic file (type pdf)
- <use ./ch_adptv_msmnt_magnetometry/figures/Fig_2.pdf>
-Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_2.pdf used o
-n input line 50.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+] [9 <./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf>]
+<./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf, id=835, 369.88188
+pt x 156.49466pt>
+File: ./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf Graphic file 
+(type pdf)
 
-Overfull \hbox (228.51086pt too wide) in paragraph at lines 50--51
+<use ./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramse
+y.pdf used on input line 46.
+(pdftex.def)             Requested size: 369.88097pt x 156.49426pt.
+
+Overfull \hbox (0.88097pt too wide) in paragraph at lines 46--47
  [][] 
  []
 
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Float too large for page by 353.04504pt on input line 52.
+
+Overfull \vbox (9.77364pt too high) has occurred while \output is active []
+
+
+[10 <./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf>]
+<./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf, id=1045, 294.09875pt
+ x 508.90125pt>
+File: ./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf Graphic file (ty
+pe pdf)
+ <use ./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.p
+df used on input line 56.
+(pdftex.def)             Requested size: 205.5446pt x 355.65944pt.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 57.
+
+<./ch_adptv_msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf, id=1047, 367
+.3725pt x 336.25626pt>
+File: ./ch_adptv_msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf Graphic 
+file (type pdf)
+
+<use ./ch_adptv_msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_4_Pfb_dynami
+crange.pdf used on input line 64.
+(pdftex.def)             Requested size: 367.37158pt x 336.25543pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Overfull \vbox (9.77364pt too high) has occurred while \output is active []
+
+
+[12 <./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf>] [13 <./ch_adptv
+_msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf>]
+<./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf, id=1460, 301.10992pt 
+x 418.54268pt>
+File: ./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf Graphic file (typ
+e pdf)
+ <use ./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pd
+f used on input line 80.
+(pdftex.def)             Requested size: 301.10919pt x 418.54166pt.
+
+
+LaTeX Warning: Float too large for page by 94.54166pt on input line 82.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1611,53 +1652,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[10] [11 <./ch_adptv_msmnt_magnetometry/figures/Fig_2.pdf>]
-<./ch_adptv_msmnt_magnetometry/figures/Fig_3.pdf, id=1146, 597.51233pt x 845.04
-71pt>
-File: ./ch_adptv_msmnt_magnetometry/figures/Fig_3.pdf Graphic file (type pdf)
- <use ./ch_adptv_msmnt_magnetometry/figures/Fig_3.pdf>
-Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_3.pdf used o
-n input line 58.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-
-Overfull \hbox (228.51086pt too wide) in paragraph at lines 58--59
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 353.04504pt on input line 60.
-
-
-<./ch_adptv_msmnt_magnetometry/figures/Fig_4.pdf, id=1150, 597.51233pt x 845.04
-71pt>
-File: ./ch_adptv_msmnt_magnetometry/figures/Fig_4.pdf Graphic file (type pdf)
- <use ./ch_adptv_msmnt_magnetometry/figures/Fig_4.pdf>
-Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_4.pdf used o
-n input line 74.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-
-Overfull \hbox (228.51086pt too wide) in paragraph at lines 74--75
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 353.04504pt on input line 76.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (9.77364pt too high) has occurred while \output is active []
-
-
-[12] [13 <./ch_adptv_msmnt_magnetometry/figures/Fig_3.pdf>]
-Overfull \vbox (9.77364pt too high) has occurred while \output is active []
-
-
-[14 <./ch_adptv_msmnt_magnetometry/figures/Fig_4.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15])
+[14] [15 <./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf>])
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
@@ -1699,17 +1694,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: AF5FB5023B50879652D47EB9FAE09F81;4913.
+(rerunfilecheck)             Checksum: E6185E5A5F4772E1A8FD3AC58066C299;4778.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 29826 strings out of 493117
- 518688 string characters out of 6135433
- 662431 words of memory out of 5000000
- 32501 multiletter control sequences out of 15000+600000
- 133874 words of font info for 198 fonts, out of 8000000 for 9000
+ 29863 strings out of 493117
+ 519981 string characters out of 6135433
+ 660494 words of memory out of 5000000
+ 32507 multiletter control sequences out of 15000+600000
+ 142495 words of font info for 218 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,92p,4061b,624s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,92p,3208b,621s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc
 }{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{
@@ -1718,23 +1713,24 @@ usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/u
 sr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}</us
 r/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.p
-fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinLibertin
-eT.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinLibe
-rtineTB.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/Li
-nLibertineTI.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
-fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-
-Output written on thesis.pdf (32 pages, 13708826 bytes).
+fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinBiolinum
+TI.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinLibe
+rtineT.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/Lin
+LibertineTB.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertin
+e/LinLibertineTI.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb>
+Output written on thesis.pdf (32 pages, 13899574 bytes).
 PDF statistics:
- 1522 PDF objects out of 1728 (max. 8388607)
- 866 compressed objects within 9 object streams
+ 1625 PDF objects out of 1728 (max. 8388607)
+ 915 compressed objects within 10 object streams
  67 named destinations out of 1000 (max. 500000)
- 34574 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 38667 words of extra memory for PDF output out of 42996 (max. 10000000)
 

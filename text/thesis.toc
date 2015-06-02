@@ -31,5 +31,4 @@
 \contentsline {chapter}{\chapternumberline {4} Optimized quantum sensing with a single electron spin using real-time adaptive measurements}{7}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{8}{section.4.1}
 \contentsline {section}{\numberline {4.2}Methods}{16}{section.4.2}
-\contentsline {section}{\numberline {4.3}Acknowledgements}{16}{section.4.3}
 \gdef \the@ipfilectr {}
