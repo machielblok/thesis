@@ -63,7 +63,7 @@ P.~Cappellaro.
 \bibitem{Higgins_Nature_2007}
 B.~L. Higgins, D.~W. Berry, S.~D. Bartlett, H.~M. Wiseman and G.~J. Pryde.
 \newblock {Entanglement-free Heisenberg-limited phase estimation.}
-\newblock \textit{Nature} \textbf{450}, 393 (2007).
+\newblock \textit{Nature} \textbf{450} (2007).
 
 \bibitem{Raussendorf_PRL_2001}
 R.~Raussendorf and H.~Briegel.
@@ -133,6 +133,16 @@ R.~Vijay \textit{et~al.}
   quantum feedback.}
 \newblock \textit{Nature} \textbf{490}, 77 (2012).
 
+\bibitem{Dressel_PRL_2010}
+J.~Dressel, S.~Agarwal and A.~N. Jordan.
+\newblock {Contextual values of observables in quantum measurements.}
+\newblock \textit{Physical Review Letters} \textbf{104}, 240401 (2010).
+
+\bibitem{Williams_PRL_2008}
+N.~S. Williams and A.~N. Jordan.
+\newblock {Weak values and the Leggett-Garg inequality in solid-state qubits.}
+\newblock \textit{Physical Review Letters} \textbf{100}, 026804 (2008).
+
 \bibitem{Jiang_PRL_2008}
 L.~Jiang \textit{et~al.}
 \newblock {Coherence of an Optically Illuminated Single Nuclear Spin Qubit.}
@@ -153,5 +163,23 @@ T.~Taminiau \textit{et~al.}
 S.~Kolkowitz, Q.~P. Unterreithmeier, S.~D. Bennett and M.~D. Lukin.
 \newblock {Sensing distant nuclear spins with a single electron spin.}
 \newblock \textit{Physical Review Letters} \textbf{109}, 137601 (2012).
+
+\bibitem{Jordan_PRB_2006}
+A.~N. Jordan and A.~N. Korotkov.
+\newblock {Qubit feedback and control with kicked quantum nondemolition
+  measurements: A Bayesian approach.}
+\newblock \textit{Phys. Rev. B} \textbf{74}, 085307 (2006).
+
+\bibitem{Bernien_Nature_2013}
+H.~Bernien \textit{et~al.}
+\newblock {Heralded entanglement between solid-state qubits separated by three
+  metres.}
+\newblock \textit{Nature} \textbf{497}, 86 (2013).
+
+\bibitem{Dolde_NatPhys_2013}
+F.~Dolde \textit{et~al.}
+\newblock {Room-temperature entanglement between single defect spins in
+  diamond.}
+\newblock \textit{Nature Physics} 139--143 (2013).
 
 \end{thebibliography}

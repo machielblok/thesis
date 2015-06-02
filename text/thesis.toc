@@ -30,16 +30,19 @@
 \gdef \the@ipfilectr {@-6}
 \contentsline {chapter}{\chapternumberline {4}Manipulating a qubit through the backaction of sequential partial measurements \\ and real-time feedback }{7}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{8}{section.4.1}
-\contentsline {section}{\numberline {4.2}Methods}{14}{section.4.2}
-\contentsline {section}{\numberline {4.3}Acknowledgements}{16}{section.4.3}
-\contentsline {section}{\numberline {4.4}Bibliography}{17}{section.4.4}
+\contentsline {section}{\numberline {4.2}Variable-strength measurement}{8}{section.4.2}
+\contentsline {section}{\numberline {4.3}Generalized weak value}{10}{section.4.3}
+\contentsline {section}{\numberline {4.4}QND-measurement of the ancilla qubit}{10}{section.4.4}
+\contentsline {section}{\numberline {4.5}Control by adaptive measurements}{14}{section.4.5}
+\contentsline {section}{\numberline {4.6}Methods}{15}{section.4.6}
+\contentsline {section}{\numberline {4.7}Bibliography}{18}{section.4.7}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
-\contentsline {chapter}{\chapternumberline {5}Heralded entanglement between solid-state qubits separated by three metres}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{20}{section.5.1}
-\contentsline {section}{\numberline {5.2}Protocol}{20}{section.5.2}
-\contentsline {section}{\numberline {5.3}Implementation}{22}{section.5.3}
-\contentsline {section}{\numberline {5.4}Results}{25}{section.5.4}
-\contentsline {section}{\numberline {5.5}Conclusion}{28}{section.5.5}
-\contentsline {section}{\numberline {5.6}Bibliography}{29}{section.5.6}
+\contentsline {chapter}{\chapternumberline {5}Heralded entanglement between solid-state qubits separated by three metres}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{22}{section.5.1}
+\contentsline {section}{\numberline {5.2}Protocol}{22}{section.5.2}
+\contentsline {section}{\numberline {5.3}Implementation}{24}{section.5.3}
+\contentsline {section}{\numberline {5.4}Results}{27}{section.5.4}
+\contentsline {section}{\numberline {5.5}Conclusion}{30}{section.5.5}
+\contentsline {section}{\numberline {5.6}Bibliography}{31}{section.5.6}
 \gdef \the@ipfilectr {}
