@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  2 JUN 2015 20:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  2 JUN 2015 23:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1241,7 +1241,9 @@ LaTeX Warning: Unused global option(s):
 
 (./thesis.aux (./frontmatter.aux) (./ch_introduction/introduction.aux)
 (./ch_theory/theory.aux) (./ch_experimental/experimental.aux)
-(./ch_adptv_msmnt_magnetometry/adptv_msmnt_magnetometry.aux))
+(./ch_adptv_msmnt_cntrl/amc.aux)
+(./ch_adptv_msmnt_magnetometry/adptv_msmnt_magnetometry.aux) (./ch_LDE/LDE.aux)
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -1262,8 +1264,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 62.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 62.
@@ -1413,7 +1414,7 @@ Overfull \hbox (1.6429pt too wide) in paragraph at lines 2--2
 []   [] 
  []
 
-<figures/logos_for_titlepage.pdf, id=138, 368.94739pt x 51.4442pt>
+<figures/logos_for_titlepage.pdf, id=215, 368.94739pt x 51.4442pt>
 File: figures/logos_for_titlepage.pdf Graphic file (type pdf)
 
 <use figures/logos_for_titlepage.pdf>
@@ -1480,9 +1481,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 20.74pt on input line 9.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 20.74pt on input line 9.
- (./thesis.toc) [7] [8
-
-])
+ (./thesis.toc [7]) [8])
 \openout2 = `ch_introduction/introduction.aux'.
 
 
@@ -1492,6 +1491,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
 (Font)              scaled to size 20.74pt on input line 3.
  [1
+
 
 
 
@@ -1523,43 +1523,50 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 
 
 ] [5] (./ch_experimental/experimental.bbl))
-\openout2 = `ch_adptv_msmnt_magnetometry/adptv_msmnt_magnetometry.aux'.
+\openout2 = `ch_adptv_msmnt_cntrl/amc.aux'.
 
- (./ch_adptv_msmnt_magnetometry/adptv_msmnt_magnetometry.tex [6
+ (./ch_adptv_msmnt_cntrl/amc.tex [6
 
 
 
 
 
 ]
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 12.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 12.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 12.
- [7]
-<./ch_adptv_msmnt_magnetometry/figures/Fig_1.pdf, id=237, 597.51233pt x 845.047
-1pt>
-File: ./ch_adptv_msmnt_magnetometry/figures/Fig_1.pdf Graphic file (type pdf)
- <use ./ch_adptv_msmnt_magnetometry/figures/Fig_1.pdf>
-Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_1.pdf used o
-n input line 38.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
 
-Overfull \hbox (228.51086pt too wide) in paragraph at lines 38--39
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 4.
+
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 13.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 13.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 13.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 13.
+[7]
+<./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf, id=384, 432.48576pt x 204.
+85533pt>
+File: ./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf Graphic file (type pdf
+)
+ <use ./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf use
+d on input line 33.
+(pdftex.def)             Requested size: 432.4847pt x 204.85483pt.
+
+Overfull \hbox (63.4847pt too wide) in paragraph at lines 33--34
  [][] 
  []
 
 LaTeX Font Info:    Try loading font information for T1+LinuxBiolinumT-TLF on i
-nput line 39.
+nput line 34.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd
 File: T1LinuxBiolinumT-TLF.fd 2012/11/26 (autoinst) Font definitions for T1/Lin
 uxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 39.
+(Font)              scaled to size 10.0pt on input line 34.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1567,20 +1574,15 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/bx/n' in size <10> not av
 ailable
 (Font)              Font shape `T1/LinuxBiolinumT-TLF/b/n' tried instead on inp
-ut line 39.
+ut line 34.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 39.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
-
-LaTeX Warning: Float too large for page by 557.04504pt on input line 40.
+(Font)              scaled to size 10.0pt on input line 34.
 
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (14.22636pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 43.
+(in both cases you will find help in the memoir manual). on input line 39.
 
 
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
@@ -1588,22 +1590,44 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 [8
 
-] [9 <./ch_adptv_msmnt_magnetometry/figures/Fig_1.pdf>]
-<./ch_adptv_msmnt_magnetometry/figures/Fig_2.pdf, id=942, 597.51233pt x 845.047
-1pt>
-File: ./ch_adptv_msmnt_magnetometry/figures/Fig_2.pdf Graphic file (type pdf)
- <use ./ch_adptv_msmnt_magnetometry/figures/Fig_2.pdf>
-Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_2.pdf used o
-n input line 50.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+] [9 <./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf>]
+<./ch_adptv_msmnt_cntrl/figures/fig2_partial_measurement_backaction.pdf, id=579
+, 236.1623pt x 301.62688pt>
+File: ./ch_adptv_msmnt_cntrl/figures/fig2_partial_measurement_backaction.pdf Gr
+aphic file (type pdf)
 
-Overfull \hbox (228.51086pt too wide) in paragraph at lines 50--51
+<use ./ch_adptv_msmnt_cntrl/figures/fig2_partial_measurement_backaction.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_cntrl/figures/fig2_partial_measuremen
+t_backaction.pdf used on input line 44.
+(pdftex.def)             Requested size: 236.16171pt x 301.62613pt.
+
+<./ch_adptv_msmnt_cntrl/figures/fig3_weak_value.pdf, id=585, 369.88188pt x 156.
+49466pt>
+File: ./ch_adptv_msmnt_cntrl/figures/fig3_weak_value.pdf Graphic file (type pdf
+)
+ <use ./ch_adptv_msmnt_cntrl/figures/fig3_weak_value.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_cntrl/figures/fig3_weak_value.pdf use
+d on input line 53.
+(pdftex.def)             Requested size: 369.88097pt x 156.49426pt.
+
+Overfull \hbox (0.88097pt too wide) in paragraph at lines 53--54
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 353.04504pt on input line 52.
+Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
+
+[10] [11 <./ch_adptv_msmnt_cntrl/figures/fig2_partial_measurement_backaction.pd
+f>]
+<./ch_adptv_msmnt_cntrl/figures/fig4_qnd_electron.pdf, id=677, 310.66063pt x 21
+8.31563pt>
+File: ./ch_adptv_msmnt_cntrl/figures/fig4_qnd_electron.pdf Graphic file (type p
+df)
+ <use ./ch_adptv_msmnt_cntrl/figures/fig4_qnd_electron.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_cntrl/figures/fig4_qnd_electron.pdf u
+sed on input line 62.
+(pdftex.def)             Requested size: 310.65987pt x 218.31508pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1611,80 +1635,261 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[10] [11 <./ch_adptv_msmnt_magnetometry/figures/Fig_2.pdf>]
-<./ch_adptv_msmnt_magnetometry/figures/Fig_3.pdf, id=1146, 597.51233pt x 845.04
-71pt>
-File: ./ch_adptv_msmnt_magnetometry/figures/Fig_3.pdf Graphic file (type pdf)
- <use ./ch_adptv_msmnt_magnetometry/figures/Fig_3.pdf>
-Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_3.pdf used o
-n input line 58.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+[12 <./ch_adptv_msmnt_cntrl/figures/fig3_weak_value.pdf>]
+<./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.pdf, id=717, 268.98494pt 
+x 109.52217pt>
+File: ./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.pdf Graphic file (ty
+pe pdf)
+ <use ./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.p
+df used on input line 72.
+(pdftex.def)             Requested size: 268.98427pt x 109.5219pt.
 
-Overfull \hbox (228.51086pt too wide) in paragraph at lines 58--59
+[13 <./ch_adptv_msmnt_cntrl/figures/fig4_qnd_electron.pdf>]
+Overfull \vbox (9.77364pt too high) has occurred while \output is active []
+
+
+[14 <./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.pdf>]
+<./ch_adptv_msmnt_cntrl/figures/fig6_adaptive_protocol.pdf, id=842, 301.125pt x
+ 363.69276pt>
+File: ./ch_adptv_msmnt_cntrl/figures/fig6_adaptive_protocol.pdf Graphic file (t
+ype pdf)
+ <use ./ch_adptv_msmnt_cntrl/figures/fig6_adaptive_protocol.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_cntrl/figures/fig6_adaptive_protocol.
+pdf used on input line 97.
+(pdftex.def)             Requested size: 301.12425pt x 363.69186pt.
+
+
+LaTeX Warning: Float too large for page by 3.69186pt on input line 99.
+
+[15]
+Overfull \vbox (9.77364pt too high) has occurred while \output is active []
+
+
+[16 <./ch_adptv_msmnt_cntrl/figures/fig6_adaptive_protocol.pdf>] [17]
+(./ch_adptv_msmnt_cntrl/amc.bbl
+Overfull \vbox (9.77364pt too high) has occurred while \output is active []
+
+
+[18] [19]))
+Overfull \vbox (9.77364pt too high) has occurred while \output is active []
+
+
+[20]
+\openout2 = `ch_adptv_msmnt_magnetometry/adptv_msmnt_magnetometry.aux'.
+
+ (./ch_adptv_msmnt_magnetometry/adptv_msmnt_magnetometry.tex [21
+
+
+
+
+]
+<./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf, id=986, 257.44882pt x 3
+07.13243pt>
+File: ./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf Graphic file (type 
+pdf)
+ <use ./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf 
+used on input line 39.
+(pdftex.def)             Requested size: 257.4482pt x 307.13167pt.
+
+Overfull \vbox (9.77364pt too high) has occurred while \output is active []
+
+
+[22
+
+] [23 <./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf>]
+<./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf, id=1583, 369.8818
+8pt x 156.49466pt>
+File: ./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf Graphic file 
+(type pdf)
+
+<use ./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramse
+y.pdf used on input line 47.
+(pdftex.def)             Requested size: 369.88097pt x 156.49426pt.
+
+Overfull \hbox (0.88097pt too wide) in paragraph at lines 47--48
  [][] 
  []
 
-
-LaTeX Warning: Float too large for page by 353.04504pt on input line 60.
-
-
-<./ch_adptv_msmnt_magnetometry/figures/Fig_4.pdf, id=1150, 597.51233pt x 845.04
-71pt>
-File: ./ch_adptv_msmnt_magnetometry/figures/Fig_4.pdf Graphic file (type pdf)
- <use ./ch_adptv_msmnt_magnetometry/figures/Fig_4.pdf>
-Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_4.pdf used o
-n input line 74.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-
-Overfull \hbox (228.51086pt too wide) in paragraph at lines 74--75
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 353.04504pt on input line 76.
-
-
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[12] [13 <./ch_adptv_msmnt_magnetometry/figures/Fig_3.pdf>]
-Overfull \vbox (9.77364pt too high) has occurred while \output is active []
+[24 <./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf>]
+<./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf, id=1793, 294.09875pt
+ x 508.90125pt>
+File: ./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf Graphic file (ty
+pe pdf)
+ <use ./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.p
+df used on input line 58.
+(pdftex.def)             Requested size: 205.5446pt x 355.65944pt.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 59.
 
+<./ch_adptv_msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf, id=1795, 367
+.3725pt x 336.25626pt>
+File: ./ch_adptv_msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf Graphic 
+file (type pdf)
 
-[14 <./ch_adptv_msmnt_magnetometry/figures/Fig_4.pdf>]
+<use ./ch_adptv_msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_4_Pfb_dynami
+crange.pdf used on input line 66.
+(pdftex.def)             Requested size: 367.37158pt x 336.25543pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15])
+ [25]
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[16]
+[26 <./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf>] [27 <./ch_adptv
+_msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf>]
+<./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf, id=2207, 364.34317pt 
+x 132.00114pt>
+File: ./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf Graphic file (typ
+e pdf)
+ <use ./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf>
+Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pd
+f used on input line 83.
+(pdftex.def)             Requested size: 364.34227pt x 132.00081pt.
+
+Overfull \vbox (9.77364pt too high) has occurred while \output is active []
+
+
+[28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29 <./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf>]
+Overfull \vbox (9.77364pt too high) has occurred while \output is active []
+
+
+[30]) [31]
+\openout2 = `ch_LDE/LDE.aux'.
+
+ (./ch_LDE/LDE.tex
+Overfull \vbox (9.77364pt too high) has occurred while \output is active []
+
+
+[32
+
+
+
+
+] [33]
+
+LaTeX Warning: Reference `fig:LDE-fig1-DD' on page 34 undefined on input line 2
+6.
+
+<./ch_LDE/figures/H_Bernien_fig1.pdf, id=2334, 433.62pt x 390.793pt>
+File: ./ch_LDE/figures/H_Bernien_fig1.pdf Graphic file (type pdf)
+
+<use ./ch_LDE/figures/H_Bernien_fig1.pdf>
+Package pdftex.def Info: ./ch_LDE/figures/H_Bernien_fig1.pdf used on input line
+ 30.
+(pdftex.def)             Requested size: 433.61894pt x 390.79204pt.
+
+Overfull \hbox (64.61894pt too wide) in paragraph at lines 30--34
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 34.
+
+LaTeX Warning: Float too large for page by 42.79204pt on input line 35.
+
+
+LaTeX Warning: Reference `fig:LDE-fig1-protocol' on page 34 undefined on input 
+line 40.
+
+[34
+
+] [35 <./ch_LDE/figures/H_Bernien_fig1.pdf>]
+<./ch_LDE/figures/H_Bernien_fig2.pdf, id=2789, 433.04085pt x 348.63551pt>
+File: ./ch_LDE/figures/H_Bernien_fig2.pdf Graphic file (type pdf)
+
+<use ./ch_LDE/figures/H_Bernien_fig2.pdf>
+Package pdftex.def Info: ./ch_LDE/figures/H_Bernien_fig2.pdf used on input line
+ 50.
+(pdftex.def)             Requested size: 433.03978pt x 348.63466pt.
+
+Overfull \hbox (64.03978pt too wide) in paragraph at lines 50--56
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 56.
+
+LaTeX Warning: Float too large for page by 76.9101pt on input line 57.
+
+
+LaTeX Warning: Reference `sec:CR-verification' on page 36 undefined on input li
+ne 59.
+
+[36] [37 <./ch_LDE/figures/H_Bernien_fig2.pdf>]
+
+LaTeX Warning: Reference `fig:LDE-fig1-protocol' on page 38 undefined on input 
+line 65.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+<./ch_LDE/figures/H_Bernien_fig3.pdf, id=2901, 253.23006pt x 334.2909pt>
+File: ./ch_LDE/figures/H_Bernien_fig3.pdf Graphic file (type pdf)
+
+<use ./ch_LDE/figures/H_Bernien_fig3.pdf>
+Package pdftex.def Info: ./ch_LDE/figures/H_Bernien_fig3.pdf used on input line
+ 72.
+(pdftex.def)             Requested size: 253.22943pt x 334.29007pt.
+
+<./ch_LDE/figures/H_Bernien_fig4.pdf, id=2906, 253.22906pt x 284.37743pt>
+File: ./ch_LDE/figures/H_Bernien_fig4.pdf Graphic file (type pdf)
+
+<use ./ch_LDE/figures/H_Bernien_fig4.pdf>
+Package pdftex.def Info: ./ch_LDE/figures/H_Bernien_fig4.pdf used on input line
+ 87.
+(pdftex.def)             Requested size: 253.22842pt x 284.37672pt.
+ [39] [40 <./ch_LDE/figures/H_Bernien_fig3.pdf>] [41 <./ch_LDE/figures/H_Bernie
+n_fig4.pdf>] [42] (./ch_LDE/LDE.bbl
+[43
+
+] [44])) [45] [46
+
+
+]
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (14.22636pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 93.
 
-[17
+[47
 
+] [48
 
+] [49
 
-] [18
+] [50
 
-] [19
+] [51
 
-] [20
+] [52
 
-] [21
+] [53
 
-] [22
+] [54
 
-] [23
+] [55
 
-] [24
+] [56
 
 ]
 \tf@toc=\write6
@@ -1692,24 +1897,30 @@ either increase the head height or redesign the header
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
- (./thesis.aux (./frontmatter.aux)
-(./ch_introduction/introduction.aux) (./ch_theory/theory.aux)
-(./ch_experimental/experimental.aux)
-(./ch_adptv_msmnt_magnetometry/adptv_msmnt_magnetometry.aux))
+ (./thesis.aux
+(./frontmatter.aux) (./ch_introduction/introduction.aux)
+(./ch_theory/theory.aux) (./ch_experimental/experimental.aux)
+(./ch_adptv_msmnt_cntrl/amc.aux)
+(./ch_adptv_msmnt_magnetometry/adptv_msmnt_magnetometry.aux) (./ch_LDE/LDE.aux)
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: AF5FB5023B50879652D47EB9FAE09F81;4913.
+(rerunfilecheck)             Checksum: 69154B16923070D0562631454026DACC;8735.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 29826 strings out of 493117
- 518688 string characters out of 6135433
- 662431 words of memory out of 5000000
- 32501 multiletter control sequences out of 15000+600000
- 133874 words of font info for 198 fonts, out of 8000000 for 9000
+ 30496 strings out of 493117
+ 534461 string characters out of 6135433
+ 693328 words of memory out of 5000000
+ 32874 multiletter control sequences out of 15000+600000
+ 168138 words of font info for 288 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,92p,4061b,624s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,12n,92p,3840b,690s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc
 }{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{
@@ -1718,23 +1929,25 @@ usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/u
 sr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}</us
 r/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.p
-fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinLibertin
-eT.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinLibe
-rtineTB.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/Li
-nLibertineTI.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
-fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-
-Output written on thesis.pdf (32 pages, 13708826 bytes).
+fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinBiolinum
+TI.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/LinLibe
+rtineT.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertine/Lin
+LibertineTB.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/libertin
+e/LinLibertineTI.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.
+pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
+b>
+Output written on thesis.pdf (64 pages, 21304166 bytes).
 PDF statistics:
- 1522 PDF objects out of 1728 (max. 8388607)
- 866 compressed objects within 9 object streams
- 67 named destinations out of 1000 (max. 500000)
- 34574 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 3174 PDF objects out of 3580 (max. 8388607)
+ 1747 compressed objects within 18 object streams
+ 202 named destinations out of 1000 (max. 500000)
+ 40413 words of extra memory for PDF output out of 42996 (max. 10000000)
 
