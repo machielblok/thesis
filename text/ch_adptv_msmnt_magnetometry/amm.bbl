@@ -1,0 +1,171 @@
+\begin{thebibliography}{10}
+
+\bibitem{Giovannetti_NatPhoton_2011}
+V.~Giovannetti, S.~Lloyd and L.~Maccone.
+\newblock Advances in quantum metrology.
+\newblock \textit{Nature Photonics} \textbf{5}, 222 (2011).
+
+\bibitem{Higgins_Nature_2007}
+B.~L. Higgins, D.~W. Berry, S.~D. Bartlett, H.~M. Wiseman and G.~J. Pryde.
+\newblock Entanglement-free heisenberg-limited phase estimation.
+\newblock \textit{Nature} \textbf{450}, 393 (2007).
+
+\bibitem{Degen_APL_2008}
+C.~L. Degen.
+\newblock Scanning magnetic field microscope with a diamond single-spin sensor.
+\newblock \textit{Applied Physics Letters} \textbf{92}, 243111 (2008).
+
+\bibitem{Taylor_NatPhys_2008}
+J.~M. Taylor \textit{et~al.}
+\newblock High-sensitivity diamond magnetometer with nanoscale resolution.
+\newblock \textit{Nature Physics} \textbf{4}, 810 (2008).
+
+\bibitem{Maze_Nature_2008}
+J.~R. Maze \textit{et~al.}
+\newblock Nanoscale magnetic sensing with an individual electronic spin in
+  diamond.
+\newblock \textit{Nature} \textbf{455}, 644 (2008).
+
+\bibitem{Balasubramanian_Nature_2008}
+G.~Balasubramanian \textit{et~al.}
+\newblock Nanoscale imaging magnetometry with diamond spins under ambient
+  conditions.
+\newblock \textit{Nature} \textbf{455}, 648 (2008).
+
+\bibitem{Balasubramanian_NatMater_2009}
+G.~Balasubramanian \textit{et~al.}
+\newblock Ultralong spin coherence time in isotopically engineered diamond.
+\newblock \textit{Nature Materials} \textbf{8}, 383 (2009).
+
+\bibitem{Dolde_NatPhys_2011}
+F.~Dolde \textit{et~al.}
+\newblock Electric-field sensing using single diamond spins.
+\newblock \textit{Nature Physics} \textbf{7}, 459 (2011).
+
+\bibitem{Acosta_Phys.Rev.Lett._2010}
+V.~M. Acosta \textit{et~al.}
+\newblock Temperature dependence of the nitrogen-vacancy magnetic resonance in
+  diamond.
+\newblock \textit{Physical Review Letters} \textbf{104}, 070801 (2010).
+
+\bibitem{Toyli_PNAS_2013}
+D.~M. Toyli, C.~F. d.~l. Casas, D.~J. Christle, V.~V. Dobrovitski and D.~D.
+  Awschalom.
+\newblock Fluorescence thermometry enhanced by the quantum coherence of single
+  spins in diamond.
+\newblock \textit{Proceedings of the National Academy of Sciences}
+  \textbf{110}, 8417 (2013).
+
+\bibitem{Ovartchaiyapong_NatCommun_2014}
+P.~Ovartchaiyapong, K.~W. Lee, B.~A. Myers and A.~C.~B. Jayich.
+\newblock Dynamic strain-mediated coupling of a single diamond spin to a
+  mechanical resonator.
+\newblock \textit{Nature Communications} \textbf{5} (2014).
+
+\bibitem{LeSage_Nature_2013}
+D.~Le~Sage \textit{et~al.}
+\newblock Optical magnetic imaging of living cells.
+\newblock \textit{Nature} \textbf{496}, 486 (2013).
+
+\bibitem{Kaufmann_PNAS_2013}
+S.~Kaufmann \textit{et~al.}
+\newblock Detection of atomic spin labels in a lipid bilayer using a
+  single-spin nanodiamond probe (2013).
+
+\bibitem{Kucsko_Nature_2013}
+G.~Kucsko \textit{et~al.}
+\newblock Nanometre-scale thermometry in a living cell.
+\newblock \textit{Nature} \textbf{500}, 54 (2013).
+
+\bibitem{Shi_Science_2015}
+F.~Shi \textit{et~al.}
+\newblock Single-protein spin resonance spectroscopy under ambient conditions.
+\newblock \textit{Science} \textbf{347}, 1135 (2015).
+
+\bibitem{Maletinsky_NatNano_2012}
+P.~Maletinsky \textit{et~al.}
+\newblock A robust scanning diamond sensor for nanoscale imaging with single
+  nitrogen-vacancy centres.
+\newblock \textit{Nature Nanotechnology} \textbf{7}, 320 (2012).
+
+\bibitem{Staudacher_Science_2013}
+T.~Staudacher \textit{et~al.}
+\newblock Nuclear magnetic resonance spectroscopy on a (5-nanometer)3 sample
+  volume.
+\newblock \textit{Science} \textbf{339}, 561 (2013).
+
+\bibitem{Mamin_Science_2013}
+H.~J. Mamin \textit{et~al.}
+\newblock Nanoscale nuclear magnetic resonance with a nitrogen-vacancy spin
+  sensor.
+\newblock \textit{Science} \textbf{339}, 557 (2013).
+
+\bibitem{Tetienne_Science_2014}
+J.-P. Tetienne \textit{et~al.}
+\newblock Nanoscale imaging and control of domain-wall hopping with a
+  nitrogen-vacancy center microscope.
+\newblock \textit{Science} \textbf{344}, 1366 (2014).
+
+\bibitem{Kolkowitz_Science_2015}
+S.~Kolkowitz \textit{et~al.}
+\newblock Probing johnson noise and ballistic transport in normal metals with a
+  single-spin qubit.
+\newblock \textit{Science} \textbf{347}, 1129 (2015).
+
+\bibitem{Waldherr_NatNano_2012}
+G.~Waldherr \textit{et~al.}
+\newblock High-dynamic-range magnetometry with a single nuclear spin in
+  diamond.
+\newblock \textit{Nature Nanotechnology} \textbf{7}, 105 (2012).
+
+\bibitem{Nusran_NatNano_2012}
+N.~M. Nusran, M.~U. Momeen and M.~V.~G. Dutt.
+\newblock High-dynamic-range magnetometry with a single electronic spin in
+  diamond.
+\newblock \textit{Nature Nanotechnology} \textbf{7}, 109 (2012).
+
+\bibitem{Vijay_Nature_2012}
+R.~Vijay \textit{et~al.}
+\newblock Stabilizing rabi oscillations in a superconducting qubit using
+  quantum feedback.
+\newblock \textit{Nature} \textbf{490}, 77 (2012).
+
+\bibitem{Blok_NatPhys_2014}
+M.~S. Blok \textit{et~al.}
+\newblock Manipulating a qubit through the backaction of sequential partial
+  measurements and real-time feedback.
+\newblock \textit{Nature Physics} \textbf{10}, 189 (2014).
+
+\bibitem{Shulman_NatCommun_2014}
+M.~D. Shulman \textit{et~al.}
+\newblock Suppressing qubit dephasing using real-time hamiltonian estimation.
+\newblock \textit{Nature Communications} \textbf{5} (2014).
+
+\bibitem{Robledo_Nature_2011}
+L.~Robledo \textit{et~al.}
+\newblock High-fidelity projective read-out of a solid-state spin quantum
+  register.
+\newblock \textit{Nature} \textbf{477}, 574 (2011).
+
+\bibitem{Said_Phys.Rev.B_2011}
+R.~S. Said, D.~W. Berry and J.~Twamley.
+\newblock Nanoscale magnetometry using a single-spin system in diamond.
+\newblock \textit{Physical Review B} \textbf{83}, 125410 (2011).
+
+\bibitem{Cappellaro_Phys.Rev.A_2012}
+P.~Cappellaro.
+\newblock Spin-bath narrowing with adaptive parameter estimation.
+\newblock \textit{Physical Review A} \textbf{85}, 030301 (2012).
+
+\bibitem{Hentschel_Phys.Rev.Lett._2010}
+A.~Hentschel and B.~C. Sanders.
+\newblock Machine learning for precise quantum measurement.
+\newblock \textit{Physical Review Letters} \textbf{104}, 063603 (2010).
+
+\bibitem{Hayes_Phys.Rev.A_2014}
+A.~J.~F. Hayes and D.~W. Berry.
+\newblock Swarm optimization for adaptive phase measurements with low
+  visibility.
+\newblock \textit{Physical Review A} \textbf{89}, 013838 (2014).
+
+\end{thebibliography}

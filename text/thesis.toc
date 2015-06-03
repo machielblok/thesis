@@ -3,6 +3,7 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Bibliography}{2}{section.1.1}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
 \contentsline {chapter}{\chapternumberline {2}Theoretical Background}{3}{chapter.2}
@@ -15,6 +16,7 @@
 \contentsline {subsection}{\numberline {2.2.2}Projection operator}{3}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Measurements as a tool for quantum information}{3}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}The measurement problem}{3}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Bibliography}{4}{section.2.3}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \contentsline {chapter}{\chapternumberline {3}Experimental methods}{5}{chapter.3}
@@ -26,6 +28,7 @@
 \contentsline {section}{\numberline {3.3}Optical initialisation and readout of electron spin}{5}{section.3.3}
 \contentsline {section}{\numberline {3.4}Electron and nuclear spin manipulation}{5}{section.3.4}
 \contentsline {section}{\numberline {3.5}Real-time feedback}{5}{section.3.5}
+\contentsline {section}{\numberline {3.6}Bibliography}{6}{section.3.6}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
 \contentsline {chapter}{\chapternumberline {4}Manipulating a qubit through the backaction of sequential partial measurements \\ and real-time feedback }{7}{chapter.4}
@@ -46,13 +49,14 @@
 \contentsline {section}{\numberline {5.5}Methods}{30}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}Sample and experimental setup}{30}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Adaptive algorithm}{31}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.6}Bibliography}{32}{section.5.6}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {chapter}{\chapternumberline {6}Heralded entanglement between solid-state qubits separated by three metres}{33}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{34}{section.6.1}
-\contentsline {section}{\numberline {6.2}Protocol}{34}{section.6.2}
-\contentsline {section}{\numberline {6.3}Implementation}{36}{section.6.3}
-\contentsline {section}{\numberline {6.4}Results}{39}{section.6.4}
-\contentsline {section}{\numberline {6.5}Conclusion}{42}{section.6.5}
-\contentsline {section}{\numberline {6.6}Bibliography}{43}{section.6.6}
+\contentsline {chapter}{\chapternumberline {6}Heralded entanglement between solid-state qubits separated by three metres}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{36}{section.6.1}
+\contentsline {section}{\numberline {6.2}Protocol}{36}{section.6.2}
+\contentsline {section}{\numberline {6.3}Implementation}{38}{section.6.3}
+\contentsline {section}{\numberline {6.4}Results}{41}{section.6.4}
+\contentsline {section}{\numberline {6.5}Conclusion}{44}{section.6.5}
+\contentsline {section}{\numberline {6.6}Bibliography}{45}{section.6.6}
 \gdef \the@ipfilectr {}

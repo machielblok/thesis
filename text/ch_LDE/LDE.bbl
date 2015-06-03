@@ -168,32 +168,4 @@ I.~Aharonovich, A.~D. Greentree and S.~Prawer.
 \newblock {Diamond photonics}.
 \newblock \textit{Nature Photon.} \textbf{5}, 397 (2011).
 
-\bibitem{Lindsey:ub}
-J.~K. Lindsey.
-\newblock \textit{{Parametric Statistical Inference}}.
-\newblock Clarendon Press, Oxford, UK (1996).
-
-\bibitem{2003PhRvA..67d2308C}
-H.~K. Cummins, G.~Llewellyn and J.~A. Jones.
-\newblock {Tackling systematic errors in quantum logic gates with composite
-  rotations}.
-\newblock \textit{Phys. Rev. A} \textbf{67}, 42308 (2003).
-
-\bibitem{Childress2006}
-L.~Childress \textit{et~al.}
-\newblock {Coherent dynamics of coupled electron and nuclear spin qubits in
-  diamond.}
-\newblock \textit{Science} \textbf{314}, 281 (2006).
-
-\bibitem{Gullion:1990uj}
-T.~Gullion, D.~B. Baker and M.~S. Conradi.
-\newblock {New, compensated carr-purcell sequences}.
-\newblock \textit{J. Magn. Reson.} \textbf{89}, 479 (1990).
-
-\bibitem{Legero:2006ur}
-T.~Legero, T.~Wilk, A.~Kuhn and G.~Rempe.
-\newblock {Characterization of Single Photons Using Two-Photon Interference}.
-\newblock M.~O. Scully and G.~Rempe (editors), \textit{Advances In Atomic,
-  Molecular, and Optical Physics}, Academic Press, 253--289 (2006).
-
 \end{thebibliography}

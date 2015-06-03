@@ -32,10 +32,10 @@
 \RequirePackage[utf8x]{inputenc}
 \RequirePackage[dutch,british]{babel}                % To use English hyphenation.
 \usepackage{chapterbib}                        % Per chapter bibliography
-\usepackage[numbers,super,comma,sectionbib]{natbib}
+\usepackage[numbers,super,comma,sectionbib,sort&compress]{natbib}
 \usepackage{amsmath,amstext}
 \usepackage{multicol,multirow}
-%\usepackage{hypernat}
+\usepackage{hypernat}
 \usepackage{microtype}
 \usepackage{type1cm}                    % Scale Computer Modern fonts properly
 \usepackage{tocloft}
