@@ -1,171 +1,279 @@
 \begin{thebibliography}{10}
 
-\bibitem{Nielsen2000}
+\bibitem{Nielsen__2000}
 M.~A. Nielsen and I.~L. Chuang.
-\newblock \textit{{Quantum Computation and Quantum Information}}.
+\newblock \textit{Quantum Computation and Quantum Information}.
 \newblock Cambridge University Press (2000).
 
-\bibitem{Raussendorf2001}
+\bibitem{Raussendorf_Phys.Rev.Lett._2001}
 R.~Raussendorf and H.~J. Briegel.
-\newblock {A One-Way Quantum Computer}.
-\newblock \textit{Phys. Rev. Lett.} \textbf{86}, 5188 (2001).
+\newblock A one-way quantum computer.
+\newblock \textit{Physical Review Letters} \textbf{86}, 5188 (2001).
 
-\bibitem{Moehring2007}
+\bibitem{Moehring_Nature_2007}
 D.~L. Moehring \textit{et~al.}
-\newblock {Entanglement of single-atom quantum bits at a distance.}
+\newblock Entanglement of single-atom quantum bits at a distance.
 \newblock \textit{Nature} \textbf{449}, 68 (2007).
 
-\bibitem{Ritter2012}
+\bibitem{Ritter_Nature_2012}
 S.~Ritter \textit{et~al.}
-\newblock {An elementary quantum network of single atoms in optical cavities.}
+\newblock An elementary quantum network of single atoms in optical cavities.
 \newblock \textit{Nature} \textbf{484}, 195 (2012).
 
-\bibitem{Hofmann2012}
+\bibitem{Hofmann_Science_2012}
 J.~Hofmann \textit{et~al.}
-\newblock {Heralded Entanglement Between Widely Separated Atoms.}
+\newblock Heralded entanglement between widely separated atoms.
 \newblock \textit{Science} \textbf{337}, 72 (2012).
 
-\bibitem{Kimble2008}
+\bibitem{Kimble_Nature_2008}
 H.~J. Kimble.
-\newblock {The quantum internet.}
+\newblock The quantum internet.
 \newblock \textit{Nature} \textbf{453}, 1023 (2008).
 
-\bibitem{Duan2001}
-L.~M. Duan, M.~D. Lukin, J.~I. Cirac and P.~Zoller.
-\newblock {Long-distance quantum communication with atomic ensembles and linear
-  optics}.
+\bibitem{Duan_Nature_2001}
+L.-M. Duan, M.~D. Lukin, J.~I. Cirac and P.~Zoller.
+\newblock Long-distance quantum communication with atomic ensembles and linear
+  optics.
 \newblock \textit{Nature} \textbf{414}, 413 (2001).
 
-\bibitem{Childress2006a}
+\bibitem{Childress_Phys.Rev.Lett._2006}
 L.~Childress, J.~M. Taylor, A.~S. S{\o}rensen and M.~D. Lukin.
-\newblock {Fault-Tolerant Quantum Communication Based on Solid-State Photon
-  Emitters}.
-\newblock \textit{Phys. Rev. Lett.} \textbf{96}, 070504 (2006).
+\newblock Fault-tolerant quantum communication based on solid-state photon
+  emitters.
+\newblock \textit{Physical Review Letters} \textbf{96}, 070504 (2006).
 
-\bibitem{Robledo2011}
-L.~Robledo \textit{et~al.}
-\newblock {High-fidelity projective read-out of a solid-state spin quantum
-  register.}
-\newblock \textit{Nature} \textbf{477}, 574 (2011).
-
-\bibitem{Neumann2010a}
-P.~Neumann \textit{et~al.}
-\newblock {Single-Shot Readout of a Single Nuclear Spin.}
-\newblock \textit{Science} \textbf{329}, 542 (2010).
-
-\bibitem{Neumann2008}
-P.~Neumann \textit{et~al.}
-\newblock {Multipartite Entanglement Among Single Spins in Diamond.}
-\newblock \textit{Science} \textbf{320}, 1326 (2008).
-
-\bibitem{Maurer2012}
-P.~C. Maurer \textit{et~al.}
-\newblock {Room-Temperature Quantum Bit Memory Exceeding One Second.}
-\newblock \textit{Science} \textbf{336}, 1283 (2012).
-
-\bibitem{Pfaff2012}
-W.~Pfaff \textit{et~al.}
-\newblock {Demonstration of entanglement-by-measurement of solid-state qubits}.
-\newblock \textit{Nature Physics} \textbf{9}, 29 (2013).
-
-\bibitem{Ladd2010}
+\bibitem{Ladd_Nature_2010}
 T.~D. Ladd \textit{et~al.}
-\newblock {Quantum computers.}
+\newblock Quantum computers.
 \newblock \textit{Nature} \textbf{464}, 45 (2010).
 
-\bibitem{Togan2010}
+\bibitem{Togan_Nature_2010}
 E.~Togan \textit{et~al.}
-\newblock {Quantum entanglement between an optical photon and a solid-state
-  spin qubit}.
+\newblock Quantum entanglement between an optical photon and a solid-state spin
+  qubit.
 \newblock \textit{Nature} \textbf{466}, 730 (2010).
 
-\bibitem{Gao2012}
+\bibitem{Gao_Nature_2012}
 W.~B. Gao, P.~Fallahi, E.~Togan, J.~Miguel-Sanchez and A.~Imamoglu.
-\newblock {Observation of entanglement between a quantum dot spin and a single
-  photon}.
+\newblock Observation of entanglement between a quantum dot spin and a single
+  photon.
 \newblock \textit{Nature} \textbf{491}, 426 (2012).
 
-\bibitem{DeGreve2012}
-K.~{De Greve} \textit{et~al.}
-\newblock {Quantum-dot spin--photon entanglement via frequency downconversion
-  to telecom wavelength}.
+\bibitem{DeGreve_Nature_2012}
+K.~De~Greve \textit{et~al.}
+\newblock Quantum-dot spin-photon entanglement via frequency downconversion to
+  telecom wavelength.
 \newblock \textit{Nature} \textbf{491}, 421 (2012).
 
-\bibitem{Bernien2012a}
+\bibitem{Bernien_Phys.Rev.Lett._2012}
 H.~Bernien \textit{et~al.}
-\newblock {Two-Photon Quantum Interference from Separate Nitrogen Vacancy
-  Centers in Diamond}.
-\newblock \textit{Phys. Rev. Lett.} \textbf{108}, 043604 (2012).
+\newblock Two-photon quantum interference from separate nitrogen vacancy
+  centers in diamond.
+\newblock \textit{Physical Review Letters} \textbf{108}, 043604 (2012).
 
-\bibitem{Sipahigil2012}
+\bibitem{Sipahigil_Phys.Rev.Lett._2012}
 A.~Sipahigil \textit{et~al.}
-\newblock {Quantum Interference of Single Photons from Remote Nitrogen-Vacancy
-  Centers in Diamond}.
-\newblock \textit{Phys. Rev. Lett.} \textbf{108}, 143601 (2012).
+\newblock Quantum interference of single photons from remote nitrogen-vacancy
+  centers in diamond.
+\newblock \textit{Physical Review Letters} \textbf{108}, 143601 (2012).
 
-\bibitem{Patel2010}
+\bibitem{Patel_NatPhoton_2010}
 R.~B. Patel \textit{et~al.}
-\newblock {Two-photon interference of the emission from electrically tunable
-  remote quantum dots}.
-\newblock \textit{Nature Photon.} \textbf{4}, 632 (2010).
+\newblock Two-photon interference of the emission from electrically tunable
+  remote quantum dots.
+\newblock \textit{Nature Photonics} \textbf{4}, 632 (2010).
 
-\bibitem{Flagg2010}
+\bibitem{Flagg_Phys.Rev.Lett._2010}
 E.~B. Flagg \textit{et~al.}
-\newblock {Interference of Single Photons from Two Separate Semiconductor
-  Quantum Dots}.
-\newblock \textit{Phys. Rev. Lett.} \textbf{104}, 137401 (2010).
+\newblock Interference of single photons from two separate semiconductor
+  quantum dots.
+\newblock \textit{Physical Review Letters} \textbf{104}, 137401 (2010).
 
-\bibitem{Fuchs2009}
+\bibitem{Fuchs_Science_2009}
 G.~D. Fuchs, V.~V. Dobrovitski, D.~M. Toyli, F.~J. Heremans and D.~D.
   Awschalom.
-\newblock {Gigahertz Dynamics of a Strongly Driven Single Quantum Spin.}
+\newblock Gigahertz dynamics of a strongly driven single quantum spin.
 \newblock \textit{Science} \textbf{326}, 1520 (2009).
 
-\bibitem{DeLange2010}
-G.~de~Lange, Z.~H. Wang, D.~Rist\`{e}, V.~V. Dobrovitski and R.~Hanson.
-\newblock {Universal Dynamical Decoupling of a Single Solid-State Spin from a
-  Spin Bath.}
+\bibitem{Lange_Science_2010}
+G.~d. Lange, Z.~H. Wang, D.~Rist{\`e}, V.~V. Dobrovitski and R.~Hanson.
+\newblock Universal dynamical decoupling of a single solid-state spin from a
+  spin bath.
 \newblock \textit{Science} \textbf{330}, 60 (2010).
 
-\bibitem{VanderSar2012}
+\bibitem{vanderSar_Nature_2012}
 T.~van~der Sar \textit{et~al.}
-\newblock {Decoherence-protected quantum gates for a hybrid solid-state spin
-  register.}
+\newblock Decoherence-protected quantum gates for a hybrid solid-state spin
+  register.
 \newblock \textit{Nature} \textbf{484}, 82 (2012).
 
-\bibitem{Barrett2005}
+\bibitem{Robledo_Nature_2011}
+L.~Robledo \textit{et~al.}
+\newblock High-fidelity projective read-out of a solid-state spin quantum
+  register.
+\newblock \textit{Nature} \textbf{477}, 574 (2011).
+
+\bibitem{Neumann_Science_2010}
+P.~Neumann \textit{et~al.}
+\newblock Single-shot readout of a single nuclear spin.
+\newblock \textit{Science} \textbf{329}, 542 (2010).
+
+\bibitem{Neumann_Science_2008}
+P.~Neumann \textit{et~al.}
+\newblock Multipartite entanglement among single spins in diamond.
+\newblock \textit{Science} \textbf{320}, 1326 (2008).
+
+\bibitem{Maurer_Science_2012}
+P.~C. Maurer \textit{et~al.}
+\newblock Room-temperature quantum bit memory exceeding one second.
+\newblock \textit{Science} \textbf{336}, 1283 (2012).
+
+\bibitem{Pfaff_NatPhys_2013}
+W.~Pfaff \textit{et~al.}
+\newblock Demonstration of entanglement-by-measurement of solid-state qubits.
+\newblock \textit{Nature Physics} \textbf{9}, 29 (2013).
+
+\bibitem{Barrett_Nature_2004}
+M.~D. Barrett \textit{et~al.}
+\newblock Deterministic quantum teleportation of atomic qubits.
+\newblock \textit{Nature} \textbf{429}, 737 (2004).
+
+\bibitem{Barrett_Phys.Rev.A_2005}
 S.~D. Barrett and P.~Kok.
-\newblock {Efficient high-fidelity quantum computation using matter qubits and
-  linear optics}.
-\newblock \textit{Phys. Rev. A} \textbf{71}, 060310 (2005).
+\newblock Efficient high-fidelity quantum computation using matter qubits and
+  linear optics.
+\newblock \textit{Physical Review A} \textbf{71}, 060310 (2005).
 
-\bibitem{Bassett2011a}
+\bibitem{Bassett_Phys.Rev.Lett._2011}
 L.~C. Bassett, F.~J. Heremans, C.~G. Yale, B.~B. Buckley and D.~D. Awschalom.
-\newblock {Electrical Tuning of Single Nitrogen-Vacancy Center Optical
-  Transitions Enhanced by Photoinduced Fields}.
-\newblock \textit{Phys. Rev. Lett.} \textbf{107}, 266403 (2011).
+\newblock Electrical tuning of single nitrogen-vacancy center optical
+  transitions enhanced by photoinduced fields.
+\newblock \textit{Physical Review Letters} \textbf{107}, 266403 (2011).
 
-\bibitem{Robledo2010}
+\bibitem{Robledo_Phys.Rev.Lett._2010}
 L.~Robledo, H.~Bernien, I.~van Weperen and R.~Hanson.
-\newblock {Control and Coherence of the Optical Transition of Single Nitrogen
-  Vacancy Centers in Diamond.}
-\newblock \textit{Phys. Rev. Lett.} \textbf{105}, 177403 (2010).
+\newblock Control and coherence of the optical transition of single nitrogen
+  vacancy centers in diamond.
+\newblock \textit{Physical Review Letters} \textbf{105}, 177403 (2010).
 
-\bibitem{Hong1987}
+\bibitem{Wootters_Nature_1982}
+W.~K. Wootters and W.~H. Zurek.
+\newblock A single quantum cannot be cloned.
+\newblock \textit{Nature} \textbf{299}, 802 (1982).
+
+\bibitem{Hong_Phys.Rev.Lett._1987}
 C.~K. Hong, Z.~Y. Ou and L.~Mandel.
-\newblock {Measurement of subpicosecond time intervals between two photons by
-  interference}.
-\newblock \textit{Phys. Rev. Lett.} \textbf{59}, 2044 (1987).
+\newblock Measurement of subpicosecond time intervals between two photons by
+  interference.
+\newblock \textit{Physical Review Letters} \textbf{59}, 2044 (1987).
 
-\bibitem{Fu2009}
+\bibitem{Fu_Phys.Rev.Lett._2009}
 K.-M.~C. Fu \textit{et~al.}
-\newblock {Observation of the Dynamic Jahn-Teller Effect in the Excited States
-  of Nitrogen-Vacancy Centers in Diamond}.
-\newblock \textit{Phys. Rev. Lett.} \textbf{103}, 256404 (2009).
+\newblock Observation of the dynamic jahn-teller effect in the excited states
+  of nitrogen-vacancy centers in diamond.
+\newblock \textit{Physical Review Letters} \textbf{103}, 256404 (2009).
 
-\bibitem{Aharonovich2011}
-I.~Aharonovich, A.~D. Greentree and S.~Prawer.
-\newblock {Diamond photonics}.
-\newblock \textit{Nature Photon.} \textbf{5}, 397 (2011).
+\bibitem{Olmschenk_Science_2009}
+S.~Olmschenk \textit{et~al.}
+\newblock Quantum teleportation between distant matter qubits.
+\newblock \textit{Science} \textbf{323}, 486 (2009).
+
+\bibitem{Nolleke_Phys.Rev.Lett._2013}
+C.~N{\"o}lleke \textit{et~al.}
+\newblock Efficient teleportation between remote single-atom quantum memories.
+\newblock \textit{Physical Review Letters} \textbf{110}, 140403 (2013).
+
+\bibitem{Krauter_NatPhys_2013}
+H.~Krauter \textit{et~al.}
+\newblock Deterministic quantum teleportation between distant atomic objects.
+\newblock \textit{Nature Physics} \textbf{9}, 400 (2013).
+
+\bibitem{Awschalom_Science_2013}
+D.~D. Awschalom, L.~C. Bassett, A.~S. Dzurak, E.~L. Hu and J.~R. Petta.
+\newblock Quantum spintronics: Engineering and manipulating atom-like spins in
+  semiconductors.
+\newblock \textit{Science} \textbf{339}, 1174 (2013).
+
+\bibitem{Devoret_Science_2013}
+M.~H. Devoret and R.~J. Schoelkopf.
+\newblock Superconducting circuits for quantum information: An outlook.
+\newblock \textit{Science} \textbf{339}, 1169 (2013).
+
+\bibitem{Monroe_Science_2013}
+C.~Monroe and J.~Kim.
+\newblock Scaling the ion trap quantum processor.
+\newblock \textit{Science} \textbf{339}, 1164 (2013).
+
+\bibitem{Riebe_Nature_2004}
+M.~Riebe \textit{et~al.}
+\newblock Deterministic quantum teleportation with atoms.
+\newblock \textit{Nature} \textbf{429}, 734 (2004).
+
+\bibitem{Steffen_Nature_2013}
+L.~Steffen \textit{et~al.}
+\newblock Deterministic quantum teleportation with feed-forward in a solid
+  state system.
+\newblock \textit{Nature} \textbf{500}, 319 (2013).
+
+\bibitem{Bernien_Nature_2013}
+H.~Bernien \textit{et~al.}
+\newblock Heralded entanglement between solid-state qubits separated by three
+  metres.
+\newblock \textit{Nature} \textbf{497}, 86 (2013).
+
+\bibitem{Siyushev_Phys.Rev.Lett._2013}
+P.~Siyushev \textit{et~al.}
+\newblock Optically controlled switching of the charge state of a single
+  nitrogen-vacancy center in diamond at cryogenic temperatures.
+\newblock \textit{Physical Review Letters} \textbf{110}, 167402 (2013).
+
+\bibitem{Jiang_Phys.Rev.Lett._2008}
+L.~Jiang \textit{et~al.}
+\newblock Coherence of an optically illuminated single nuclear spin qubit.
+\newblock \textit{Physical Review Letters} \textbf{100}, 073001 (2008).
+
+\bibitem{Blok_NatPhys_2014}
+M.~S. Blok \textit{et~al.}
+\newblock Manipulating a qubit through the backaction of sequential partial
+  measurements and real-time feedback.
+\newblock \textit{Nature Physics} \textbf{10}, 189 (2014).
+
+\bibitem{Briegel_Phys.Rev.Lett._1998}
+H.-J. Briegel, W.~D{\"u}r, J.~I. Cirac and P.~Zoller.
+\newblock Quantum repeaters: The role of imperfect local operations in quantum
+  communication.
+\newblock \textit{Physical Review Letters} \textbf{81}, 5932 (1998).
+
+\bibitem{Taminiau_Phys.Rev.Lett._2012}
+T.~H. Taminiau \textit{et~al.}
+\newblock Detection and control of individual nuclear spins using a weakly
+  coupled electron spin.
+\newblock \textit{Physical Review Letters} \textbf{109}, 137602 (2012).
+
+\bibitem{Kolkowitz_Phys.Rev.Lett._2012}
+S.~Kolkowitz, Q.~P. Unterreithmeier, S.~D. Bennett and M.~D. Lukin.
+\newblock Sensing distant nuclear spins with a single electron spin.
+\newblock \textit{Physical Review Letters} \textbf{109}, 137601 (2012).
+
+\bibitem{Zhao_NatNano_2012}
+N.~Zhao \textit{et~al.}
+\newblock Sensing single remote nuclear spins.
+\newblock \textit{Nature Nanotechnology} \textbf{7}, 657 (2012).
+
+\bibitem{Taminiau_NatNano_2014}
+T.~H. Taminiau, J.~Cramer, T.~v.~d. Sar, V.~V. Dobrovitski and R.~Hanson.
+\newblock Universal control and error correction in multi-qubit spin registers
+  in diamond.
+\newblock \textit{Nature Nanotechnology} \textbf{9}, 171 (2014).
+
+\bibitem{Loncar_MRS_2013}
+M.~Lon{\v c}ar and A.~Faraon.
+\newblock Quantum photonic networks in diamond.
+\newblock \textit{MRS Bulletin} \textbf{38}, 144 (2013).
+
+\bibitem{Brunner_Rev.Mod.Phys._2014}
+N.~Brunner, D.~Cavalcanti, S.~Pironio, V.~Scarani and S.~Wehner.
+\newblock Bell nonlocality.
+\newblock \textit{Reviews of Modern Physics} \textbf{86}, 419 (2014).
 
 \end{thebibliography}

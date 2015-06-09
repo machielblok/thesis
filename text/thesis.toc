@@ -54,9 +54,9 @@
 \gdef \the@ipfilectr {@-8}
 \contentsline {chapter}{\chapternumberline {6}Heralded entanglement and unconditional teleportation between solid-state qubits separated by three metres}{35}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{36}{section.6.1}
-\contentsline {section}{\numberline {6.2}Protocol for generating heralded entanglement}{36}{section.6.2}
-\contentsline {section}{\numberline {6.3}Implementation}{38}{section.6.3}
-\contentsline {section}{\numberline {6.4}Demonstration of remote entanglement}{41}{section.6.4}
-\contentsline {section}{\numberline {6.5}Conclusion}{43}{section.6.5}
-\contentsline {section}{\numberline {6.6}Bibliography}{46}{section.6.6}
+\contentsline {section}{\numberline {6.2}Heralded entanglement}{36}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Implementation}{39}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Demonstration of remote entanglement}{41}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Teleportation}{43}{section.6.3}
+\contentsline {section}{\numberline {6.4}Bibliography}{50}{section.6.4}
 \gdef \the@ipfilectr {}
