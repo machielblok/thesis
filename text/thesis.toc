@@ -52,11 +52,11 @@
 \contentsline {section}{\numberline {5.6}Bibliography}{32}{section.5.6}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {chapter}{\chapternumberline {6}Heralded entanglement between solid-state qubits separated by three metres}{35}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}Heralded entanglement and unconditional teleportation between solid-state qubits separated by three metres}{35}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{36}{section.6.1}
-\contentsline {section}{\numberline {6.2}Protocol}{36}{section.6.2}
+\contentsline {section}{\numberline {6.2}Protocol for generating heralded entanglement}{36}{section.6.2}
 \contentsline {section}{\numberline {6.3}Implementation}{38}{section.6.3}
-\contentsline {section}{\numberline {6.4}Results}{41}{section.6.4}
-\contentsline {section}{\numberline {6.5}Conclusion}{44}{section.6.5}
-\contentsline {section}{\numberline {6.6}Bibliography}{45}{section.6.6}
+\contentsline {section}{\numberline {6.4}Demonstration of remote entanglement}{41}{section.6.4}
+\contentsline {section}{\numberline {6.5}Conclusion}{43}{section.6.5}
+\contentsline {section}{\numberline {6.6}Bibliography}{46}{section.6.6}
 \gdef \the@ipfilectr {}
