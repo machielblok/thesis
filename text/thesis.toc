@@ -60,3 +60,9 @@
 \contentsline {section}{\numberline {6.3}Teleportation}{43}{section.6.3}
 \contentsline {section}{\numberline {6.4}Bibliography}{50}{section.6.4}
 \gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-9}
+\contentsline {chapter}{\chapternumberline {7}Analysis of a quantum memory with optical interface in diamond }{55}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{56}{section.7.1}
+\contentsline {section}{\numberline {7.2}Control and Characterization of nuclear spins in diamond}{56}{section.7.2}
+\contentsline {section}{\numberline {7.3}Methods}{58}{section.7.3}
+\gdef \the@ipfilectr {}

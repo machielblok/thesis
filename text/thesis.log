@@ -1,9 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  9 JUN 2015 20:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  30 JUN 2015 09:07
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**thesis.tex
+**thesis.tex -recorder
 (./thesis.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
@@ -1245,34 +1244,34 @@ LaTeX Warning: Unused global option(s):
 (./thesis.aux (./frontmatter.aux) (./ch_introduction/introduction.aux)
 (./ch_theory/theory.aux) (./ch_experimental/experimental.aux)
 (./ch_adptv_msmnt_cntrl/amc.aux) (./ch_adptv_msmnt_magnetometry/amm.aux)
-(./ch_LDE/LDE.aux))
+(./ch_LDE/LDE.aux) (./ch_C13_dephasing_lde/cdl.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 65.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Try loading font information for T1+LinuxLibertineT-TLF on 
-input line 62.
+input line 65.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.f
 d
@@ -1280,11 +1279,11 @@ File: T1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for T1/Li
 nuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 62.
+(Font)              scaled to size 10.0pt on input line 65.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-LaTeX Info: Redefining \microtypecontext on input line 62.
+LaTeX Info: Redefining \microtypecontext on input line 65.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1328,7 +1327,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring OFF on input line 62.
+Package hyperref Info: Link coloring OFF on input line 65.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1340,10 +1339,10 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 62.
-LaTeX Info: Redefining \ref on input line 62.
-LaTeX Info: Redefining \pageref on input line 62.
-LaTeX Info: Redefining \nameref on input line 62.
+LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -1417,7 +1416,7 @@ Overfull \hbox (1.6429pt too wide) in paragraph at lines 2--2
 []   [] 
  []
 
-<figures/logos_for_titlepage.pdf, id=231, 368.94739pt x 51.4442pt>
+<figures/logos_for_titlepage.pdf, id=247, 368.94739pt x 51.4442pt>
 File: figures/logos_for_titlepage.pdf Graphic file (type pdf)
 
 <use figures/logos_for_titlepage.pdf>
@@ -1562,7 +1561,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 
 
 ]
-<./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf, id=393, 432.48576pt x 204.
+<./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf, id=413, 432.48576pt x 204.
 85533pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf Graphic file (type pdf
 )
@@ -1608,7 +1607,7 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 [8
 
 ] [9 <./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf>]
-<./ch_adptv_msmnt_cntrl/figures/fig2_partial_measurement_backaction.pdf, id=585
+<./ch_adptv_msmnt_cntrl/figures/fig2_partial_measurement_backaction.pdf, id=605
 , 236.1623pt x 301.62688pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig2_partial_measurement_backaction.pdf Gr
 aphic file (type pdf)
@@ -1618,7 +1617,7 @@ Package pdftex.def Info: ./ch_adptv_msmnt_cntrl/figures/fig2_partial_measuremen
 t_backaction.pdf used on input line 44.
 (pdftex.def)             Requested size: 236.16171pt x 301.62613pt.
 
-<./ch_adptv_msmnt_cntrl/figures/fig3_weak_value.pdf, id=591, 369.88188pt x 156.
+<./ch_adptv_msmnt_cntrl/figures/fig3_weak_value.pdf, id=611, 369.88188pt x 156.
 49466pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig3_weak_value.pdf Graphic file (type pdf
 )
@@ -1637,7 +1636,7 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 [10] [11 <./ch_adptv_msmnt_cntrl/figures/fig2_partial_measurement_backaction.pd
 f>]
-<./ch_adptv_msmnt_cntrl/figures/fig4_qnd_electron.pdf, id=684, 310.66063pt x 21
+<./ch_adptv_msmnt_cntrl/figures/fig4_qnd_electron.pdf, id=705, 310.66063pt x 21
 8.31563pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig4_qnd_electron.pdf Graphic file (type p
 df)
@@ -1653,7 +1652,7 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
 [12 <./ch_adptv_msmnt_cntrl/figures/fig3_weak_value.pdf>]
-<./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.pdf, id=724, 268.98494pt 
+<./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.pdf, id=744, 268.98494pt 
 x 109.52217pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.pdf Graphic file (ty
 pe pdf)
@@ -1667,7 +1666,7 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
 [14 <./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.pdf>]
-<./ch_adptv_msmnt_cntrl/figures/fig6_adaptive_protocol.pdf, id=848, 301.125pt x
+<./ch_adptv_msmnt_cntrl/figures/fig6_adaptive_protocol.pdf, id=868, 301.125pt x
  363.69276pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig6_adaptive_protocol.pdf Graphic file (t
 ype pdf)
@@ -1701,7 +1700,7 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
 ]
-<./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf, id=1021, 257.44882pt x 
+<./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf, id=1041, 257.44882pt x 
 307.13243pt>
 File: ./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf Graphic file (type 
 pdf)
@@ -1716,7 +1715,7 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 [22
 
 ] [23 <./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf>]
-<./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf, id=1641, 369.8818
+<./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf, id=1661, 369.8818
 8pt x 156.49466pt>
 File: ./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf Graphic file 
 (type pdf)
@@ -1742,7 +1741,7 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
 [24 <./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf>]
-<./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf, id=1857, 294.09875pt
+<./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf, id=1878, 294.09875pt
  x 508.90125pt>
 File: ./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf Graphic file (ty
 pe pdf)
@@ -1753,7 +1752,7 @@ df used on input line 58.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 59.
 
-<./ch_adptv_msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf, id=1859, 367
+<./ch_adptv_msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf, id=1880, 367
 .3725pt x 336.25626pt>
 File: ./ch_adptv_msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf Graphic 
 file (type pdf)
@@ -1771,7 +1770,7 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 [26 <./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf>] [27 <./ch_adptv
 _msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf>]
-<./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf, id=2277, 364.34317pt 
+<./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf, id=2297, 364.34317pt 
 x 132.00114pt>
 File: ./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf Graphic file (typ
 e pdf)
@@ -1814,7 +1813,7 @@ LaTeX Warning: Reference `fig:LDE-fig1-DD' on page 36 undefined on input line 2
 8.
 
 
-<./ch_LDE/figures/fig1_entanglement_setup.pdf, id=2403, 369.50546pt x 225.5095p
+<./ch_LDE/figures/fig1_entanglement_setup.pdf, id=2423, 369.50546pt x 225.5095p
 t>
 File: ./ch_LDE/figures/fig1_entanglement_setup.pdf Graphic file (type pdf)
  <use ./ch_LDE/figures/fig1_entanglement_setup.pdf>
@@ -1827,7 +1826,7 @@ Overfull \hbox (0.50456pt too wide) in paragraph at lines 32--33
  []
 
 
-<./ch_LDE/figures/fig1_entanglement_protocol.pdf, id=2411, 369.50546pt x 158.59
+<./ch_LDE/figures/fig1_entanglement_protocol.pdf, id=2431, 369.50546pt x 158.59
 25pt>
 File: ./ch_LDE/figures/fig1_entanglement_protocol.pdf Graphic file (type pdf)
  <use ./ch_LDE/figures/fig1_entanglement_protocol.pdf>
@@ -1853,7 +1852,7 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
 [38 <./ch_LDE/figures/fig1_entanglement_protocol.pdf>]
-<./ch_LDE/figures/fig2_ind_photons.pdf, id=4440, 368.94638pt x 277.41743pt>
+<./ch_LDE/figures/fig2_ind_photons.pdf, id=4460, 368.94638pt x 277.41743pt>
 File: ./ch_LDE/figures/fig2_ind_photons.pdf Graphic file (type pdf)
 
 <use ./ch_LDE/figures/fig2_ind_photons.pdf>
@@ -1878,7 +1877,7 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
 [40 <./ch_LDE/figures/fig2_ind_photons.pdf>]
-<./ch_LDE/figures/H_Bernien_fig3.pdf, id=4530, 253.23006pt x 334.2909pt>
+<./ch_LDE/figures/H_Bernien_fig3.pdf, id=4550, 253.23006pt x 334.2909pt>
 File: ./ch_LDE/figures/H_Bernien_fig3.pdf Graphic file (type pdf)
 
 <use ./ch_LDE/figures/H_Bernien_fig3.pdf>
@@ -1890,7 +1889,7 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
 [42 <./ch_LDE/figures/H_Bernien_fig3.pdf>] [43]
-<./ch_LDE/figures/fig4_teleportation_scheme.pdf, id=4587, 341.43358pt x 162.607
+<./ch_LDE/figures/fig4_teleportation_scheme.pdf, id=4607, 341.43358pt x 162.607
 5pt>
 File: ./ch_LDE/figures/fig4_teleportation_scheme.pdf Graphic file (type pdf)
  <use ./ch_LDE/figures/fig4_teleportation_scheme.pdf>
@@ -1902,31 +1901,31 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
 [44]
-<./ch_LDE/figures/fig5_Prepare_teleporter.pdf, id=4606, 341.43358pt x 150.5625p
+<./ch_LDE/figures/fig5_Prepare_teleporter.pdf, id=4621, 341.43358pt x 150.5625p
 t>
 File: ./ch_LDE/figures/fig5_Prepare_teleporter.pdf Graphic file (type pdf)
  <use ./ch_LDE/figures/fig5_Prepare_teleporter.pdf>
 Package pdftex.def Info: ./ch_LDE/figures/fig5_Prepare_teleporter.pdf used on i
-nput line 131.
+nput line 129.
 (pdftex.def)             Requested size: 341.43274pt x 150.56212pt.
 
-<./ch_LDE/figures/fig6_circuit_diagram_bell_state_measurement.pdf, id=4613, 341
+<./ch_LDE/figures/fig6_circuit_diagram_bell_state_measurement.pdf, id=4628, 341
 .43358pt x 196.735pt>
 File: ./ch_LDE/figures/fig6_circuit_diagram_bell_state_measurement.pdf Graphic 
 file (type pdf)
 
 <use ./ch_LDE/figures/fig6_circuit_diagram_bell_state_measurement.pdf>
 Package pdftex.def Info: ./ch_LDE/figures/fig6_circuit_diagram_bell_state_measu
-rement.pdf used on input line 145.
+rement.pdf used on input line 143.
 (pdftex.def)             Requested size: 341.43274pt x 196.7345pt.
 
-Underfull \hbox (badness 1308) in paragraph at lines 151--151
-[]\T1/LinuxBiolinumT-TLF/b/n/10 Figure 6.7 ||[] De-term-in-istic Bell-state mea
-s-ure-ment (BSM) and real-time feed-
+Underfull \hbox (badness 1308) in paragraph at lines 149--149
+[][]\T1/LinuxBiolinumT-TLF/b/n/10 Figure 6.7 ||[] De-term-in-istic Bell-state m
+eas-ure-ment (BSM) and real-time feed-
  []
 
 
-Underfull \vbox (badness 1953) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45 <./ch_LDE/figures/fig4_teleportation_scheme.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1936,20 +1935,14 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
 [46 <./ch_LDE/figures/fig5_Prepare_teleporter.pdf>]
-Underfull \vbox (badness 4779) has occurred while \output is active []
-
- [47 <./ch_LDE/figures/fig6_circuit_diagram_bell_state_measurement.pdf>]
-<./ch_LDE/figures/fig7_teleportation_data.pdf, id=5217, 341.43358pt x 208.36143
+<./ch_LDE/figures/fig7_teleportation_data.pdf, id=5187, 341.43358pt x 208.36143
 pt>
 File: ./ch_LDE/figures/fig7_teleportation_data.pdf Graphic file (type pdf)
  <use ./ch_LDE/figures/fig7_teleportation_data.pdf>
 Package pdftex.def Info: ./ch_LDE/figures/fig7_teleportation_data.pdf used on i
-nput line 165.
+nput line 163.
 (pdftex.def)             Requested size: 341.43274pt x 208.36092pt.
-
-Underfull \vbox (badness 5563) has occurred while \output is active []
-
-
+ [47 <./ch_LDE/figures/fig6_circuit_diagram_bell_state_measurement.pdf>]
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
@@ -1964,51 +1957,102 @@ Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
 [52])) [53]
+\openout2 = `ch_C13_dephasing_lde/cdl.aux'.
+
+ (./ch_C13_dephasing_lde/cdl.tex
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
 [54
 
 
+
+
+] [55]
+<./ch_C13_dephasing_lde/figures/Fig1.pdf, id=5338, 599.91026pt x 407.18723pt>
+File: ./ch_C13_dephasing_lde/figures/Fig1.pdf Graphic file (type pdf)
+
+<use ./ch_C13_dephasing_lde/figures/Fig1.pdf>
+Package pdftex.def Info: ./ch_C13_dephasing_lde/figures/Fig1.pdf used on input 
+line 35.
+(pdftex.def)             Requested size: 599.90878pt x 407.18623pt.
+
+Overfull \hbox (230.90878pt too wide) in paragraph at lines 35--36
+ [][] 
+ []
+
+
+Underfull \vbox (badness 2096) has occurred while \output is active []
+
+ [56
+
 ]
+[57 <./ch_C13_dephasing_lde/figures/Fig1.pdf>] [58])
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (14.22636pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 93.
+(in both cases you will find help in the memoir manual). on input line 96.
 
-[55
+[59
 
-] [56
+
+
+] [60
+
+] [61
+
+] [62
+
+] [63
+
+] [64
+
+] [65
+
+] [66
+
+] [67
+
+] [68
+
+] [69
+
+] [70
+
+] [71
+
+] [72
 
 ]
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
- (./thesis.aux (./frontmatter.aux) (./ch_introduction/introduction.aux) (./ch_t
-heory/theory.aux) (./ch_experimental/experimental.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
+
+(./thesis.aux (./frontmatter.aux) (./ch_introduction/introduction.aux)
+(./ch_theory/theory.aux) (./ch_experimental/experimental.aux)
 (./ch_adptv_msmnt_cntrl/amc.aux) (./ch_adptv_msmnt_magnetometry/amm.aux)
-(./ch_LDE/LDE.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+(./ch_LDE/LDE.aux) (./ch_C13_dephasing_lde/cdl.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 147B779087DFC9B7AE3AAEC66CC47DC7;9615.
+(rerunfilecheck)             Checksum: 52F02A306DF7D1125288E6BF4750A2B5;10565.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 30784 strings out of 493117
- 544677 string characters out of 6135433
- 702495 words of memory out of 5000000
- 33071 multiletter control sequences out of 15000+600000
+ 30831 strings out of 493117
+ 545455 string characters out of 6135433
+ 704136 words of memory out of 5000000
+ 33086 multiletter control sequences out of 15000+600000
  171189 words of font info for 306 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,12n,92p,3888b,772s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,12n,92p,3898b,772s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc
 }{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{
@@ -2026,16 +2070,24 @@ fonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmmi5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.
-pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
-b>
-Output written on thesis.pdf (64 pages, 23886293 bytes).
+cm/cmmi9.pfb
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2014/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi9.pfb): glyph `asciitilde' undefined
+
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2014/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi9.pfb): glyph `two' undefined
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on thesis.pdf (80 pages, 28371596 bytes).
 PDF statistics:
- 5440 PDF objects out of 6186 (max. 8388607)
- 3039 compressed objects within 31 object streams
- 256 named destinations out of 1000 (max. 500000)
- 40465 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 5820 PDF objects out of 6186 (max. 8388607)
+ 3188 compressed objects within 32 object streams
+ 278 named destinations out of 1000 (max. 500000)
+ 40502 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -41,8 +41,11 @@
 \usepackage{tabu}
 \usepackage{multirow}
 
+
+
 % formatting the figure captions
-\usepackage[format=plain,font={sf},labelfont={bf,up}]{caption}
+\definecolor{ocre}{RGB}{77,99,104}
+\usepackage[format=plain,font={sf,color=ocre},labelfont={bf,up}]{caption}
 \DeclareCaptionLabelSeparator{bar}{ |}
 \captionsetup{labelsep=bar}
 
@@ -81,7 +84,7 @@
 \include{ch_adptv_msmnt_cntrl/amc}
 \include{ch_adptv_msmnt_magnetometry/amm}
 \include{ch_LDE/LDE}
-%\include{ch_teleportation/teleportation}
+\include{ch_C13_dephasing_lde/cdl}
 %\include{ch_outlook/outlook}
 
 \backmatter
