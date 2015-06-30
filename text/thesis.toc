@@ -61,15 +61,9 @@
 \contentsline {section}{\numberline {6.4}Bibliography}{50}{section.6.4}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-9}
-<<<<<<< HEAD
-\contentsline {chapter}{\chapternumberline {7}Analysis of a quantum memory with optical interface in diamond }{55}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{56}{section.7.1}
-\contentsline {section}{\numberline {7.2}Control and Characterization of nuclear spins in diamond}{56}{section.7.2}
-\contentsline {section}{\numberline {7.3}Methods}{58}{section.7.3}
-=======
-\contentsline {chapter}{\chapternumberline {7}}{53}{chapter.7}
+\contentsline {chapter}{\chapternumberline {7}Analysis of a quantum memory with optical interface in diamond }{53}{chapter.7}
 \contentsline {section}{\numberline {7.1}Introduction}{54}{section.7.1}
-\contentsline {section}{\numberline {7.2}Methods}{54}{section.7.2}
-\contentsline {section}{\numberline {7.3}Bibliography}{55}{section.7.3}
->>>>>>> origin/master
+\contentsline {section}{\numberline {7.2}Control and Characterization of nuclear spins in diamond}{54}{section.7.2}
+\contentsline {section}{\numberline {7.3}Methods}{56}{section.7.3}
+\contentsline {section}{\numberline {7.4}Bibliography}{57}{section.7.4}
 \gdef \the@ipfilectr {}
