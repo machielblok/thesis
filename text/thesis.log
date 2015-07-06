@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.3)  1 JUL 2015 18:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.3)  6 JUL 2015 19:11
 entering extended mode
 **D:/machielblok/Desktop/PhD/Thesis/thesis/text/thesis.tex
 (D:/machielblok/Desktop/PhD/Thesis/thesis/text/thesis.tex
@@ -1408,7 +1408,7 @@ Overfull \hbox (1.6429pt too wide) in paragraph at lines 2--2
 []   [] 
  []
 
-<figures/logos_for_titlepage.pdf, id=205, 368.94739pt x 51.4442pt>
+<figures/logos_for_titlepage.pdf, id=201, 368.94739pt x 51.4442pt>
 File: figures/logos_for_titlepage.pdf Graphic file (type pdf)
 
 <use figures/logos_for_titlepage.pdf>
@@ -1500,17 +1500,17 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 
 ]
-<./ch_theory_and_methods/figures/figure_NV-structure-bernien.pdf, id=298, 368.9
+<./ch_theory_and_methods/figures/figure_NV-structure-bernien.pdf, id=301, 368.9
 4739pt x 156.15741pt>
 File: ./ch_theory_and_methods/figures/figure_NV-structure-bernien.pdf Graphic f
 ile (type pdf)
 
 <use ./ch_theory_and_methods/figures/figure_NV-structure-bernien.pdf>
 Package pdftex.def Info: ./ch_theory_and_methods/figures/figure_NV-structure-be
-rnien.pdf used on input line 23.
+rnien.pdf used on input line 24.
 (pdftex.def)             Requested size: 368.94647pt x 156.15701pt.
 LaTeX Font Info:    Try loading font information for T1+LinuxBiolinumT-TLF on i
-nput line 24.
+nput line 25.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\libertine\t1linuxbiolinumt-tlf.fd
 "
@@ -1518,7 +1518,7 @@ File: T1LinuxBiolinumT-TLF.fd 2012/11/26 (autoinst) Font definitions for T1/Lin
 uxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 24.
+(Font)              scaled to size 10.0pt on input line 25.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1526,51 +1526,107 @@ Package microtype Info: Loading generic settings for font family
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/bx/n' in size <10> not av
 ailable
 (Font)              Font shape `T1/LinuxBiolinumT-TLF/b/n' tried instead on inp
-ut line 24.
+ut line 25.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 24.
+(Font)              scaled to size 10.0pt on input line 25.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 25.
 
-<./ch_theory_and_methods/figures/figure_single_NVs-bernien.pdf, id=299, 368.947
+<./ch_theory_and_methods/figures/figure_single_NVs-bernien.pdf, id=306, 368.947
 39pt x 220.825pt>
 File: ./ch_theory_and_methods/figures/figure_single_NVs-bernien.pdf Graphic fil
 e (type pdf)
 
 <use ./ch_theory_and_methods/figures/figure_single_NVs-bernien.pdf>
 Package pdftex.def Info: ./ch_theory_and_methods/figures/figure_single_NVs-bern
-ien.pdf used on input line 29.
+ien.pdf used on input line 32.
 (pdftex.def)             Requested size: 368.94647pt x 220.82445pt.
 
-<./ch_theory_and_methods/figures/figure_SIL_finished-bernien.pdf, id=300, 368.9
+! Undefined control sequence.
+<argument> ...on of the stage position in \textiy 
+                                                  {x} and \textit {y}. Blue ...
+l.33 ...d with the decay from the singlet levels.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...on of the stage position in \textiy 
+                                                  {x} and \textit {y}. Blue ...
+l.33 ...d with the decay from the singlet levels.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...on of the stage position in \textiy 
+                                                  {x} and \textit {y}. Blue ...
+l.33 ...d with the decay from the singlet levels.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 33.
+! Undefined control sequence.
+<argument> ...on of the stage position in \textiy 
+                                                  {x} and \textit {y}. Blue ...
+l.33 ...d with the decay from the singlet levels.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 2134) has occurred while \output is active []
+
+ [4
+
+ <./ch_theory_and_methods/figures/figure_NV-structure-bernien.pdf>] [5 <./ch_th
+eory_and_methods/figures/figure_single_NVs-bernien.pdf>]
+<./ch_theory_and_methods/figures/figure_SIL_finished-bernien.pdf, id=519, 368.9
 4739pt x 83.5651pt>
 File: ./ch_theory_and_methods/figures/figure_SIL_finished-bernien.pdf Graphic f
 ile (type pdf)
 
 <use ./ch_theory_and_methods/figures/figure_SIL_finished-bernien.pdf>
 Package pdftex.def Info: ./ch_theory_and_methods/figures/figure_SIL_finished-be
-rnien.pdf used on input line 37.
+rnien.pdf used on input line 44.
 (pdftex.def)             Requested size: 368.94647pt x 83.56488pt.
 
-<./ch_theory_and_methods/figures/laserscans.pdf, id=301, 369.88188pt x 124.7992
+<./ch_theory_and_methods/figures/laserscans.pdf, id=529, 369.88188pt x 124.7992
 6pt>
 File: ./ch_theory_and_methods/figures/laserscans.pdf Graphic file (type pdf)
  <use ./ch_theory_and_methods/figures/laserscans.pdf>
 Package pdftex.def Info: ./ch_theory_and_methods/figures/laserscans.pdf used on
- input line 44.
+ input line 56.
 (pdftex.def)             Requested size: 369.88097pt x 124.79895pt.
 
-Overfull \hbox (0.88097pt too wide) in paragraph at lines 44--45
+Overfull \hbox (0.88097pt too wide) in paragraph at lines 56--57
  [][] 
  []
 
-<./ch_theory_and_methods/figures/CR.pdf, id=302, 369.88188pt x 124.79926pt>
+[6 <./ch_theory_and_methods/figures/figure_SIL_finished-bernien.pdf>]
+<./ch_theory_and_methods/figures/CR.pdf, id=576, 369.88188pt x 124.79926pt>
 File: ./ch_theory_and_methods/figures/CR.pdf Graphic file (type pdf)
 
 <use ./ch_theory_and_methods/figures/CR.pdf>
 Package pdftex.def Info: ./ch_theory_and_methods/figures/CR.pdf used on input l
-ine 50.
+ine 62.
 (pdftex.def)             Requested size: 369.88097pt x 124.79895pt.
 
-Overfull \hbox (0.88097pt too wide) in paragraph at lines 50--51
+Overfull \hbox (0.88097pt too wide) in paragraph at lines 62--63
  [][] 
  []
 
@@ -1580,132 +1636,103 @@ pdfTeX warning: pdflatex.EXE (file ./ch_theory_and_methods/figures/figure_spinp
 umping-bernien.pdf): PDF inclusion: found PDF version <1.6>, but at most versio
 n <1.5> allowed
 
-<./ch_theory_and_methods/figures/figure_spinpumping-bernien.pdf, id=303, 368.94
+<./ch_theory_and_methods/figures/figure_spinpumping-bernien.pdf, id=577, 368.94
 739pt x 113.6516pt>
 File: ./ch_theory_and_methods/figures/figure_spinpumping-bernien.pdf Graphic fi
 le (type pdf)
 
 <use ./ch_theory_and_methods/figures/figure_spinpumping-bernien.pdf>
 Package pdftex.def Info: ./ch_theory_and_methods/figures/figure_spinpumping-ber
-nien.pdf used on input line 56.
+nien.pdf used on input line 68.
 (pdftex.def)             Requested size: 368.94647pt x 113.6513pt.
 
-<./ch_theory_and_methods/figures/ssro.pdf, id=304, 369.88188pt x 124.79926pt>
+<./ch_theory_and_methods/figures/ssro.pdf, id=580, 369.88188pt x 124.79926pt>
 File: ./ch_theory_and_methods/figures/ssro.pdf Graphic file (type pdf)
 
 <use ./ch_theory_and_methods/figures/ssro.pdf>
 Package pdftex.def Info: ./ch_theory_and_methods/figures/ssro.pdf used on input
- line 62.
+ line 74.
 (pdftex.def)             Requested size: 369.88097pt x 124.79895pt.
 
-Overfull \hbox (0.88097pt too wide) in paragraph at lines 62--63
+Overfull \hbox (0.88097pt too wide) in paragraph at lines 74--75
  [][] 
  []
 
 
-<./ch_theory_and_methods/figures/electron_rabi.pdf, id=305, 369.88188pt x 124.7
+<./ch_theory_and_methods/figures/electron_rabi.pdf, id=581, 369.88188pt x 124.7
 9926pt>
 File: ./ch_theory_and_methods/figures/electron_rabi.pdf Graphic file (type pdf)
 
  <use ./ch_theory_and_methods/figures/electron_rabi.pdf>
 Package pdftex.def Info: ./ch_theory_and_methods/figures/electron_rabi.pdf used
- on input line 70.
+ on input line 82.
 (pdftex.def)             Requested size: 369.88097pt x 124.79895pt.
 
-Overfull \hbox (0.88097pt too wide) in paragraph at lines 70--71
+Overfull \hbox (0.88097pt too wide) in paragraph at lines 82--83
  [][] 
  []
 
 
-<./ch_theory_and_methods/figures/ramsey-LDE.pdf, id=306, 770.88pt x 590.205pt>
+<./ch_theory_and_methods/figures/ramsey-LDE.pdf, id=582, 770.88pt x 590.205pt>
 File: ./ch_theory_and_methods/figures/ramsey-LDE.pdf Graphic file (type pdf)
 
 <use ./ch_theory_and_methods/figures/ramsey-LDE.pdf>
 Package pdftex.def Info: ./ch_theory_and_methods/figures/ramsey-LDE.pdf used on
- input line 76.
+ input line 88.
 (pdftex.def)             Requested size: 770.87813pt x 590.20355pt.
 
-Overfull \hbox (401.87813pt too wide) in paragraph at lines 76--77
+Overfull \hbox (401.87813pt too wide) in paragraph at lines 88--89
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 98.20355pt on input line 78.
+LaTeX Warning: Float too large for page by 98.20355pt on input line 90.
 
 
-<./ch_theory_and_methods/figures/DD-LDE_bernien.pdf, id=307, 368.94638pt x 113.
+<./ch_theory_and_methods/figures/DD-LDE_bernien.pdf, id=583, 368.94638pt x 113.
 92563pt>
 File: ./ch_theory_and_methods/figures/DD-LDE_bernien.pdf Graphic file (type pdf
 )
  <use ./ch_theory_and_methods/figures/DD-LDE_bernien.pdf>
 Package pdftex.def Info: ./ch_theory_and_methods/figures/DD-LDE_bernien.pdf use
-d on input line 82.
+d on input line 94.
 (pdftex.def)             Requested size: 368.94548pt x 113.92534pt.
 
-<./ch_theory_and_methods/figures/nitrogen_rabi.pdf, id=308, 369.88188pt x 124.7
+<./ch_theory_and_methods/figures/nitrogen_rabi.pdf, id=584, 369.88188pt x 124.7
 9926pt>
 File: ./ch_theory_and_methods/figures/nitrogen_rabi.pdf Graphic file (type pdf)
 
  <use ./ch_theory_and_methods/figures/nitrogen_rabi.pdf>
 Package pdftex.def Info: ./ch_theory_and_methods/figures/nitrogen_rabi.pdf used
- on input line 89.
-(pdftex.def)             Requested size: 369.88097pt x 124.79895pt.
-
-Overfull \hbox (0.88097pt too wide) in paragraph at lines 89--90
- [][] 
- []
-
-File: ./ch_theory_and_methods/figures/ssro.pdf Graphic file (type pdf)
-<use ./ch_theory_and_methods/figures/ssro.pdf>
-Package pdftex.def Info: ./ch_theory_and_methods/figures/ssro.pdf used on input
- line 96.
-(pdftex.def)             Requested size: 369.88097pt x 124.79895pt.
-
-Overfull \hbox (0.88097pt too wide) in paragraph at lines 96--97
- [][] 
- []
-
-File: ./ch_theory_and_methods/figures/CR.pdf Graphic file (type pdf)
-<use ./ch_theory_and_methods/figures/CR.pdf>
-Package pdftex.def Info: ./ch_theory_and_methods/figures/CR.pdf used on input l
-ine 102.
+ on input line 102.
 (pdftex.def)             Requested size: 369.88097pt x 124.79895pt.
 
 Overfull \hbox (0.88097pt too wide) in paragraph at lines 102--103
  [][] 
  []
 
-[4
 
- <./ch_theory_and_methods/figures/figure_NV-structure-bernien.pdf>] [5 <./ch_th
-eory_and_methods/figures/figure_single_NVs-bernien.pdf> <./ch_theory_and_method
-s/figures/figure_SIL_finished-bernien.pdf
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-pdfTeX warning: pdflatex.EXE (file ./ch_theory_and_methods/figures/figure_SIL_f
-inished-bernien.pdf): PDF inclusion: multiple pdfs with page group included in 
-a single page
-> <./ch_theory_and_methods/figures/laserscans.pdf
+ [7 <./ch_theory_and_methods/figures/laserscans.pdf> <./ch_theory_and_methods/f
+igures/CR.pdf
 
-pdfTeX warning: pdflatex.EXE (file ./ch_theory_and_methods/figures/laserscans.p
-df): PDF inclusion: multiple pdfs with page group included in a single page
->] [6 <./ch_theory_and_methods/figures/CR.pdf> <./ch_theory_and_methods/figures
-/figure_spinpumping-bernien.pdf
-
-pdfTeX warning: pdflatex.EXE (file ./ch_theory_and_methods/figures/figure_spinp
-umping-bernien.pdf): PDF inclusion: multiple pdfs with page group included in a
- single page
-> <./ch_theory_and_methods/figures/ssro.pdf
+pdfTeX warning: pdflatex.EXE (file ./ch_theory_and_methods/figures/CR.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>] [8 <./ch_theory_and_methods/figures/figure_spinpumping-bernien.pdf> <./ch_th
+eory_and_methods/figures/ssro.pdf
 
 pdfTeX warning: pdflatex.EXE (file ./ch_theory_and_methods/figures/ssro.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
->] (ch_theory_and_methods/tam.bbl
+> <./ch_theory_and_methods/figures/electron_rabi.pdf>] [9 <./ch_theory_and_meth
+ods/figures/ramsey-LDE.pdf>] [10 <./ch_theory_and_methods/figures/DD-LDE_bernie
+n.pdf> <./ch_theory_and_methods/figures/nitrogen_rabi.pdf>]
+(ch_theory_and_methods/tam.bbl)) [11] (ch_adptv_msmnt_cntrl/amc.tex [12
 
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-)) [7 <./ch_theory_and_methods/figures/electron_rabi.pdf>] [8 <./ch_theory_and_
-methods/figures/ramsey-LDE.pdf>] [9 <./ch_theory_and_methods/figures/DD-LDE_ber
-nien.pdf> <./ch_theory_and_methods/figures/nitrogen_rabi.pdf>] [10]
-(ch_adptv_msmnt_cntrl/amc.tex
+
+
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 4.
@@ -1718,13 +1745,8 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 13.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 8.0pt on input line 13.
-[11
-
-
-
-
-]
-<./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf, id=833, 432.48576pt x 204.
+[13]
+<./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf, id=880, 432.48576pt x 204.
 85533pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf Graphic file (type pdf
 )
@@ -1747,11 +1769,11 @@ either increase the head height or redesign the header
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[12
+[14
 
-] [13 <./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf>]
-<./ch_adptv_msmnt_cntrl/figures/fig2_partial_measurement_backaction.pdf, id=102
-0, 236.1623pt x 301.62688pt>
+] [15 <./ch_adptv_msmnt_cntrl/figures/fig1_twocolumns.pdf>]
+<./ch_adptv_msmnt_cntrl/figures/fig2_partial_measurement_backaction.pdf, id=106
+1, 236.1623pt x 301.62688pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig2_partial_measurement_backaction.pdf Gr
 aphic file (type pdf)
 
@@ -1760,7 +1782,7 @@ Package pdftex.def Info: ./ch_adptv_msmnt_cntrl/figures/fig2_partial_measuremen
 t_backaction.pdf used on input line 44.
 (pdftex.def)             Requested size: 236.16171pt x 301.62613pt.
 
-<./ch_adptv_msmnt_cntrl/figures/fig3_weak_value.pdf, id=1026, 369.88188pt x 156
+<./ch_adptv_msmnt_cntrl/figures/fig3_weak_value.pdf, id=1067, 369.88188pt x 156
 .49466pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig3_weak_value.pdf Graphic file (type pdf
 )
@@ -1777,9 +1799,9 @@ Overfull \hbox (0.88097pt too wide) in paragraph at lines 53--54
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[14] [15 <./ch_adptv_msmnt_cntrl/figures/fig2_partial_measurement_backaction.pd
+[16] [17 <./ch_adptv_msmnt_cntrl/figures/fig2_partial_measurement_backaction.pd
 f>]
-<./ch_adptv_msmnt_cntrl/figures/fig4_qnd_electron.pdf, id=1118, 310.66063pt x 2
+<./ch_adptv_msmnt_cntrl/figures/fig4_qnd_electron.pdf, id=1160, 310.66063pt x 2
 18.31563pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig4_qnd_electron.pdf Graphic file (type p
 df)
@@ -1794,8 +1816,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[16 <./ch_adptv_msmnt_cntrl/figures/fig3_weak_value.pdf>]
-<./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.pdf, id=1157, 268.98494pt
+[18 <./ch_adptv_msmnt_cntrl/figures/fig3_weak_value.pdf>]
+<./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.pdf, id=1199, 268.98494pt
  x 109.52217pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.pdf Graphic file (ty
 pe pdf)
@@ -1804,12 +1826,12 @@ Package pdftex.def Info: ./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.p
 df used on input line 72.
 (pdftex.def)             Requested size: 268.98427pt x 109.5219pt.
 
-[17 <./ch_adptv_msmnt_cntrl/figures/fig4_qnd_electron.pdf>]
+[19 <./ch_adptv_msmnt_cntrl/figures/fig4_qnd_electron.pdf>]
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[18 <./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.pdf>]
-<./ch_adptv_msmnt_cntrl/figures/fig6_adaptive_protocol.pdf, id=1282, 301.125pt 
+[20 <./ch_adptv_msmnt_cntrl/figures/fig5_qnd_nuclear_spin.pdf>]
+<./ch_adptv_msmnt_cntrl/figures/fig6_adaptive_protocol.pdf, id=1323, 301.125pt 
 x 363.69276pt>
 File: ./ch_adptv_msmnt_cntrl/figures/fig6_adaptive_protocol.pdf Graphic file (t
 ype pdf)
@@ -1821,26 +1843,26 @@ pdf used on input line 97.
 
 LaTeX Warning: Float too large for page by 3.69186pt on input line 99.
 
-[19]
+[21]
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[20 <./ch_adptv_msmnt_cntrl/figures/fig6_adaptive_protocol.pdf>] [21]
+[22 <./ch_adptv_msmnt_cntrl/figures/fig6_adaptive_protocol.pdf>] [23]
 (ch_adptv_msmnt_cntrl/amc.bbl
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[22] [23]))
+[24] [25]))
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[24] (ch_adptv_msmnt_magnetometry/amm.tex [25
+[26] (ch_adptv_msmnt_magnetometry/amm.tex [27
 
 
 
 
 ]
-<./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf, id=1453, 257.44882pt x 
+<./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf, id=1494, 257.44882pt x 
 307.13243pt>
 File: ./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf Graphic file (type 
 pdf)
@@ -1852,10 +1874,10 @@ used on input line 39.
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[26
+[28
 
-] [27 <./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf>]
-<./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf, id=2069, 369.8818
+] [29 <./ch_adptv_msmnt_magnetometry/figures/Fig_1_setup.pdf>]
+<./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf, id=2111, 369.8818
 8pt x 156.49466pt>
 File: ./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf Graphic file 
 (type pdf)
@@ -1869,8 +1891,6 @@ Overfull \hbox (0.88097pt too wide) in paragraph at lines 47--48
  [][] 
  []
 
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 48.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
@@ -1880,8 +1900,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[28 <./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf>]
-<./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf, id=2284, 294.09875pt
+[30 <./ch_adptv_msmnt_magnetometry/figures/Fig_2_ssro_ramsey.pdf>]
+<./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf, id=2326, 294.09875pt
  x 508.90125pt>
 File: ./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf Graphic file (ty
 pe pdf)
@@ -1889,10 +1909,8 @@ pe pdf)
 Package pdftex.def Info: ./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.p
 df used on input line 58.
 (pdftex.def)             Requested size: 205.5446pt x 355.65944pt.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 59.
 
-<./ch_adptv_msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf, id=2286, 367
+<./ch_adptv_msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf, id=2328, 367
 .3725pt x 336.25626pt>
 File: ./ch_adptv_msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf Graphic 
 file (type pdf)
@@ -1904,13 +1922,13 @@ crange.pdf used on input line 66.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
+ [31]
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[30 <./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf>] [31 <./ch_adptv
+[32 <./ch_adptv_msmnt_magnetometry/figures/Fig_3_protocol.pdf>] [33 <./ch_adptv
 _msmnt_magnetometry/figures/Fig_4_Pfb_dynamicrange.pdf>]
-<./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf, id=2703, 364.34317pt 
+<./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf, id=2743, 364.34317pt 
 x 132.00114pt>
 File: ./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf Graphic file (typ
 e pdf)
@@ -1922,10 +1940,10 @@ f used on input line 83.
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[32]
+[34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33 <./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf>]
+ [35 <./ch_adptv_msmnt_magnetometry/figures/Fig_5_scaling.pdf>]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 100.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
@@ -1934,28 +1952,28 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[34] [35] (ch_adptv_msmnt_magnetometry/amm.bbl
-Overfull \vbox (9.77364pt too high) has occurred while \output is active []
-
-
-[36
-
-])) [37] (ch_LDE/LDE.tex
+[36] [37] (ch_adptv_msmnt_magnetometry/amm.bbl
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
 [38
 
+])) [39] (ch_LDE/LDE.tex
+Overfull \vbox (9.77364pt too high) has occurred while \output is active []
+
+
+[40
 
 
 
-] [39]
 
-LaTeX Warning: Reference `fig:LDE-fig1-DD' on page 40 undefined on input line 2
+] [41]
+
+LaTeX Warning: Reference `fig:LDE-fig1-DD' on page 42 undefined on input line 2
 8.
 
 
-<./ch_LDE/figures/fig1_entanglement_setup.pdf, id=2827, 369.50546pt x 225.5095p
+<./ch_LDE/figures/fig1_entanglement_setup.pdf, id=2868, 369.50546pt x 225.5095p
 t>
 File: ./ch_LDE/figures/fig1_entanglement_setup.pdf Graphic file (type pdf)
  <use ./ch_LDE/figures/fig1_entanglement_setup.pdf>
@@ -1968,7 +1986,7 @@ Overfull \hbox (0.50456pt too wide) in paragraph at lines 32--33
  []
 
 
-<./ch_LDE/figures/fig1_entanglement_protocol.pdf, id=2835, 369.50546pt x 158.59
+<./ch_LDE/figures/fig1_entanglement_protocol.pdf, id=2876, 369.50546pt x 158.59
 25pt>
 File: ./ch_LDE/figures/fig1_entanglement_protocol.pdf Graphic file (type pdf)
  <use ./ch_LDE/figures/fig1_entanglement_protocol.pdf>
@@ -1984,17 +2002,17 @@ Overfull \hbox (0.50456pt too wide) in paragraph at lines 42--43
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[40
+[42
 
-] [41 <./ch_LDE/figures/fig1_entanglement_setup.pdf>]
+] [43 <./ch_LDE/figures/fig1_entanglement_setup.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[42 <./ch_LDE/figures/fig1_entanglement_protocol.pdf>]
-<./ch_LDE/figures/fig2_ind_photons.pdf, id=4854, 368.94638pt x 277.41743pt>
+[44 <./ch_LDE/figures/fig1_entanglement_protocol.pdf>]
+<./ch_LDE/figures/fig2_ind_photons.pdf, id=4894, 368.94638pt x 277.41743pt>
 File: ./ch_LDE/figures/fig2_ind_photons.pdf Graphic file (type pdf)
 
 <use ./ch_LDE/figures/fig2_ind_photons.pdf>
@@ -2008,30 +2026,30 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 LaTeX Warning: Float too large for page by 5.69218pt on input line 61.
 
 
-LaTeX Warning: Reference `sec:CR-verification' on page 43 undefined on input li
+LaTeX Warning: Reference `sec:CR-verification' on page 45 undefined on input li
 ne 64.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
+ [45]
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[44 <./ch_LDE/figures/fig2_ind_photons.pdf>]
-<./ch_LDE/figures/H_Bernien_fig3.pdf, id=4944, 253.23006pt x 334.2909pt>
+[46 <./ch_LDE/figures/fig2_ind_photons.pdf>]
+<./ch_LDE/figures/H_Bernien_fig3.pdf, id=4984, 253.23006pt x 334.2909pt>
 File: ./ch_LDE/figures/H_Bernien_fig3.pdf Graphic file (type pdf)
 
 <use ./ch_LDE/figures/H_Bernien_fig3.pdf>
 Package pdftex.def Info: ./ch_LDE/figures/H_Bernien_fig3.pdf used on input line
  78.
 (pdftex.def)             Requested size: 253.22943pt x 334.29007pt.
- [45]
+ [47]
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[46 <./ch_LDE/figures/H_Bernien_fig3.pdf>] [47]
-<./ch_LDE/figures/fig4_teleportation_scheme.pdf, id=5000, 341.43358pt x 162.607
+[48 <./ch_LDE/figures/H_Bernien_fig3.pdf>] [49]
+<./ch_LDE/figures/fig4_teleportation_scheme.pdf, id=5040, 341.43358pt x 162.607
 5pt>
 File: ./ch_LDE/figures/fig4_teleportation_scheme.pdf Graphic file (type pdf)
  <use ./ch_LDE/figures/fig4_teleportation_scheme.pdf>
@@ -2042,8 +2060,8 @@ Package pdftex.def Info: ./ch_LDE/figures/fig4_teleportation_scheme.pdf used on
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[48]
-<./ch_LDE/figures/fig5_Prepare_teleporter.pdf, id=5014, 341.43358pt x 150.5625p
+[50]
+<./ch_LDE/figures/fig5_Prepare_teleporter.pdf, id=5054, 341.43358pt x 150.5625p
 t>
 File: ./ch_LDE/figures/fig5_Prepare_teleporter.pdf Graphic file (type pdf)
  <use ./ch_LDE/figures/fig5_Prepare_teleporter.pdf>
@@ -2051,7 +2069,7 @@ Package pdftex.def Info: ./ch_LDE/figures/fig5_Prepare_teleporter.pdf used on i
 nput line 129.
 (pdftex.def)             Requested size: 341.43274pt x 150.56212pt.
 
-<./ch_LDE/figures/fig6_circuit_diagram_bell_state_measurement.pdf, id=5021, 341
+<./ch_LDE/figures/fig6_circuit_diagram_bell_state_measurement.pdf, id=5061, 341
 .43358pt x 196.735pt>
 File: ./ch_LDE/figures/fig6_circuit_diagram_bell_state_measurement.pdf Graphic 
 file (type pdf)
@@ -2069,42 +2087,42 @@ eas-ure-ment (BSM) and real-time feed-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49 <./ch_LDE/figures/fig4_teleportation_scheme.pdf>]
+ [51 <./ch_LDE/figures/fig4_teleportation_scheme.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[50 <./ch_LDE/figures/fig5_Prepare_teleporter.pdf>]
-<./ch_LDE/figures/fig7_teleportation_data.pdf, id=5578, 341.43358pt x 208.36143
+[52 <./ch_LDE/figures/fig5_Prepare_teleporter.pdf>]
+<./ch_LDE/figures/fig7_teleportation_data.pdf, id=5618, 341.43358pt x 208.36143
 pt>
 File: ./ch_LDE/figures/fig7_teleportation_data.pdf Graphic file (type pdf)
  <use ./ch_LDE/figures/fig7_teleportation_data.pdf>
 Package pdftex.def Info: ./ch_LDE/figures/fig7_teleportation_data.pdf used on i
 nput line 163.
 (pdftex.def)             Requested size: 341.43274pt x 208.36092pt.
- [51 <./ch_LDE/figures/fig6_circuit_diagram_bell_state_measurement.pdf>]
+ [53 <./ch_LDE/figures/fig6_circuit_diagram_bell_state_measurement.pdf>]
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[52 <./ch_LDE/figures/fig7_teleportation_data.pdf>] [53] (ch_LDE/LDE.bbl
+[54 <./ch_LDE/figures/fig7_teleportation_data.pdf>] [55] (ch_LDE/LDE.bbl
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[54
+[56
 
-] [55]))
+] [57]))
 Overfull \vbox (9.77364pt too high) has occurred while \output is active []
 
 
-[56] (ch_C13_dephasing_LDE/cdl.tex [57
+[58] (ch_C13_dephasing_LDE/cdl.tex [59
 
 
 
 
 ]
-<./ch_C13_dephasing_LDE/figures/Fig1.pdf, id=5727, 599.91026pt x 407.18723pt>
+<./ch_C13_dephasing_LDE/figures/Fig1.pdf, id=5768, 599.91026pt x 407.18723pt>
 File: ./ch_C13_dephasing_LDE/figures/Fig1.pdf Graphic file (type pdf)
 
 <use ./ch_C13_dephasing_LDE/figures/Fig1.pdf>
@@ -2119,24 +2137,20 @@ Overfull \hbox (230.90878pt too wide) in paragraph at lines 35--36
 
 Underfull \vbox (badness 2096) has occurred while \output is active []
 
- [58
+ [60
 
 ]
-[59 <./ch_C13_dephasing_LDE/figures/Fig1.pdf>] [60]
-(ch_C13_dephasing_LDE/cdl.bbl [61])) [62]
+[61 <./ch_C13_dephasing_LDE/figures/Fig1.pdf>] [62]
+(ch_C13_dephasing_LDE/cdl.bbl [63])) [64]
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (14.22636pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 98.
 
-[63
+[65
 
 
-
-] [64
-
-] [65
 
 ] [66
 
@@ -2156,14 +2170,14 @@ either increase the head height or redesign the header
 \tf@toc=\write6
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
- (thesis.aux (frontmatter.aux) (ch_introduction/introduction.aux) (ch_theory_an
-d_methods/tam.aux)
+ (thesis.aux (frontmatter.aux)
+(ch_introduction/introduction.aux) (ch_theory_and_methods/tam.aux)
 (ch_adptv_msmnt_cntrl/amc.aux) (ch_adptv_msmnt_magnetometry/amm.aux)
 (ch_LDE/LDE.aux) (ch_C13_dephasing_LDE/cdl.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9E136685AF2A7A8B4D504CB0FD4B1C07;9007.
+(rerunfilecheck)             Checksum: 03272FC401F90E54C73FA8C283AF68CA;8891.
 
 
 LaTeX Warning: There were undefined references.
@@ -2174,11 +2188,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 30881 strings out of 493671
- 548851 string characters out of 3141452
- 703553 words of memory out of 3000000
- 32996 multiletter control sequences out of 15000+200000
- 171189 words of font info for 306 fonts, out of 3000000 for 9000
+ 30920 strings out of 493671
+ 549776 string characters out of 3141452
+ 707453 words of memory out of 3000000
+ 33023 multiletter control sequences out of 15000+200000
+ 172233 words of font info for 312 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  68i,12n,92p,3934b,692s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}
@@ -2211,9 +2225,9 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on thesis.pdf (80 pages, 30489701 bytes).
+Output written on thesis.pdf (80 pages, 30506875 bytes).
 PDF statistics:
- 6225 PDF objects out of 7423 (max. 8388607)
- 306 named destinations out of 1000 (max. 500000)
- 40477 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 6258 PDF objects out of 7423 (max. 8388607)
+ 309 named destinations out of 1000 (max. 500000)
+ 40469 words of extra memory for PDF output out of 42996 (max. 10000000)
 

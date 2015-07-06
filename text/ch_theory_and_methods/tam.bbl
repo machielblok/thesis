@@ -1,3 +1,38 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{Bernien__2014}
+H.~Bernien.
+\newblock \textit{Control, measurement and entanglement of remote quantum spin
+  registers in diamond}.
+\newblock {PhD} thesis, Delft, University of Technology (2014).
+
+\bibitem{Doherty_PhysicsReports_2013}
+M.~W. Doherty \textit{et~al.}
+\newblock The nitrogen-vacancy colour centre in diamond.
+\newblock \textit{Physics Reports} \textbf{528}, 1 (2013).
+
+\bibitem{Hadden__2010}
+J.~P. Hadden \textit{et~al.}
+\newblock Strongly enhanced photon collection from diamond defect centers under
+  microfabricated integrated solid immersion lenses.
+\newblock \textit{Appl. Phys. Lett.} \textbf{97}, 241901 (2010).
+
+\bibitem{Marseglia__2011}
+L.~Marseglia \textit{et~al.}
+\newblock Nanofabricated solid immersion lenses registered to single emitters
+  in diamond.
+\newblock \textit{Appl. Phys. Lett.} \textbf{98}, 133107 (2011).
+
+\bibitem{Jamali__2014}
+M.~Jamali \textit{et~al.}
+\newblock Microscopic diamond solid-immersion-lenses fabricated around single
+  defect centers by focused ion beam milling.
+\newblock \textit{Rev. Sci. Instrum.} \textbf{85}, 123703 (2014).
+
+\bibitem{Yeung__2012}
+T.~K. Yeung, D.~L. Sage, L.~M. Pham, P.~L. Stanwix and R.~L. Walsworth.
+\newblock Anti-reflection coating for nitrogen-vacancy optical measurements in
+  diamond.
+\newblock \textit{Appl. Phys. Lett.} \textbf{100}, 251111 (2012).
 
 \end{thebibliography}

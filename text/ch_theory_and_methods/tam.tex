@@ -10,34 +10,47 @@
 
 
 \vspace{-0.5cm} 
-NV center has emerged as excellent system to demonstrate quantum control of single spins. While many early demonstrations
-
+The Nitrogen-Vacancy (NV) center in diamond has recently emerged as an excellent system to demonstrate quantum control of single spins. In this chapter we discuss its physical properties and the experimental techniques that form the basis of the results presented in chapters \ref{ch:AMC}-\ref{ch:CDL}. We first introduce the basic electronic structure and the detection of single NV centers in a confocal microscope setup (section \ref{sec:NVcenter}). In section \ref{sec:devices} we discuss the devices that enable optical initialization and single shot readout of the electron spin at low temperature (section \ref{sec:opticalcontrol}). The coherent control and characterization of the coherence times of the electron spin are presented in section \ref{sec:groundstatecontrol}. Finally we show how the coupling of the central spin to nearby nuclear spins allows us to extend our quantum register to multiple qubits.
 \clearpage
 
-\section{Introduction}
 
 \section{The NV center in diamond}
+\label{sec:NVcenter}
+
+The nitrogen vacancy center is a defect in the diamond lattice consisting of a substitutional nitrogen atom and a vacancy at an adjacent lattice position (Fig. \ref{fig:tam-fig1-nvstruct}). In its neutral charge state ($NV^{0}$) it hosts 5 electrons: 2 donor electrons from the nitrogen and 3 from the dangling bonds of the adjacent carbon atoms. Its negative charge state $NV^{-}$ is formed by capturing an electron from the environment. The experiments in this thesis are all performed on $NV^{-}$, which can be prepared experimentally as discussed in section \ref{sec:opticalcontrol}.
+
 \begin{figure*}
 	\centering
 	\includegraphics{figure_NV-structure-bernien}
-	\caption{\label{fig:tam-fig1-nvstruct} \textbf{} (a) }
+	\caption{\label{fig:tam-fig1-nvstruct} \textbf{Crystal and electronic structure of the NV center} Figure from \cite{Bernien__2014}(a) The Nitrogen-Vacancy center defect is formed by a substitutional nitrogen atom (N) and a missing atom (vacancy, V) at an adjacant position in the diamond lattice (b) The electron occupation of the molecular orbitals in the electronic ground state, following Pauli's exclusion principle. The molecular orbitals are a linear combination of hybridised $sp^3$-orbitals. They are found by using the $C_{3v}$-symmetry of the NV center, taking into account the Coulomb interaction of the diamond nuclei and the lattice electrons with the electrons in the orbitals.}
 \end{figure*}
+
+In the electronic ground state, the 6 electrons occupy the molecular orbitals as shown in Fig. \ref{fig:tam-fig1-nvstruct}b. Excluding electron-electron interactions, the electronic ground-, ($^2a^2e$) and excited ($^1a^3e$) state are spin degenerate. This degeneracy is lifted by the Coulomb interaction between the electrons which leads to spin triplet (S = 1) ground-, and excited states ($^3A_2$ and $^3E$ respectively) as well as multiple intermediate spin singlet levels. The $^3A_2$ to $^3E$ transition energy of 1.945 eV lies in the optical regime (637 nm), well within the bandgap of diamond (5.5eV). Since all experimental techniques in this thesis aim to control the NV center in the spin triplet manifold, we will not discuss the singlet levels in further detail. For a more detailed discussion of the electronic structure of the NV-center we refer to a recent review of Doherty \textit{et al} \cite{Doherty_PhysicsReports_2013}.
 
 \begin{figure*}
 	\centering
 	\includegraphics{figure_single_NVs-bernien}
-	\caption{\label{fig:tam-fig2-nvstruct} \textbf{} (a) }
+	\caption{\label{fig:tam-fig2-nvstruct} \textbf{Detection of single NV centers} Figure from \cite{Bernien__2014}(a) Confocal microscope setup. The NV centers are excited by focussing a green (532 nm) excitation laser onto the sample using a microscope objective (MO). The sample is mounted on a piezo-stage allowing three-dimensional scans. The emission is spectrally filtered using a dicroic mirror (DM) and via a mechanically switchable mirror (FM) sent either to a spectrometer or to a beamsplitter (BS) followed by two APDs in a HBT-configuration. (b) Confocal scan of a bulk diamond sample. The intensity is plotted as a function of the stage position in \textiy{x} and \textit{y}. Blue is higher intensity. (c) Emission spectrum of a single NV center with the zero phonon line at 637 nm and the phonon sideband at higher wavelengths. (d) Second-order autocorrelation function, with $\tau$ the delay between detection events of different detectors. The solid-line is a fit using a three-level model, including dark counts. The slow decay is associated with the decay from the singlet levels.}
 \end{figure*}
 
+We identify NV centers in bulk diamond at room-temperature in a home-build confocal microscope setup (Fig. \ref{fig:tam-fig2-nvstruct}a). By scanning the sample and collecting the fluorescence signal with a single photon detector (APD) we find multiple diffraction limited spots, corresponding to NV centers (Fig. \ref{fig:tam-fig2-nvstruct}b). Here we off-resonantly excite the NV center to a phonon level above the $^3E$ level, which quickly decays non-radiatively to $^3E$. The reflections of the excitation are separated from the fluorescence with a dicroic mirror. The emission spectrum from $^3E$ is show in Fig. \ref{fig:tam-fig2-nvstruct}c. It shows a distinct peak around 637 nm, corresponding to the direct decay from $^3E$ to $^3A_2$ (zero phonon line, ZPL) and a broad sideband corresponding to the decay to a phonon level above $^3A_2$ (phonon side band, PSB). To verify that the signal originates from a single emitter, we measure the second-order autocorrelation function $g^2 (\tau)$ in a Hanbury-Brown-Twiss configuration (Fig. \ref{fig:tam-fig2-nvstruct}d). The low probability of simultaneous photon detection ($g^2 (\tau = 0) < 1/2$) confirms that the signal comes from a single emitter.
 
 \section{Single NV center device}
+
+To enhance the collection and excitation efficiency of the NV center, a solid-immersion lens (SIL) is milled in the diamond using a focused ion beam (FIB) \cite{Hadden__2010,Marseglia__2011,Bernien__2014,Jamali__2014} (Fig. \ref{fig:tam-fig3-device}a). For an NV center in the middle of the SIL, the hemisphere ensures that the emission from the NV center reaches the diamond-air surface at normal incidence. This significantly reduces the loss due to total-internal reflection. For precise placement of the SIL, a pre-characterized NV center is located with respect to 1x1 $\mu$m gold markers that are fabricated on the surface of the diamond using electron beam lithography. The hemisphere structure is then created using a gallium ion beam by milling concentric rings of varying diameter around the position of the NV center. After milling the SILs, the sample is cleaned for 30 minutes in a boiling mixture of equal parts of perchloric, sulforic and nitric acid. This step removes the redeposited material during milling. A small conductive layer of gallium atoms that is implanted during the FIB process is removed by reactive-ion etching in an oxygen-plasma. 
+\label{sec:devices}
 \begin{figure*}
 	\centering
 	\includegraphics{figure_SIL_finished-bernien}
-	\caption{\label{fig:tam-fig3-device} \textbf{} (a) }
+	\caption{\label{fig:tam-fig3-device} \textbf{} Figure from \cite{Bernien__2014} (a) }
 \end{figure*}
 
+A 200 nm thick gold microwave strip line for spin manipulation (Fig \ref{fig:tam-fig7-erabi} and \ref{fig:tam-fig10-nrabi}) and DC gates to DC stark shift the ZPL (see chapter \ref{ch:LDE}) are  fabricated near the SIL using electron beam lithography. Finally a single-layer anti-reflection coating\cite{Yeung__2012} (aluminium oxide) is fabricated on top of the sample to further increase the collection efficiency and reduce the reflection during resonant excitation (see chapter \ref{ch:LDE}).
+
 \section{Addressing the electron excited state with optics}
+\label{sec:opticalcontrol}
+
+The spin-orbit and spin-spin interactions introduce a fine splitting to the $^3E$ excited state which can be observed at cryogenic temperatures. The six resulting transitions have a distinct spin character (Fig. \ref{fig:tam-fig4-laserscan}a) and allow for spin-selective optical excitation of the electron. The transitions to the $m_s = 0$ states ($E_x$ and $E_y$) can occur upon absoprtion or emission of a linearly polarized photon, while the four $m_s = \pm 1$ transitions couple to circularly polarized light. The transition frequencies shift when an electric field or strain is applied. For an electric field along the N-V axis this results in an offset to the spectrum, not changing the energy level spacing. A perpendicular electric field affects the difference between the energy levels. As a result, the spectrum of the excited state slightly varies between NV centers due to local differences in strain and electric field. In Fig. \ref{fig:tam-fig4-laserscan}b we show measurements of the spectra of three different NV centres, normalized to have the same parallel strain.
 \begin{figure*}
 	\centering
 	\includegraphics{laserscans}
@@ -53,7 +66,7 @@ NV center has emerged as excellent system to demonstrate quantum control of sing
 \begin{figure*}
 	\centering
 	\includegraphics{figure_spinpumping-bernien}
-	\caption{\label{fig:tam-fig5-SP} \textbf{} (a) }
+	\caption{\label{fig:tam-fig5-SP} Figure from \cite{Bernien__2014} \textbf{} (a) }
 \end{figure*}
 
 \begin{figure*}
@@ -63,7 +76,7 @@ NV center has emerged as excellent system to demonstrate quantum control of sing
 \end{figure*}
 
 \section{Ground state spin control and coherence}
-
+\label{sec:groundstatecontrol}
 \begin{figure*}
 	\centering
 	\includegraphics{electron_rabi}
@@ -83,10 +96,11 @@ NV center has emerged as excellent system to demonstrate quantum control of sing
 \end{figure*}
 
 \section{Coupling to nuclear spins}
+\label{sec:nuclearspins}
 \begin{figure*}
 	\centering
 	\includegraphics{nitrogen_rabi}
-	\caption{\label{fig:tam-fig1-nrabi} \textbf{} (a) }
+	\caption{\label{fig:tam-fig10-nrabi} \textbf{} (a) }
 \end{figure*}
 \section{Quantum measurements}
 
@@ -97,6 +111,6 @@ NV center has emerged as excellent system to demonstrate quantum control of sing
 
 \newpage
 \bibliographystyle{../thesis}
-\bibliography{cdl}
+\bibliography{tam}
 
 
