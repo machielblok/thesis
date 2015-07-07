@@ -360,7 +360,7 @@ voorzitter\\
 \includegraphics{logos_for_titlepage}
 \\[0.5\baselineskip]
 
-Copyright $\copyright$ 2014 by \@firstname~\@lastname~\\[0.5\baselineskip]
+Copyright $\copyright$ 2015 by \@firstname~\@lastname~\\[0.5\baselineskip]
 
 All rights reserved. No part of this book may be reproduced, stored
 in a retrieval system, or transmitted, in any form or by any means,

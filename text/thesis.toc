@@ -9,11 +9,11 @@
 \contentsline {chapter}{\chapternumberline {2}Experimental control and theory of the NV center}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}The NV center in diamond}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}Single NV center device}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}Addressing the electron excited state with optics}{7}{section.2.3}
-\contentsline {section}{\numberline {2.4}Ground state spin control and coherence}{10}{section.2.4}
-\contentsline {section}{\numberline {2.5}Coupling to nuclear spins}{10}{section.2.5}
-\contentsline {section}{\numberline {2.6}Quantum measurements}{10}{section.2.6}
-\contentsline {section}{\numberline {2.7}Methods}{10}{section.2.7}
+\contentsline {section}{\numberline {2.3}Addressing the electron excited state}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}Ground state spin control and coherence}{9}{section.2.4}
+\contentsline {section}{\numberline {2.5}Coupling to nuclear spins}{9}{section.2.5}
+\contentsline {section}{\numberline {2.6}Quantum measurements}{9}{section.2.6}
+\contentsline {section}{\numberline {2.7}Methods}{9}{section.2.7}
 \contentsline {section}{\numberline {2.8}Bibliography}{11}{section.2.8}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
