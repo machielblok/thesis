@@ -9,7 +9,7 @@
 \end{center}
 
 
-{\renewcommand{\thefootnote}{}\footnote{This chapter has been submitted to
+{\renewcommand{\thefootnote}{}\footnote{This chapter has been accepted in
     {\em Faraday Discussions} (2015).}}
 
 
@@ -38,12 +38,13 @@ In this manuscript we explore the storage of quantum states in 13C spins during 
 
 We start by discussing the experimental methods to control the NV center and nearby $^{13}C$  nuclear spins. We then introduce a Ramsey-spectroscopy method to directly determine the frequency df and characterize four candidate $^{13}C$  spins near a single NV-center. These experimental results highlight the universal presence of controllable nuclear spin memories and provide a realistic set of input parameters for the theoretical calculations.
 
-2.1 Setup and electron spin control
 At the heart of the experiment is a single Nitrogen-Vacancy (NV) center in high purity (Type IIa) single-crystal diamond grown by chemical-vapor-deposition. The diamond is held at a temperature of \textit{T} = 4.2 K in a Helium bath cryostat. The diamond has a natural abundance (1.1\%) of 13C spins (\textit{I} = 1/2) in an otherwise $^{12}C$ spin-free lattice. The NV electronic spin is polarized and measured optically by spin-selective resonant excitation12,23,24. To obtain high single-shot readout fidelities, a solid-immersion lens was fabricated on top of the NV center and a single-layer aluminum-oxide anti-reflective coating was deposited13 (Fig 1). The electronic spin is controlled by microwaves applied through an on-chip line (Rabi frequency: 3.3 MHz).     
 
-2.2 Carbon spin control by dynamical decoupling
 We detect and control multiple 13C nuclear spins in the spin bath surrounding the NV center using recently developed methods that coherently exploit the electron-nuclear interaction by periodically switching the electron state at well-defined times20,25-27. We apply sequences of the form $(\tau - \pi - 2\tau - \pi - \tau)^{M/2}$, where $\pi$ denotes a microwave pulse that rotates the electron by 180 degrees, $2\tau$ is the interpulse delay and \textit{M} the total number of $\pi$-pulses. For $\tau$ precisely resonant with the electron-nuclear dynamics, this sequence imprints a phase on the electron spin conditional on the nuclear spin state. 
 
+Because the hyperfine interaction is determined by the specific position of each nuclear spin relative to the NV center, the resonance condition for $\tau$ is different for each nuclear spin. We can thus characterize the nuclear spin environment20 by preparing the electron in a superposition state and measuring the phase that is acquired when sweeping $\tau$. Here we select four individual $^{13}C$ spins to study in more detail, and design controlled gates following Taminiau et al.27.
+
+The nuclear spin dynamics are characterized by the nuclear spin precession frequencies $\omega_0$ and $\omega_1$  corresponding to the electron spin being in $m_s = 0$ and $m_s = 1$, respectively (see also Methods). To directly determine the frequencies $\omega_0$,  $\omega_1$ and $df = ( \omega_1 − \omega_0 )/2 \pi$  for each of the four nuclear spins we perform the experimental sequence22 shown in Fig. 2a. The electron is prepared in state $\rho_{0,e} = \ket{0}\bra{0}$, whereas the nuclear spin state is un-polarized (mixed state $\rho_{m.C} = (\ket{0}\bra{0} + \ket{1}\bra{1})/2$ ). The first set of gates correlates the electron state with the X-projection of the nuclear spin state, so that the state is $\rho_{0,e} \rho_{x,C} + \rho_{1,e} \rho_{-x,C}$ , with $\rho_{\pmX,C} = \ket{\pm X}\bra{\pm X}$ and  $\ket{\pm X} = (\ket{0}_C \pm \ket{1}_C)/\sqrt{2}$. The controlled nuclear spin rotations are realized by the pulse sequences described above, with $\tau$ resonant for that specific spin. Second, the nuclear spin evolves freely, either with $\omega_0$ or with $\omega_1$, depending on the electron state. Finally the phase accumulation of the nuclear spin is measured by correlating it to the electron spin before reading out the electron spin. 
 
 \section{Methods}
 
