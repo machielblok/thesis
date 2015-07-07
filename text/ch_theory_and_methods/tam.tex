@@ -33,7 +33,7 @@ In the electronic ground state, the 6 electrons occupy the molecular orbitals as
 	\caption{\label{fig:tam-fig2-nvstruct} \textbf{Detection of single NV centers} Figure from \cite{Bernien__2014}(a) Confocal microscope setup. The NV centers are excited by focussing a green (532 nm) excitation laser onto the sample using a microscope objective (MO). The sample is mounted on a piezo-stage allowing three-dimensional scans. The emission is spectrally filtered using a dicroic mirror (DM) and via a mechanically switchable mirror (FM) sent either to a spectrometer or to a beamsplitter (BS) followed by two APDs in a HBT-configuration. (b) Confocal scan of a bulk diamond sample. The intensity is plotted as a function of the stage position in \textiy{x} and \textit{y}. Blue is higher intensity. (c) Emission spectrum of a single NV center with the zero phonon line at 637 nm and the phonon sideband at higher wavelengths. (d) Second-order autocorrelation function, with $\tau$ the delay between detection events of different detectors. The solid-line is a fit using a three-level model, including dark counts. The slow decay is associated with the decay from the singlet levels.}
 \end{figure*}
 
-We identify NV centers in bulk diamond at room-temperature in a home-build confocal microscope setup (Fig. \ref{fig:tam-fig2-nvstruct}a). By scanning the sample and collecting the fluorescence signal with a single photon detector (APD) we find multiple diffraction limited spots, corresponding to NV centers (Fig. \ref{fig:tam-fig2-nvstruct}b). Here we off-resonantly excite the NV center to a phonon level above the $^3E$ level, which quickly decays non-radiatively to $^3E$. The reflections of the excitation are separated from the fluorescence with a dicroic mirror. The emission spectrum from $^3E$ is show in Fig. \ref{fig:tam-fig2-nvstruct}c. It shows a distinct peak around 637 nm, corresponding to the direct decay from $^3E$ to $^3A_2$ (zero phonon line, ZPL) and a broad sideband corresponding to the decay to a phonon level above $^3A_2$ (phonon side band, PSB). To verify that the signal originates from a single emitter, we measure the second-order autocorrelation function $g^2 (\tau)$ in a Hanbury-Brown-Twiss configuration (Fig. \ref{fig:tam-fig2-nvstruct}d). The low probability of simultaneous photon detection ($g^2 (\tau = 0) < 1/2$) confirms that the signal comes from a single emitter.
+We identify NV centers in bulk diamond at room-temperature in a home-build confocal microscope setup (Fig. \ref{fig:tam-fig2-nvstruct}a). By scanning the sample and collecting the fluorescence signal with a single photodiode (APD) we find multiple diffraction limited spots, corresponding to NV centers (Fig. \ref{fig:tam-fig2-nvstruct}b). Here we off-resonantly excite the NV center to a phonon level above the $^3E$ level, which quickly decays non-radiatively to $^3E$. The reflections of the excitation are separated from the fluorescence with a dicroic mirror. The emission spectrum from $^3E$ is show in Fig. \ref{fig:tam-fig2-nvstruct}c. It shows a distinct peak around 637 nm, corresponding to the direct decay from $^3E$ to $^3A_2$ (zero phonon line, ZPL) and a broad sideband corresponding to the decay to a phonon level above $^3A_2$ (phonon side band, PSB). To verify that the signal originates from a single emitter, we measure the second-order autocorrelation function $g^2 (\tau)$ in a Hanbury-Brown-Twiss configuration (Fig. \ref{fig:tam-fig2-nvstruct}d). The low probability of simultaneous photon detection ($g^2 (\tau = 0) < 1/2$) confirms that the signal comes from a single emitter.
 
 \section{Single NV center device}
 
@@ -50,19 +50,22 @@ A 200 nm thick gold microwave strip line for spin manipulation (Fig \ref{fig:tam
 \section{Addressing the electron excited state}
 \label{sec:opticalcontrol}
 
-The spin-orbit and spin-spin interactions introduce a fine splitting to the $^3E$ excited state which can be observed at cryogenic temperatures. The six resulting transitions have a distinct spin character (Fig. \ref{fig:tam-fig4-laserscan}a) and allow for spin-selective optical excitation of the electron. The transitions to the $m_s = 0$ states ($E_x$ and $E_y$) can occur upon absoprtion or emission of a linearly polarized photon, while the four $m_s = \pm 1$ transitions couple to circularly polarized light. The transition frequencies shift when an electric field or strain is applied. For an electric field along the N-V axis this results in an offset to the spectrum, not changing the energy level spacing. A perpendicular electric field affects the difference between the energy levels. As a result, the spectrum of the excited state slightly varies between NV centers due to local differences in strain and electric field. In Fig. \ref{fig:tam-fig4-laserscan}b we show measurements of the spectra of three different NV centres, normalized to have the same parallel strain. The lateral strain is determined from the difference between the transition energies of $E_x$ and $E_y$. The spectra show excellent agreement with the theoretical prediction (solid lines). The strain typically differs a few tens of GHz between NV centers measured in this thesis.
+The spin-orbit and spin-spin interactions introduce a fine splitting to the $^3E$ excited state which can be observed at cryogenic temperatures. The six resulting transitions have a distinct spin character (Fig. \ref{fig:tam-fig4-laserscan}a) and allow for spin-selective optical excitation of the electron. The transitions to the $m_s = 0$ states ($E_x$ and $E_y$) can occur upon absoprtion or emission of a linearly polarized photon, while the four $m_s = \pm 1$ transitions couple to circularly polarized light. The transition frequencies shift when an electric field or strain is applied. For an electric field along the N-V axis this results in an offset to the spectrum, not changing the energy level spacing. A perpendicular electric field affects the difference between the energy levels. As a result, the spectrum of the excited state slightly varies between NV centers due to local differences in strain and electric field. In Fig. \ref{fig:tam-fig4-laserscan}b we show measurements of the spectra of three different NV centres, normalized to have the same parallel strain. The lateral strain is determined from the difference between the transition energies of $E_x$ and $E_y$. The spectra show excellent agreement with the theoretical prediction (dashed lines). The strain typically differs a few tens of GHz between NV centers measured in this thesis.
 
 \begin{figure*}
 	\centering
 	\includegraphics{laserscans}
-	\caption{\label{fig:tam-fig4-laserscan} \textbf{Spectrum of the excited state} (a) Energy level diagram of the fine structure of the excited states. There are two levels with spin $m_s = 0$ ($E_x$,$E_y$) and four $m_s = \pm 1$ levels ($A_1$,$A_2$,$E_1$ and $E_2$). At finite strain the degeneracies between $E_x$,$E_y$ and $E_1$,$E_2$ are lifted. (b) The energy spectrum for three different NV centers is measured by varying the frequency of the excitation laser and detecting the fluorescence in the PSB. The observed transitions $E_1$ (blue), $E_2$ (red) For each scan the transition energies $\Delta E_x$ and $\Delta E_y$ are determined to calculate the lateral ($\frac{\Delta E_y-\Delta E_x}{2}$) and parrallel ($\frac{\Delta E_y+\Delta E_x}{2}$) strain. The parrallel strain is then substracted for each scan. Laser frequency is with respect to 470.4 THz.}
+	\caption{\label{fig:tam-fig4-laserscan} \textbf{Spectrum of the excited state} (a) Energy level diagram of the fine structure of the excited states. There are two levels with spin $m_s = 0$ ($E_x$,$E_y$) and four $m_s = \pm 1$ levels ($A_1$,$A_2$,$E_1$ and $E_2$). At finite strain the degeneracies between $E_x$,$E_y$ and $E_1$,$E_2$ are lifted. (b) The energy spectrum for three different NV centers is measured by varying the frequency of the excitation laser and detecting the fluorescence in the PSB. The observed transitions $E_1$ (blue), $E_2$ (red), $E_y$ (green), $E_x$ (purple), $A_1$ (orange) and $A_2$ (brown) are color coded and agree well with the theoretical prediction (colored dashed lines). For each scan the transition energies $\Delta E_x$ and $\Delta E_y$ are determined to calculate the lateral ($\frac{\Delta E_x-\Delta E_y}{2}$) and parallel ($\frac{\Delta E_y+\Delta E_x}{2}$) strain. The parallel strain is then substracted for each scan. Laser frequency is with respect to 470.4 THz.}
 \end{figure*}
+
+To address the spin-selective optical transitions in an experiment, we first verify that the NV center is in the $NV^-$ state and that the lasers are resonant with the desired transitions before each experimental run. During this charge-resonance (CR) check, we simultaneously apply two red lasers and monitor the fluorescence (Fig. \ref{fig:tam-fig4-cr}a). The lasers can only excite the electron spin for the NV center in $NV^-$ and the number of detected photons is highest when one red lasers is resonant with a $m_s = 0$ transition and the other with a $ms=\pm1$ transition. We therefore compare the signal to a threshold and only continue with the experimental sequence when the threshold is passed (Fig. \ref{fig:tam-fig4-cr}b). When the number of detected photons is below the threshold we apply a green (523 nm) laser, perform another CR check and repeat until success. The green laser can repump the center to $NV^-$ by exciting trapped charges in the environment, but also induces spectral diffusion of the optical transitions since the local electric field is affected by the charge configuration in the environment. As an alternative to the green laser, a yellow laser ($\lambda \approx 575$ nm) can be used to resonantly excite the $NV^0$ zero phonon line \cite{Siyushev_Phys.Rev.Lett._2013}. 
 
 \begin{figure*}
 	\centering
 	\includegraphics{CR}
-	\caption{\label{fig:tam-fig4-cr} \textbf{} (a) }
+	\caption{\label{fig:tam-fig4-cr} \textbf{Verifying the charge state and laser resonances} (a) Schematic of the experimental sequence to verify the charge state of the NV center and the laser resonances. The process is controlled by an ADwin microprocessor which turns on the two red lasers and compares the number of photons detected by the avalanche photodiode (APD) to a predetermined threshold (verify stage). When the number of detected photons is below the threshold a green laser is applied to prepare the $NV^-$ state (repump stage), otherwise the experimental sequence is initiated. (b) Photon number distribution during the verification stage, conditioned on the previous CR check being successful. }
 \end{figure*}
+
 
 \begin{figure*}
 	\centering
@@ -84,29 +87,29 @@ The spin-orbit and spin-spin interactions introduce a fine splitting to the $^3E
 	\caption{\label{fig:tam-fig7-erabi} \textbf{} (a) }
 \end{figure*}
 
-\begin{figure*}
-	\centering
-	\includegraphics{ramsey-LDE}
-	\caption{\label{fig:tam-fig8-eramsey} \textbf{} (a) }
-\end{figure*}
+%\begin{figure*}
+%	\centering
+%	\includegraphics{ramsey-LDE}
+%	\caption{\label{fig:tam-fig8-eramsey} \textbf{} (a) }
+%\end{figure*}
 
-\begin{figure*}
-	\centering
-	\includegraphics{DD-LDE_bernien}
-	\caption{\label{fig:tam-fig9-DD} \textbf{} (a) }
-\end{figure*}
+%\begin{figure*}
+%	\centering
+%	\includegraphics{DD-LDE_bernien}
+%	\caption{\label{fig:tam-fig9-DD} \textbf{} (a) }
+%\end{figure*}
 
 \section{Coupling to nuclear spins}
-\label{sec:nuclearspins}
-\begin{figure*}
-	\centering
-	\includegraphics{nitrogen_rabi}
-	\caption{\label{fig:tam-fig10-nrabi} \textbf{} (a) }
-\end{figure*}
-\section{Quantum measurements}
+%\label{sec:nuclearspins}
+%\begin{figure*}
+%	\centering
+%	\includegraphics{nitrogen_rabi}
+%	\caption{\label{fig:tam-fig10-nrabi} \textbf{} (a) }
+%\end{figure*}
+%\section{Quantum measurements}
 
 
-\section{Methods}
+%\section{Methods}
 
 
 
