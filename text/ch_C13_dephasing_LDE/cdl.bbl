@@ -118,6 +118,12 @@ P.~C. Maurer \textit{et~al.}
 \newblock Room-temperature quantum bit memory exceeding one second.
 \newblock \textit{Science} \textbf{336}, 1283 (2012).
 
+\bibitem{Laraoui_NatCommun_2013}
+A.~Laraoui \textit{et~al.}
+\newblock High-resolution correlation spectroscopy of 13c spins near a
+  nitrogen-vacancy centre in diamond.
+\newblock \textit{Nat Commun} \textbf{4}, 1651 (2013).
+
 \bibitem{Tamarat_NewJ.Phys._2008}
 P.~Tamarat \textit{et~al.}
 \newblock Spin-flip and spin-conserving optical transitions of the
@@ -151,5 +157,11 @@ S.~D. Barrett and P.~Kok.
 \newblock Efficient high-fidelity quantum computation using matter qubits and
   linear optics.
 \newblock \textit{Physical Review A} \textbf{71}, 060310 (2005).
+
+\bibitem{Akkouchi_CCMS_2008}
+M.~Akkouchi.
+\newblock On the convolution of exponential distributions.
+\newblock \textit{Journal of the Chungcheong mathematical society} \textbf{21},
+  4 (2008).
 
 \end{thebibliography}

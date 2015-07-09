@@ -10,11 +10,9 @@
 \contentsline {section}{\numberline {2.1}The NV center in diamond}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}Single NV center device}{6}{section.2.2}
 \contentsline {section}{\numberline {2.3}Addressing the electron excited state}{7}{section.2.3}
-\contentsline {section}{\numberline {2.4}Ground state spin control and coherence}{9}{section.2.4}
-\contentsline {section}{\numberline {2.5}Coupling to nuclear spins}{9}{section.2.5}
-\contentsline {section}{\numberline {2.6}Quantum measurements}{9}{section.2.6}
-\contentsline {section}{\numberline {2.7}Methods}{9}{section.2.7}
-\contentsline {section}{\numberline {2.8}Bibliography}{11}{section.2.8}
+\contentsline {section}{\numberline {2.4}Ground state spin control and coherence}{8}{section.2.4}
+\contentsline {section}{\numberline {2.5}Coupling to nuclear spins}{10}{section.2.5}
+\contentsline {section}{\numberline {2.6}Bibliography}{11}{section.2.6}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \contentsline {chapter}{\chapternumberline {3}Manipulating a qubit through the backaction of sequential partial measurements \\ and real-time feedback }{13}{chapter.3}
@@ -44,12 +42,14 @@
 \contentsline {subsection}{\numberline {5.2.1}Implementation}{45}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Demonstration of remote entanglement}{47}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}Teleportation}{49}{section.5.3}
-\contentsline {section}{\numberline {5.4}Bibliography}{56}{section.5.4}
+\contentsline {section}{\numberline {5.4}Methods}{55}{section.5.4}
+\contentsline {section}{\numberline {5.5}Bibliography}{56}{section.5.5}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
 \contentsline {chapter}{\chapternumberline {6}Analysis of a quantum memory with optical interface in diamond }{59}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{60}{section.6.1}
 \contentsline {section}{\numberline {6.2}Control and Characterization of nuclear spins in diamond}{60}{section.6.2}
-\contentsline {section}{\numberline {6.3}Methods}{62}{section.6.3}
-\contentsline {section}{\numberline {6.4}Bibliography}{63}{section.6.4}
+\contentsline {section}{\numberline {6.3}Modeling the dephasing of a carbon spin during entanglement generation}{64}{section.6.3}
+\contentsline {section}{\numberline {6.4}Methods}{67}{section.6.4}
+\contentsline {section}{\numberline {6.5}Bibliography}{69}{section.6.5}
 \gdef \the@ipfilectr {}
