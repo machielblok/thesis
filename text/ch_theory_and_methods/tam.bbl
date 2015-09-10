@@ -35,4 +35,16 @@ T.~K. Yeung, D.~L. Sage, L.~M. Pham, P.~L. Stanwix and R.~L. Walsworth.
   diamond.
 \newblock \textit{Appl. Phys. Lett.} \textbf{100}, 251111 (2012).
 
+\bibitem{Siyushev_Phys.Rev.Lett._2013}
+P.~Siyushev \textit{et~al.}
+\newblock Optically controlled switching of the charge state of a single
+  nitrogen-vacancy center in diamond at cryogenic temperatures.
+\newblock \textit{Phys. Rev. Lett.} \textbf{110}, 167402 (2013).
+
+\bibitem{Robledo_Nature_2011}
+L.~Robledo \textit{et~al.}
+\newblock High-fidelity projective read-out of a solid-state spin quantum
+  register.
+\newblock \textit{Nature} \textbf{477}, 574 (2011).
+
 \end{thebibliography}

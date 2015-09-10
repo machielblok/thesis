@@ -163,6 +163,6 @@ def plot_CR_hist(do_save=False):
         fig.savefig(r'D:\machielblok\Desktop\PhD\Thesis\thesis\text\ch_theory_and_methods\figures\separate_figs\CR_hist.pdf', bbox_inches='tight',transparent=True)
         
 
-#plot_ssro_mean_fid(do_save=True)
+plot_ssro_mean_fid(do_save=False)
 #plot_ssro_hist(do_save=True)
-plot_CR_hist(do_save=True)
+#plot_CR_hist(do_save=True)

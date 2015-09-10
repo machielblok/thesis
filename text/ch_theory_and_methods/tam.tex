@@ -66,22 +66,32 @@ To address the spin-selective optical transitions in an experiment, we first ver
 	\caption{\label{fig:tam-fig4-cr} \textbf{Verifying the charge state and laser resonances} (a) Schematic of the experimental sequence to verify the charge state of the NV center and the laser resonances. The process is controlled by an ADwin microprocessor which turns on the two red lasers and compares the number of photons detected by the avalanche photodiode (APD) to a predetermined threshold (verify stage). When the number of detected photons is below the threshold a green laser is applied to prepare the $NV^-$ state (repump stage), otherwise the experimental sequence is initiated. (b) Photon number distribution during the verification stage, conditioned on the previous CR check being successful. }
 \end{figure*}
 
-The electron spin is initialized by selectively exciting a single transition: $E_x$ or $E_y$ to prepare $m_s = \pm 1$ or $A_1$/$A_2$/$E'$ to prepare $m_s=0$. The slight spin mixing of the excited states provides an optical pumping mechanism to prepare the opposite spin state (\ref{fig:tam-fig5-SP})a). The fluorescence observed during initialization (\ref{fig:tam-fig5-SP})b) exponentially decreases with the probability that the spin has flipped to a dark state that can not be excited by the pumping laser. The signal is fitted to an exponential decay to extract a lower bound for the preparation fidelity
+The electron spin is initialized by selectively exciting a single transition\cite{Robledo_Nature_2011}: $E_x$ or $E_y$ to prepare $m_s = \pm 1$ or $A_1$/$A_2$/$E'$ to prepare $m_s=0$. The slight spin mixing of the excited states provides an optical pumping mechanism to prepare the opposite spin state (\ref{fig:tam-fig5-SP})a). The fluorescence observed during initialization (\ref{fig:tam-fig5-SP})b) exponentially decreases with the probability that the spin has flipped to a dark state that can not be excited by the pumping laser. The signal is fitted to an exponential decay to extract a lower bound for the preparation fidelity. To ensure that a pure state is prepared (as opposed to a mixture of $m_s = \pm 1$) the electron spin is typically initialized in $m_s = 0$, for this state we find a lower bound of $(99.7 \pm 0.1) \%$.
+
 \begin{figure*}
 	\centering
 	\includegraphics{figure_spinpumping-bernien}
-	\caption{\label{fig:tam-fig5-SP} Figure from \cite{Bernien__2014} \textbf{Initilization by spin pumping} (a) }
+	\caption{\label{fig:tam-fig5-SP} Figure from \cite{Bernien__2014} \textbf{Initialization by spin pumping} (a) Energy levels used to initialize (and readout) the electron spin. We excite transitions with a well-defined spin character of either $m_s = 0$ (bright arrows) or $m_s= \pm 1$ (dark arrows), resulting in spin-conserving optical cycling (indicated by bended solid arrows). Dashed arrows indicate the spin non-conserving decay paths. (b) Observed fluorescence when exciting $E_x$ ($A_1$) with the spin initially prepared in $m_s = \pm 1$ ($m_s = 0$). The signal is fitted to a single exponential with an offset to account for dark counts. From the fit we find a lower limit for the initialization fidelities: $(99.7 \pm 0.1) \%$ for $m_s = 0$ and $(99.2 \pm 0.1) \%$ for $m_s=\pm 1$.}
 \end{figure*}
+
+The observed fluorescence upon selective excitation provides a means to detect the electron spin state in a single shot\cite{Robledo_Nature_2011}. To characterize the readout we plot the distribution of photons detected in the PSB collected during a 10 $\mu s$ laser pulse exciting $E_x$ (fig \ref{fig:tam-fig6-ssro}a). The distributions are clearly separated depending on the initial spin state, allowing us to assign $m_s = 0$ to the cases where one or more photons are detected and $m_s = \pm 1$ otherwise. The combined readout and initialization fidelity for $m_s = \pm 1$ ($F_1 = .989 \pm .001$) is reduced by detector dark counts and off-resonant excitation, while for $m_s = 0$ ($F_1 = .956 \pm .003$) the error is governed by the instances where the spin is flipped before a photon is detected. This can be seen in fig \ref{fig:tam-fig6-ssro}b where the readout fidelities are plotted as a function of readout duration. The fidelity for $m_s = 0$ initially increases with readout time and then saturates indicating that the spin has flipped with high probability. The optimal mean readout fidelity ($F_{ro} = \frac{F_0+F_1}{2} = 0.973 \pm 0.002$) is reached after $10 \mu s$.
 
 \begin{figure*}
 	\centering
 	\includegraphics{ssro}
-	\caption{\label{fig:tam-fig6-ssro} \textbf{Single shot readout} (a) }
+	\caption{\label{fig:tam-fig6-ssro} \textbf{Single shot readout} (a) Histograms of the number of detected photons in the PSB for initial state $m_s = 0$ (blue) and $m_s=\pm 1$ (red) during a 10 $\mu s$ readout on $E_x$. (b) Fidelities for reading out the electron spin state initially prepared in $m_s = 0$ (blue) and $m_s = \pm 1$ (red) as a function of readout duration. The mean readout fidelity is plotted in grey. The inset is a zoom of the region where the optimal mean readout fidelity is reached.}
 \end{figure*}
 
 \section{Ground state spin control and coherence}
 
-Discuss ground state spin hamiltonian of the electron.
+In the orbital ground state, the $m_s = 0$ and $m_s = \pm 1$ states are separated by the zero-field splitting $D \approx 2.88$ GHz, while an external magnetic field lifts the degeneracy between $m_s = +1$ and $-1$ via the zeeman splitting. The hamiltonian is given by
+
+\begin{equation}
+H_{GS} = D^2 S_z + \gamma_e \mathbf{B} \cdot \mathbf{S}
+\end{equation}
+
+with $\mathbf{S} =[S_x,S_y,S_z]$,  $S_i$ the pauli spin matrices for a spin-1 particle and $\gamma_e = 2.8$ MHz/G the gyromagnetic ratio of the electron. We define our qubit in the $m_s = 0 :\ket{0}$ and $m_s = -1 : \ket{1}$ states (alternatively the $m_s = + 1$ state can be used to encode $\ket{1}$). The electron spin is manipulated with electron spin resonance techniques by sending an ac current through the stripline generating an oscillating magnetic field at the location of the NV center. At the resonance condition the frequency of the control field matches the energy difference between the $\ket{0}$ and $\ket{1}$ states resulting in coherent Rabi oscillations between those levels as shown in fig \ref{fig:tam-fig7-erabi}. Arbitrary qubit rotations are implemented by calibrating the amplitude (which sets the rabi frequency) and length of the control pulses.
+
 
 Spin manipulation with ESR techniques. (Fig. \ref{fig:tam-fig7-erabi})
 
@@ -91,7 +101,7 @@ Figure to add: Coherence times $T_2^{*}$, $T_2$ and dynamical decoupling.
 \begin{figure*}
 	\centering
 	\includegraphics{electron_rabi}
-	\caption{\label{fig:tam-fig7-erabi} \textbf{} (a) }
+	\caption{\label{fig:tam-fig7-erabi} \textbf{} (a) Coherent qubit rotations of the electron spin are performed by varying the length of a MW pulse. The signal is corrected to account for imperfect readout and initialization. Solid line is a sinusoidal fit from which we determine the Rabi frequency $(7.67 \pm 0.02)$ MHz}
 \end{figure*}
 
 %\begin{figure*}
