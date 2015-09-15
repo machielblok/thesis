@@ -90,25 +90,16 @@ In the orbital ground state, the $m_s = 0$ and $m_s = \pm 1$ states are separate
 H_{GS} = D^2 S_z + \gamma_e \mathbf{B} \cdot \mathbf{S}
 \end{equation}
 
-with $\mathbf{S} =[S_x,S_y,S_z]$,  $S_i$ the pauli spin matrices for a spin-1 particle and $\gamma_e = 2.8$ MHz/G the gyromagnetic ratio of the electron. We define our qubit in the $m_s = 0 :\ket{0}$ and $m_s = -1 : \ket{1}$ states (alternatively the $m_s = + 1$ state can be used to encode $\ket{1}$). The electron spin is manipulated with electron spin resonance techniques by sending an ac current through the stripline generating an oscillating magnetic field at the location of the NV center. At the resonance condition the frequency of the control field matches the energy difference between the $\ket{0}$ and $\ket{1}$ states resulting in coherent Rabi oscillations between those levels as shown in fig \ref{fig:tam-fig7-erabi}. Arbitrary qubit rotations are implemented by calibrating the amplitude (which sets the rabi frequency) and length of the control pulses.
-
-
-Spin manipulation with ESR techniques. (Fig. \ref{fig:tam-fig7-erabi})
-
-Figure to add: Coherence times $T_2^{*}$, $T_2$ and dynamical decoupling.
+with $\mathbf{S} =[S_x,S_y,S_z]$,  $S_i$ the pauli spin matrices for a spin-1 system and $\gamma_e = 2.8$ MHz/G the gyromagnetic ratio of the electron. We define our qubit in the $m_s = 0 :\ket{0}$ and $m_s = -1 : \ket{1}$ states (alternatively the $m_s = + 1$ state can be used to encode $\ket{1}$). The electron spin is manipulated with electron spin resonance techniques by sending an ac current through the stripline generating an oscillating magnetic field at the location of the NV center. At the resonance condition the frequency of the control field matches the energy difference between the $\ket{0}$ and $\ket{1}$ states resulting in coherent Rabi oscillations between those levels as shown in fig \ref{fig:tam-fig7-erabi}. Arbitrary qubit rotations are implemented by calibrating the amplitude (which sets the rabi frequency) and length of the microwave (MW) control pulses.
 
 \label{sec:groundstatecontrol}
 \begin{figure*}
 	\centering
 	\includegraphics{electron_rabi}
-	\caption{\label{fig:tam-fig7-erabi} \textbf{} (a) Coherent qubit rotations of the electron spin are performed by varying the length of a MW pulse. The signal is corrected to account for imperfect readout and initialization. Solid line is a sinusoidal fit from which we determine the Rabi frequency $(7.67 \pm 0.02)$ MHz}
+	\caption{\label{fig:tam-fig7-erabi} \textbf{} (a) Coherent qubit rotations of the electron spin are performed by varying the length of a MW pulse. Solid line is a sinusoidal fit from which we determine the Rabi frequency $(7.67 \pm 0.02)$ MHz. (b) Ramsey measurement where the wait time between two $\pi$/2 pulses is varied. All datapoints are corrected to account for imperfect readout and initialization.}
 \end{figure*}
 
-%\begin{figure*}
-%	\centering
-%	\includegraphics{ramsey-LDE}
-%	\caption{\label{fig:tam-fig8-eramsey} \textbf{} (a) }
-%\end{figure*}
+The NV center has a long-lived electron spin state. At low temperature $T_1$-relaxation times (typical time of an eigen state to be perturbed) were measured to be xxx s in ensembles. The phase coherence times depend strongly on the microscopic environment of the NV center. When the defect is located in bulk diamond (far away from any surface) the dominant dephasing mechanism is the spin-bath of the diamond lattice itself. For 1b samples this 
 
 \begin{figure*}
 	\centering
