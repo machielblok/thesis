@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Bernien__2014}
 H.~Bernien.
@@ -46,5 +46,71 @@ L.~Robledo \textit{et~al.}
 \newblock High-fidelity projective read-out of a solid-state spin quantum
   register.
 \newblock \textit{Nature} \textbf{477}, 574 (2011).
+
+\bibitem{Gaebel_NatPhys_2006}
+T.~Gaebel \textit{et~al.}
+\newblock Room-temperature coherent coupling of single spins in diamond.
+\newblock \textit{Nat Phys} \textbf{2}, 408 (2006).
+
+\bibitem{Hanson_Phys.Rev.Lett._2006}
+R.~Hanson, F.~M. Mendoza, R.~J. Epstein and D.~D. Awschalom.
+\newblock Polarization and readout of coupled single spins in diamond.
+\newblock \textit{Phys. Rev. Lett.} \textbf{97}, 087601 (2006).
+
+\bibitem{Neumann_Science_2010}
+P.~Neumann \textit{et~al.}
+\newblock Single-shot readout of a single nuclear spin.
+\newblock \textit{Science} \textbf{329}, 542 (2010).
+
+\bibitem{Fuchs_NatPhys_2011}
+G.~D. Fuchs, G.~Burkard, P.~V. Klimov and D.~D. Awschalom.
+\newblock A quantum memory intrinsic to single nitrogen-vacancy centres in
+  diamond.
+\newblock \textit{Nat Phys} \textbf{7}, 789 (2011).
+
+\bibitem{vanderSar_Nature_2012}
+T.~van~der Sar \textit{et~al.}
+\newblock Decoherence-protected quantum gates for a hybrid solid-state spin
+  register.
+\newblock \textit{Nature} \textbf{484}, 82 (2012).
+
+\bibitem{Jelezko_Phys.Rev.Lett._2004}
+F.~Jelezko \textit{et~al.}
+\newblock Observation of coherent oscillation of a single nuclear spin and
+  realization of a two-qubit conditional quantum gate.
+\newblock \textit{Phys. Rev. Lett.} \textbf{93}, 130501 (2004).
+
+\bibitem{Dutt_Science_2007}
+M.~V.~G. Dutt \textit{et~al.}
+\newblock Quantum register based on individual electronic and nuclear spin
+  qubits in diamond.
+\newblock \textit{Science} \textbf{316}, 1312 (2007).
+
+\bibitem{Neumann_Science_2008}
+P.~Neumann \textit{et~al.}
+\newblock Multipartite entanglement among single spins in diamond.
+\newblock \textit{Science} \textbf{320}, 1326 (2008).
+
+\bibitem{Jiang_Science_2009}
+L.~Jiang \textit{et~al.}
+\newblock Repetitive readout of a single electronic spin via quantum logic with
+  nuclear spin ancillae.
+\newblock \textit{Science} \textbf{326}, 267 (2009).
+
+\bibitem{Smeltzer_Phys.Rev.A_2009}
+B.~Smeltzer, J.~{McIntyre} and L.~Childress.
+\newblock Robust control of individual nuclear spins in diamond.
+\newblock \textit{Phys. Rev. A} \textbf{80}, 050302 (2009).
+
+\bibitem{Taminiau_Phys.Rev.Lett._2012}
+T.~H. Taminiau \textit{et~al.}
+\newblock Detection and control of individual nuclear spins using a weakly
+  coupled electron spin.
+\newblock \textit{Phys. Rev. Lett.} \textbf{109}, 137602 (2012).
+
+\bibitem{Maurer_Science_2012}
+P.~C. Maurer \textit{et~al.}
+\newblock Room-temperature quantum bit memory exceeding one second.
+\newblock \textit{Science} \textbf{336}, 1283 (2012).
 
 \end{thebibliography}

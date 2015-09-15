@@ -85,6 +85,6 @@ def plot_ramsey(do_save=False):
 
 folder_nv1=r'M:\tnw\ns\qt\Diamond\Reports and Theses\PhD\Machiel Blok\ch_Experiment_Theory_data\ramseys\lt1_ramsey.txt'
 folder_nv2=r'M:\tnw\ns\qt\Diamond\Reports and Theses\PhD\Machiel Blok\ch_Experiment_Theory_data\ramseys\lt2_ramsey.txt'
-plot_ramsey(do_save=True)
+plot_ramsey(do_save=False)
 #plot_ssro_hist(do_save=True)
 #plot_CR_hist(do_save=True)
