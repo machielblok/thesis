@@ -15,7 +15,7 @@
 \contentsline {section}{\numberline {2.6}Coupling to individual nuclear spins}{12}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}Host nitrogen spin}{12}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}$^{13}C$ spins}{13}{subsection.2.6.2}
-\contentsline {section}{\numberline {2.7}Bibliography}{14}{section.2.7}
+\contentsline {section}{\numberline {2.7}Bibliography}{15}{section.2.7}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \contentsline {chapter}{\chapternumberline {3}Manipulating a qubit through the backaction of sequential partial measurements \\ and real-time feedback }{17}{chapter.3}
@@ -24,35 +24,48 @@
 \contentsline {section}{\numberline {3.3}Generalized weak value}{20}{section.3.3}
 \contentsline {section}{\numberline {3.4}QND-measurement of the ancilla qubit}{20}{section.3.4}
 \contentsline {section}{\numberline {3.5}Control by adaptive measurements}{23}{section.3.5}
-\contentsline {section}{\numberline {3.6}Methods}{25}{section.3.6}
-\contentsline {section}{\numberline {3.7}Bibliography}{28}{section.3.7}
+\contentsline {section}{\numberline {3.6}Methods}{27}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Levels and Hamiltonian}{27}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Qubit initialization}{29}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Nucleus-independent electron spin rotations}{30}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Electron-independent nuclear spin rotation}{30}{subsection.3.6.4}
+\contentsline {subsection}{\numberline {3.6.5}Partial measurements with controlled strength: Theory}{31}{subsection.3.6.5}
+\contentsline {subsection}{\numberline {3.6.6}Characterization of the partial measurements}{33}{subsection.3.6.6}
+\contentsline {subsection}{\numberline {3.6.7}Weak value and conditioned average}{35}{subsection.3.6.7}
+\contentsline {subsection}{\numberline {3.6.8}Experimental quantum weak value for a spin qubit}{37}{subsection.3.6.8}
+\contentsline {subsection}{\numberline {3.6.9}Partial measurements as probabilistic rotations}{38}{subsection.3.6.9}
+\contentsline {subsection}{\numberline {3.6.10}Heralded sequential measurements: un-collapse and steering}{38}{subsection.3.6.10}
+\contentsline {section}{\numberline {3.7}State steering by real-time adaptive measurements}{40}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Ideal protocol}{40}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Error analysis}{41}{subsection.3.7.2}
+\contentsline {section}{\numberline {3.8}Bibliography}{43}{section.3.8}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
-\contentsline {chapter}{\chapternumberline {4} Optimized quantum sensing with a single electron spin using real-time adaptive measurements}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{32}{section.4.1}
-\contentsline {section}{\numberline {4.2}D.C. Magnetometry}{32}{section.4.2}
-\contentsline {section}{\numberline {4.3}Adaptive frequency estimation protocol}{35}{section.4.3}
-\contentsline {section}{\numberline {4.4}Comparison between adaptive and non-adaptive protocols}{38}{section.4.4}
-\contentsline {section}{\numberline {4.5}Methods}{40}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Sample and experimental setup}{40}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Adaptive algorithm}{41}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}Bibliography}{42}{section.4.6}
+\contentsline {chapter}{\chapternumberline {4} Optimized quantum sensing with a single electron spin using real-time adaptive measurements}{47}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{48}{section.4.1}
+\contentsline {section}{\numberline {4.2}D.C. Magnetometry}{48}{section.4.2}
+\contentsline {section}{\numberline {4.3}Adaptive frequency estimation protocol}{51}{section.4.3}
+\contentsline {section}{\numberline {4.4}Comparison between adaptive and non-adaptive protocols}{54}{section.4.4}
+\contentsline {section}{\numberline {4.5}Methods}{56}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Sample and experimental setup}{56}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Adaptive algorithm}{57}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}Bibliography}{58}{section.4.6}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
-\contentsline {chapter}{\chapternumberline {5}Heralded entanglement and unconditional teleportation between solid-state qubits separated by three metres}{45}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{46}{section.5.1}
-\contentsline {section}{\numberline {5.2}Heralded entanglement}{46}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Implementation}{49}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Demonstration of remote entanglement}{51}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Teleportation}{53}{section.5.3}
-\contentsline {section}{\numberline {5.4}Methods}{59}{section.5.4}
-\contentsline {section}{\numberline {5.5}Bibliography}{60}{section.5.5}
+\contentsline {chapter}{\chapternumberline {5}Heralded entanglement and unconditional teleportation between solid-state qubits separated by three metres}{61}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{62}{section.5.1}
+\contentsline {section}{\numberline {5.2}Heralded entanglement}{62}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Implementation}{65}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Demonstration of remote entanglement}{67}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Teleportation}{69}{section.5.3}
+\contentsline {section}{\numberline {5.4}Methods}{75}{section.5.4}
+\contentsline {section}{\numberline {5.5}Bibliography}{76}{section.5.5}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {chapter}{\chapternumberline {6}Analysis of a quantum memory with optical interface in diamond }{63}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{64}{section.6.1}
-\contentsline {section}{\numberline {6.2}Control and Characterization of nuclear spins in diamond}{64}{section.6.2}
-\contentsline {section}{\numberline {6.3}Modeling the dephasing of a carbon spin during entanglement generation}{68}{section.6.3}
-\contentsline {section}{\numberline {6.4}Methods}{71}{section.6.4}
-\contentsline {section}{\numberline {6.5}Bibliography}{73}{section.6.5}
+\contentsline {chapter}{\chapternumberline {6}Analysis of a quantum memory with optical interface in diamond }{79}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{80}{section.6.1}
+\contentsline {section}{\numberline {6.2}Control and Characterization of nuclear spins in diamond}{80}{section.6.2}
+\contentsline {section}{\numberline {6.3}Modeling the dephasing of a carbon spin during entanglement generation}{84}{section.6.3}
+\contentsline {section}{\numberline {6.4}Methods}{87}{section.6.4}
+\contentsline {section}{\numberline {6.5}Bibliography}{89}{section.6.5}
 \gdef \the@ipfilectr {}

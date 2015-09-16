@@ -111,7 +111,7 @@ P = A \exp(-(\tau/T_2^*)^2)\sum\limits_{k=-1}^1 \cos(2 \pi(\delta f +k A_{\paral
 
 where $\delta f$ is a detuning of the rotating frame of the microwave pulses with respect to the center frequency of the electron spin. The three frequencies arise from the coupling to the host nitrogen spin which caries a spin $I = 1$. For the NV center in the bottom panel two additional frequencies are included in the fit. They are associated with the coupling to a single $^{13}C$ spin (with spin I = 1/2), which is closer to the defect than the other spins in the bath. In this case the coupling strength of the individual $^{13}C$ spin to the electron spin is strong ($384 \pm 3$ kHz) compared to the dephasing rate $1/T_2^*$ induced by the spin bath and can therefore be individually resolved. From the gaussian decay of the fit we find $T_2^{*} = (0.96 \pm 0.03)$ and $(3.09 \pm 0.05) \mu$s for the two NV centers. The coherence times can be extended by using isotopically purified samples as shown in chapter \ref{ch:AMM} of this thesis. 
 
-Alternatively the electron spin can be made insensitive to the static component of the fluctuating spin bath by dynamical decoupling (DD) techniques. Here the spin is periodically inverted by equally spaced $\pi$ pulses as shown in figure \ref{fig:tam-fig9-DD}. For a spin echo ($N = 1$) the single $\pi$ pulse inverts the direction of the accumulated phase which leads to perfect refocusing if the effective magnetic field is constant on a timescale of 2$\tau$. By increasing the number of refocusing pulses we demonstrate a coherence time ($T_{coh}$) of ($14.3 \pm 0.3$) ms for $N = 64$.
+Alternatively the electron spin can be made insensitive to the static component of the fluctuating spin bath by dynamical decoupling (DD) techniques \cite{Lange_Science_2010,Ryan_Phys.Rev.Lett._2010}. Here the spin is periodically inverted by equally spaced $\pi$ pulses as shown in figure \ref{fig:tam-fig9-DD}. For a spin echo ($N = 1$) the single $\pi$ pulse inverts the direction of the accumulated phase which leads to perfect refocusing if the effective magnetic field is constant on a timescale of 2$\tau$. By increasing the number of refocusing pulses we demonstrate a coherence time ($T_{coh}$) of ($14.3 \pm 0.3$) ms for $N = 64$.
 
 So far we presented the Ramsey and dynamical decoupling techniques as a means to characterize the coherence times of the electron spin qubit. Alternatively, one can use the observed decoherence to learn something about the microscopic environment of the NV center. Because the NV center is an atomic defect it can sense DC (Ramsey interferometry) and AC (dynamical decoupling) signals very high spatial resolution. In chapter \ref{ch:AMM} we present an experiment where real-time feedback techniques are implemented to improve the performance of such a single-spin sensor in Ramsey interferometry. As an example, the data in figure \ref{fig:tam-fig7-erabi}b demonstrates the detection of single nuclear spins near the NV center.
 
@@ -137,20 +137,23 @@ with $I_{N_i}$ the Nitrogen spin matrices, $\gamma_N = 0.3077$ kHz/G the gyromag
 H_{e,N} = H_{GS,e} - Q I_{N_z}^2 + \gamma_N \mathbf{B} \cdot \mathbf{I_N} - A_{\parallel} S_z I_{N_z}.
 \end{equation}
 
-g
+For a magnetic field aligned along the z-axis of the defect, the quantization axis of the nitrogen spin is aligned with the electron spin. The parallel component of the hyperfine interaction introduces a splitting of the electron spin transitions that can be observed in a pulsed ESR measurement (figure \ref{fig:tam-fig10-nrabi}a). The three resonances correspond to the nuclear spin eigenstates labeled $m_I = +1, 0, -1$. To encode a qubit we define the logical states as $\ket{0}_N = m_i = -1$ and $\ket{1}_N = m_i = 0$ which can be manipulated with magnetic resonance techniques analogous to the electron spin manipulation (fig \ref{fig:tam-fig10-nrabi}b). The timescale of the manipulation scales inversely with the gyromagnetic ratio, resulting in a rabi frequency of ($17.07 \pm 0.01$) kHz. The nitrogen spin state is initialized and read out by mapping it to the electron spin and subsequently performing optical readout of the electron spin.
+
+\begin{figure*}
+	\centering
+	\includegraphics{nitrogen_rabi_2}
+	\caption{\label{fig:tam-fig10-nrabi} \textbf{} (a) }
+\end{figure*}
 
 \subsection{$^{13}C$ spins}
+In addition to the nitrogen nuclear spin, each NV center is surrounded by a unique configuration of $^{13}$C-spins (with spin $I_C = 1/2$) that randomly occupy sites in the spin-free $^{12}$C diamond lattice. Again taking the secular approximation, the combined Hamiltonian for a single $^{13}$C-spin coupling to the NV center is given by:
+\begin{equation}
+H_{e,N,C} = H_{e,N} + \gamma_C \mathbf{B} \cdot \mathbf{I_C} + A_{\parallel,C} S_z I_{C_z} + A_{\perp,C} S_z I_{C_x},
+\end{equation}
 
-Figure to add: ESR with visible splitting of the $^{14}N$ spin and nuclear rabi
-%\label{sec:nuclearspins}
-%\begin{figure*}
-%	\centering
-%	\includegraphics{nitrogen_rabi}
-%	\caption{\label{fig:tam-fig10-nrabi} \textbf{} (a) }
-%\end{figure*}
+with $I_{C_i}$ the Pauli spin matrices for the Carbon spin, $\gamma_C = 1.0705$ kHz/G the gyromagnetic ratio of the Carbon spin and the hyperfine parameters $A_{\parallel,C}$ and $A_{\perp,C}$ that depend on the distance between the Carbon spin and the electron spin and on the angle with respect to the quantization axis of the NV center. Carbon spins with high coupling strength compared to the dephasing time of the electron spin ($A_C > 1/T_2^*$) can be spectrally resolved via the electron spin and allow for similar control techniques as used for the nitrogen spin \cite{Jelezko_Phys.Rev.Lett._2004,Dutt_Science_2007,Neumann_Science_2008,Jiang_Science_2009,Smeltzer_Phys.Rev.A_2009}. A signature of a strongly coupled carbon spin can be seen in figure \ref{fig:tam-fig7-erabi}b (bottom panel). Recently it was shown that dynamical decoupling techniques can overcome the limitation set by the electron spin decoherence to detect\cite{Taminiau_Phys.Rev.Lett._2012,Kolkowitz_Phys.Rev.Lett._2012,Zhao_NatNano_2012} and control\cite{Taminiau_NatNano_2014} weakly coupled Carbon spins. In chapter \ref{ch:cdl} and ADDREF!! we investigate the feasibility to use these weakly coupled carbon spins as quantum memories that are robust against optical excitation of the electron spin.
+
 %\section{Quantum measurements}
-
-
 %\section{Methods}
 
 

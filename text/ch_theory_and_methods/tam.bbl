@@ -47,6 +47,17 @@ L.~Robledo \textit{et~al.}
   register.
 \newblock \textit{Nature} \textbf{477}, 574 (2011).
 
+\bibitem{Lange_Science_2010}
+G.~d. Lange, Z.~H. Wang, D.~Rist{\`e}, V.~V. Dobrovitski and R.~Hanson.
+\newblock Universal dynamical decoupling of a single solid-state spin from a
+  spin bath.
+\newblock \textit{Science} \textbf{330}, 60 (2010).
+
+\bibitem{Ryan_Phys.Rev.Lett._2010}
+C.~A. Ryan, J.~S. Hodges and D.~G. Cory.
+\newblock Robust decoupling techniques to extend quantum coherence in diamond.
+\newblock \textit{Phys. Rev. Lett.} \textbf{105}, 200402 (2010).
+
 \bibitem{Gaebel_NatPhys_2006}
 T.~Gaebel \textit{et~al.}
 \newblock Room-temperature coherent coupling of single spins in diamond.
@@ -112,5 +123,21 @@ T.~H. Taminiau \textit{et~al.}
 P.~C. Maurer \textit{et~al.}
 \newblock Room-temperature quantum bit memory exceeding one second.
 \newblock \textit{Science} \textbf{336}, 1283 (2012).
+
+\bibitem{Kolkowitz_Phys.Rev.Lett._2012}
+S.~Kolkowitz, Q.~P. Unterreithmeier, S.~D. Bennett and M.~D. Lukin.
+\newblock Sensing distant nuclear spins with a single electron spin.
+\newblock \textit{Phys. Rev. Lett.} \textbf{109}, 137601 (2012).
+
+\bibitem{Zhao_NatNano_2012}
+N.~Zhao \textit{et~al.}
+\newblock Sensing single remote nuclear spins.
+\newblock \textit{Nat Nano} \textbf{7}, 657 (2012).
+
+\bibitem{Taminiau_NatNano_2014}
+T.~H. Taminiau, J.~Cramer, T.~v.~d. Sar, V.~V. Dobrovitski and R.~Hanson.
+\newblock Universal control and error correction in multi-qubit spin registers
+  in diamond.
+\newblock \textit{Nat Nano} \textbf{9}, 171 (2014).
 
 \end{thebibliography}
