@@ -111,14 +111,14 @@ F_k = \frac{1}{2}\left(1+\cos \left[\sum_{k=0}^N \delta \theta_k\right]\right)
 Under the assumption that the distributions for all repumping events are independent the problem can be seen as a random walk in accumulated repumping time. Each step of this random walk is then exponentially distributed around the mean repumping time $\tau_{reset}$. The probability distribution of the summed repumping time is given by\cite{Akkouchi_CCMS_2008}
 
 \begin{equation}
-P_{ek} = \frac{t'^{k-1}}{\tau_{reset}^k(k-1)! }e^{-t^{\prime}/\tau_{reset}} \approx \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(t^{\prime}-\mu)^2}{2\sigma^2}}
+P(t^{\prime}) = \frac{t'^{k-1}}{\tau_{reset}^k(k-1)! }e^{-t^{\prime}/\tau_{reset}} \approx \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(t^{\prime}-\mu)^2}{2\sigma^2}}
 \end{equation}
 
 
 where we use the central limit theorem to approximate this distribution by a normal distribution with width $\sigma = \tau_{reset} \sqrt{k}$ and mean $\mu = \tau_{reset} k$ , as we are interested in solutions for a large number of repumping events. The expected fidelity after \textit{N} experimental runs is calculated by summing over the probability distributions for the electronic state and the corresponding accumulated repumping time
 
 \begin{eqnarray}
-F_N & = & \sum_{k=0}^N  P_{ek} \int F_k\, P_{ek}\, dt^{\prime} \nonumber \\
+F_N & = & \sum_{k=0}^N  P_{ek} \int F_k\, P(t^{\prime})\, dt^{\prime} \nonumber \\
 & = & \frac{1}{2} + \frac{1}{2} \sum_{k=0}^N P_{ek} e^{-\frac{1}{2}k\tau_{reset}^2 d \omega^2} \nonumber \\
 & = & \frac{1}{2} + \frac{1}{2^{N+1}}\left(1 + e^{-\frac{1}{2}\tau_{reset}^2 d \omega^2}\right)^N.
 \end{eqnarray}

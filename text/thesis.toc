@@ -69,3 +69,7 @@
 \contentsline {section}{\numberline {6.4}Methods}{87}{section.6.4}
 \contentsline {section}{\numberline {6.5}Bibliography}{89}{section.6.5}
 \gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-9}
+\contentsline {chapter}{\chapternumberline {7}Storing a quantum state during optical excitation of a quantum network node}{91}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{92}{section.7.1}
+\gdef \the@ipfilectr {}
