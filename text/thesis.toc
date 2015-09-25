@@ -71,6 +71,10 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-9}
 \contentsline {chapter}{\chapternumberline {7}Storing a quantum state during optical excitation of a quantum network node}{91}{chapter.7}
+<<<<<<< Updated upstream
 \contentsline {section}{\numberline {7.1}Controlling a weakly coupled $^{13}$C-spin in isotopically purified diamond.}{92}{section.7.1}
 \contentsline {section}{\numberline {7.2}Bibliography}{95}{section.7.2}
+=======
+\contentsline {section}{\numberline {7.1}Introduction}{92}{section.7.1}
+>>>>>>> Stashed changes
 \gdef \the@ipfilectr {}
