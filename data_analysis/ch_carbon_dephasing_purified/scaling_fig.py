@@ -1,5 +1,6 @@
 from analysis.lib.tools import plot
 from analysis.lib.fitting import fit, common
+reload(common)
 from analysis.lib.Qmemory import CarbonDephasing_LT1 as CD
 reload(CD)
             ## older than   , prefix, postfix##
@@ -146,9 +147,22 @@ for j,i in enumerate(mlist):
 #pfn.append(post_fix_names_ds3[])
 print Powers
 print P
+print 'tau1 = ', tau1
+print 'tau2 = ', tau2
 fig3 = plt.figure(figsize=(1,1))
 ax3 = fig3.add_subplot(1,1,1)
 ax3.errorbar(tau1,np.array(T)*1e-3,yerr=np.array(uT)*1e-3,fmt='o',color='Grey')
+
+g_a=.5
+g_tau=.2*1e6
+g_o=.5
+print 'start fit'
+decay_constants=np.array(T)*1e-3
+fit_result = fit.fit1d(np.array(tau1),decay_constants , common.fit_dephasing_constant_offset,g_a,g_tau,g_o,fixed=[0,1,2],do_print=False, ret=False)
+x_fit=np.linspace(tau1[0],tau1[-1],501)
+y_fit=fit_result['fitfunc'](x_fit)
+ax3.plot(x_fit,y_fit,'-',color='Grey',linewidth=0.75)
+
 ax3.set_xlabel(r'$\tau_{reset} \, (\mu s)$',fontsize=7)
 ax3.set_ylabel(r'$N_{decay} 10^3$',fontsize=7)
 ax3.tick_params(axis='x', labelsize=7)

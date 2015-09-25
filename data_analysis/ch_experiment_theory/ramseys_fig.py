@@ -6,7 +6,7 @@ from analysis.lib.m2.ssro import sequence
 from analysis.lib import fitting
 from analysis.lib.m2.ssro import ssro, mbi
 from analysis.lib.tools import toolbox
-from analysis.lib.fitting import fit, ramsey
+from analysis.lib.fitting import fit, ramsey,common
 from analysis.lib.tools import plot
 from analysis.lib.math import error
 from matplotlib import rc, cm
