@@ -29,17 +29,18 @@ tau1=[]
 tau2=[]
 utau1=[]
 utau2=[]
+fixed=[0]
 for j,i in enumerate(plot_measurements):
-    f_res=CD.plot_repump_curve(name_list[i],color_list[j],label_list[i],ax,plot_single=False,older_than=older,do_plot=True)
+    f_res=CD.plot_repump_curve(name_list[i],color_list[j],label_list[i],ax,plot_single=False,older_than=older,do_plot=True,fixed=fixed)
 
 for j,i in enumerate([1,2,4,5,6,7,8,9,10]):
     Powers.append(int(name_list[i][:-2]))
     print label_list[i]
-    f_res=CD.plot_repump_curve(name_list[i],color_list[j],label_list[i],ax,plot_single=False,older_than=older,do_plot=False)
+    f_res=CD.plot_repump_curve(name_list[i],color_list[j],label_list[i],ax,plot_single=False,older_than=older,do_plot=False,fixed=fixed)
     tau1.append(f_res['params_dict']['tau'])
     utau1.append(f_res['error_dict']['tau'])
-    tau2.append(f_res['params_dict']['tau2'])
-    utau2.append(f_res['error_dict']['tau2'])
+    #tau2.append(f_res['params_dict']['tau2'])
+    #utau2.append(f_res['error_dict']['tau2'])
 ax.hlines(1,0,8,linestyles='dotted',color='Grey')
 ax.hlines(0,0,8,linestyles='dotted',color='Grey')
 #ax.set_yscale('log')
@@ -48,7 +49,8 @@ ax.set_xlim([0,6])
 plt.legend(loc=4)
 ax.set_ylabel(r'P($m_s =0$)',fontsize=9)
 ax.set_xlabel(r'Repump time ($\mu s$)',fontsize=9)
-do_save=True
+do_save=False
+print'test'
 if do_save:
     filename=r'M:\tnw\ns\qt\Diamond\Reports and Theses\PhD\Machiel Blok\ch_carbon_dephasing_purified_figs\reset.pdf'
     fig.savefig(filename, bbox_inches='tight')
@@ -77,7 +79,7 @@ def fitfunc(x):
     return a() + b()/(x**n())
 
 fit_result = fit.fit1d(x,y, None, p0=p0, fitfunc=fitfunc, fixed=[],
-        do_print=True, ret=True)
+        do_print=False, ret=True)
 print fit_result
 x_fit=np.linspace(x[0],x[-1],500)
 y_fit=fit_result['fitfunc'](x_fit)
@@ -87,6 +89,7 @@ ax2.set_xlim([0,500])
 ax2.set_xticks([0,250,500])
 ax2.set_xlabel(r'$Reset \, power \,(nW)$',fontsize=9)
 ax2.set_ylabel(r'$\tau_{reset} \, (\mu s)$',fontsize=9)
+
 if do_save:
     filename=r'M:\tnw\ns\qt\Diamond\Reports and Theses\PhD\Machiel Blok\ch_carbon_dephasing_purified_figs\reset_fit_params_vs_power.pdf'
     fig2.savefig(filename, bbox_inches='tight')
