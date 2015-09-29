@@ -91,4 +91,14 @@ P.~C. Maurer \textit{et~al.}
 \newblock Room-temperature quantum bit memory exceeding one second.
 \newblock \textit{Science} \textbf{336}, 1283 (2012).
 
+\bibitem{Doherty_PhysicsReports_2013}
+M.~W. Doherty \textit{et~al.}
+\newblock The nitrogen-vacancy colour centre in diamond.
+\newblock \textit{Physics Reports} \textbf{528}, 1 (2013).
+
+\bibitem{Nielsen__2000}
+M.~A. Nielsen and I.~L. Chuang.
+\newblock \textit{Quantum Computation and Quantum Information}.
+\newblock Cambridge University Press (2000).
+
 \end{thebibliography}
