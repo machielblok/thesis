@@ -169,10 +169,10 @@ ax3.tick_params(axis='x', labelsize=7)
 ax3.tick_params(axis='y', labelsize=7)
 ax3.set_yticks([0,1,2])
 
-do_save=True
+do_save=False
 if do_save:
     fig3.savefig(r'M:\tnw\ns\qt\Diamond\Reports and Theses\PhD\Machiel Blok\ch_carbon_dephasing_purified_figs\Ndecay_vs_taureset.pdf', bbox_inches='tight')
-'''
+
 ###########
 ## Tomo
 #############
@@ -232,7 +232,7 @@ ax4.set_ylabel(r'Expectation Value',fontsize=9)
 #ax4.legend( loc=2,bbox_to_anchor=(0.5, 1))
 #ax4.set_ylim([0.8,1])
 
-do_save=True
+do_save=False
 if do_save:
     fig4.savefig(r'M:\tnw\ns\qt\Diamond\Reports and Theses\PhD\Machiel Blok\ch_carbon_dephasing_purified_figs\tomo.pdf', bbox_inches='tight')
 '''

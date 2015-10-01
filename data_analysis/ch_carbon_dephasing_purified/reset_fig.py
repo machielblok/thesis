@@ -23,7 +23,7 @@ older=None #'20150809_125600'
 name_list=['1400nW','500nW','250nW','100nW','90nW','75nW','50nW','40nW','25nW','20nW','15nW','10nW','5nW']
 color_list=['Crimson','RoyalBlue','DarkGreen','DarkOrange','k','Grey','red']*5
 label_list=name_list#['1400nW','RoyalBlue','DarkGreen','k','DarkOrange','Grey']
-plot_measurements=[1,4,7,10]#[11]#[3,4,5,6,8,9,10]
+plot_measurements=[1,3,7,10]#[11]#[3,4,5,6,8,9,10]
 Powers=[]
 tau1=[]
 tau2=[]
@@ -33,7 +33,7 @@ fixed=[0]
 for j,i in enumerate(plot_measurements):
     f_res=CD.plot_repump_curve(name_list[i],color_list[j],label_list[i],ax,plot_single=False,older_than=older,do_plot=True,fixed=fixed)
 
-for j,i in enumerate([1,2,4,5,6,7,8,9,10]):
+for j,i in enumerate([1,2,3,4,5,6,7,8,9,10]):
     Powers.append(int(name_list[i][:-2]))
     print label_list[i]
     f_res=CD.plot_repump_curve(name_list[i],color_list[j],label_list[i],ax,plot_single=False,older_than=older,do_plot=False,fixed=fixed)
