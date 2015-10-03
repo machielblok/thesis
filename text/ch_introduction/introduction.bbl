@@ -1,8 +1,194 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{Dowling__2003}
+J.~P. Dowling and G.~J. Milburn.
+\newblock Quantum technology: the second quantum revolution.
+\newblock \textit{Philos. Trans. R. Soc. Lond. Math. Phys. Eng. Sci.}
+  \textbf{361}, 1655 (2003).
+
+\bibitem{Schrodinger__1952}
+E.~Schr{\"o}dinger.
+\newblock Are there quantum jumps ?
+\newblock \textit{Br. J. Philos. Sci.} \textbf{3}, 233 (1952).
+
+\bibitem{Nielsen__2000}
+M.~A. Nielsen and I.~L. Chuang.
+\newblock \textit{Quantum Computation and Quantum Information}.
+\newblock Cambridge University Press (2000).
+
+\bibitem{Mermin__2007}
+N.~D. Mermin.
+\newblock \textit{Quantum Computer Science: An Introduction}.
+\newblock Cambridge University Press, Cambridge, 1 edition edition (2007).
+
+\bibitem{Feynman_IntJTheorPhys_1982}
+R.~P. Feynman.
+\newblock Simulating physics with computers.
+\newblock \textit{Int J Theor Phys} \textbf{21}, 467 (1982).
+
+\bibitem{Shor_SIAMJ.Comput._1997}
+P.~W. Shor.
+\newblock Polynomial-time algorithms for prime factorization and discrete
+  logarithms on a quantum computer.
+\newblock \textit{{SIAM} J. Comput.} \textbf{26}, 1484 (1997).
+
+\bibitem{Grover_Phys.Rev.Lett._1997}
+L.~K. Grover.
+\newblock Quantum mechanics helps in searching for a needle in a haystack.
+\newblock \textit{Phys. Rev. Lett.} \textbf{79}, 325 (1997).
+
+\bibitem{Kimble_Nature_2008}
+H.~J. Kimble.
+\newblock The quantum internet \textbf{453}, 1023 (2008).
+
+\bibitem{Gisin_NatPhoton_2007}
+N.~Gisin and R.~Thew.
+\newblock Quantum communication.
+\newblock \textit{Nat Photon} \textbf{1}, 165 (2007).
 
 \bibitem{Taylor_NatPhys_2008}
 J.~M. Taylor \textit{et~al.}
 \newblock High-sensitivity diamond magnetometer with nanoscale resolution.
 \newblock \textit{Nat Phys} \textbf{4}, 810 (2008).
+
+\bibitem{Diddams_Science_2001}
+S.~A. Diddams \textit{et~al.}
+\newblock An optical clock based on a single trapped {199Hg+} ion \textbf{293},
+  825 (2001).
+
+\bibitem{Wiseman__2010}
+H.~M. Wiseman and G.~J. Milburn.
+\newblock \textit{Quantum Measurement and Control}.
+\newblock Cambridge University Press (2010).
+
+\bibitem{Pusey_NatPhys_2012}
+M.~F. Pusey, J.~Barrett and T.~Rudolph.
+\newblock On the reality of the quantum state.
+\newblock \textit{Nat Phys} \textbf{8}, 475 (2012).
+
+\bibitem{Gao_NatPhoton_2015}
+W.~B. Gao, A.~Imamoglu, H.~Bernien and R.~Hanson.
+\newblock Coherent manipulation, measurement and entanglement of individual
+  solid-state spins using optical fields.
+\newblock \textit{Nat Photon} \textbf{9}, 363 (2015).
+
+\bibitem{Childress__2013}
+L.~Childress and R.~Hanson.
+\newblock Diamond {NV} centers for quantum computing and quantum networks.
+\newblock \textit{{MRS} Bull.} \textbf{38}, 134 (2013).
+
+\bibitem{Lange_Science_2010}
+G.~de~Lange, Z.~H. Wang, D.~Rist{\`e}, V.~V. Dobrovitski and R.~Hanson.
+\newblock Universal dynamical decoupling of a single solid-state spin from a
+  spin bath \textbf{330}, 60 (2010).
+
+\bibitem{Ryan_Phys.Rev.Lett._2010}
+C.~A. Ryan, J.~S. Hodges and D.~G. Cory.
+\newblock Robust decoupling techniques to extend quantum coherence in diamond.
+\newblock \textit{Phys. Rev. Lett.} \textbf{105}, 200402 (2010).
+
+\bibitem{Balasubramanian_NatMater_2009}
+G.~Balasubramanian \textit{et~al.}
+\newblock Ultralong spin coherence time in isotopically engineered diamond.
+\newblock \textit{Nat Mater} \textbf{8}, 383 (2009).
+
+\bibitem{Kurtsiefer_Phys.Rev.Lett._2000}
+C.~Kurtsiefer, S.~Mayer, P.~Zarda and H.~Weinfurter.
+\newblock Stable solid-state source of single photons.
+\newblock \textit{Phys. Rev. Lett.} \textbf{85}, 290 (2000).
+
+\bibitem{Jelezko_Phys.Rev.Lett._2004}
+F.~Jelezko \textit{et~al.}
+\newblock Observation of coherent oscillation of a single nuclear spin and
+  realization of a two-qubit conditional quantum gate.
+\newblock \textit{Phys. Rev. Lett.} \textbf{93}, 130501 (2004).
+
+\bibitem{Hanson_Phys.Rev.Lett._2006}
+R.~Hanson, F.~M. Mendoza, R.~J. Epstein and D.~D. Awschalom.
+\newblock Polarization and readout of coupled single spins in diamond.
+\newblock \textit{Phys. Rev. Lett.} \textbf{97}, 087601 (2006).
+
+\bibitem{Childress_Science_2006}
+L.~Childress \textit{et~al.}
+\newblock Coherent dynamics of coupled electron and nuclear spin qubits in
+  diamond \textbf{314}, 281 (2006).
+
+\bibitem{Dutt_Science_2007}
+M.~V.~G. Dutt \textit{et~al.}
+\newblock Quantum register based on individual electronic and nuclear spin
+  qubits in diamond \textbf{316}, 1312 (2007).
+
+\bibitem{Neumann_Science_2008}
+P.~Neumann \textit{et~al.}
+\newblock Multipartite entanglement among single spins in diamond \textbf{320},
+  1326 (2008).
+
+\bibitem{Neumann_Science_2010}
+P.~Neumann \textit{et~al.}
+\newblock Single-shot readout of a single nuclear spin \textbf{329}, 542
+  (2010).
+
+\bibitem{vanderSar_Nature_2012}
+T.~{van der Sar} \textit{et~al.}
+\newblock Decoherence-protected quantum gates for a hybrid solid-state spin
+  register \textbf{484}, 82 (2012).
+
+\bibitem{Jacques_Science_2007}
+V.~Jacques \textit{et~al.}
+\newblock Experimental realization of wheeler's delayed-choice gedanken
+  experiment \textbf{315}, 966 (2007).
+
+\bibitem{Waldherr_Phys.Rev.Lett._2011}
+G.~Waldherr, P.~Neumann, S.~F. Huelga, F.~Jelezko and J.~Wrachtrup.
+\newblock Violation of a temporal bell inequality for single spins in a diamond
+  defect center.
+\newblock \textit{Phys. Rev. Lett.} \textbf{107}, 090401 (2011).
+
+\bibitem{Pfaff_NatPhys_2013}
+W.~Pfaff \textit{et~al.}
+\newblock Demonstration of entanglement-by-measurement of solid-state qubits.
+\newblock \textit{Nat Phys} \textbf{9}, 29 (2013).
+
+\bibitem{George_PNAS_2013}
+R.~E. George \textit{et~al.}
+\newblock Opening up three quantum boxes causes classically undetectable
+  wavefunction collapse \textbf{110}, 3777 (2013).
+
+\bibitem{Schirhagl__2014}
+R.~Schirhagl, K.~Chang, M.~Loretz and C.~L. Degen.
+\newblock Nitrogen-vacancy centers in diamond: Nanoscale sensors for physics
+  and biology.
+\newblock \textit{Annu. Rev. Phys. Chem.} \textbf{65}, 83 (2014).
+
+\bibitem{Toyli_PNAS_2013}
+D.~M. Toyli, C.~F. de~las Casas, D.~J. Christle, V.~V. Dobrovitski and D.~D.
+  Awschalom.
+\newblock Fluorescence thermometry enhanced by the quantum coherence of single
+  spins in diamond \textbf{110}, 8417 (2013).
+
+\bibitem{Ovartchaiyapong_NatCommun_2014}
+P.~Ovartchaiyapong, K.~W. Lee, B.~A. Myers and A.~C.~B. Jayich.
+\newblock Dynamic strain-mediated coupling of a single diamond spin to a
+  mechanical resonator.
+\newblock \textit{Nat Commun} \textbf{5} (2014).
+
+\bibitem{Dolde_NatPhys_2011}
+F.~Dolde \textit{et~al.}
+\newblock Electric-field sensing using single diamond spins.
+\newblock \textit{Nat Phys} \textbf{7}, 459 (2011).
+
+\bibitem{Kucsko_Nature_2013}
+G.~Kucsko \textit{et~al.}
+\newblock Nanometre-scale thermometry in a living cell \textbf{500}, 54 (2013).
+
+\bibitem{Robledo_Nature_2011}
+L.~Robledo \textit{et~al.}
+\newblock High-fidelity projective read-out of a solid-state spin quantum
+  register \textbf{477}, 574 (2011).
+
+\bibitem{Togan_Nature_2010}
+E.~Togan \textit{et~al.}
+\newblock Quantum entanglement between an optical photon and a solid-state spin
+  qubit \textbf{466}, 730 (2010).
 
 \end{thebibliography}

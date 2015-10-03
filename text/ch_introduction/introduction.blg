@@ -1,3 +1,47 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: introduction.aux
 The style file: ../thesis.bst
-Database file #1: Thesis_introduction.bib
+Database file #1: intro.bib
+Warning--string name "pnas" is undefined
+--line 72 of file intro.bib
+Warning--string name "nature" is undefined
+--line 115 of file intro.bib
+Warning--string name "nature" is undefined
+--line 132 of file intro.bib
+Warning--string name "nature" is undefined
+--line 176 of file intro.bib
+Warning--string name "nature" is undefined
+--line 209 of file intro.bib
+Warning--string name "nature" is undefined
+--line 226 of file intro.bib
+Warning--string name "science" is undefined
+--line 256 of file intro.bib
+Warning--string name "science" is undefined
+--line 272 of file intro.bib
+Warning--string name "science" is undefined
+--line 288 of file intro.bib
+Warning--string name "science" is undefined
+--line 351 of file intro.bib
+Warning--string name "science" is undefined
+--line 428 of file intro.bib
+Warning--string name "pnas" is undefined
+--line 461 of file intro.bib
+Warning--string name "science" is undefined
+--line 551 of file intro.bib
+Warning--string name "science" is undefined
+--line 635 of file intro.bib
+Warning--I didn't find a database entry for ""
+Warning--empty journal in Kimble_Nature_2008
+Warning--empty journal in Diddams_Science_2001
+Warning--empty journal in Lange_Science_2010
+Warning--empty journal in Childress_Science_2006
+Warning--empty journal in Dutt_Science_2007
+Warning--empty journal in Neumann_Science_2008
+Warning--empty journal in Neumann_Science_2010
+Warning--empty journal in vanderSar_Nature_2012
+Warning--empty journal in Jacques_Science_2007
+Warning--empty journal in George_PNAS_2013
+Warning--empty journal in Toyli_PNAS_2013
+Warning--empty journal in Kucsko_Nature_2013
+Warning--empty journal in Robledo_Nature_2011
+Warning--empty journal in Togan_Nature_2010
+(There were 29 warnings)
