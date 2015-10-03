@@ -11,21 +11,43 @@ This is an exciting time to be a quantum physicist since we are in the midst of 
 In the beginning of the 20$^{th}$ century, the first quantum revolution introduced a new way to describe our world at the smallest scale with very counter-intuitive consequences. Quantum mechanics predicts that elementary particles such as electrons and photons behave like waves that can be in two places at the same time (superposition) and cannot be observed without being perturbed (collapse of the wavefunction). Many physicists found these concepts hard to grasp since they contradict our everyday observations and Erwin Schr\"{o}dinger tried to solve this paradox by stating: 
 \\
 \\
-\textit{``We never experiment with just one electron or atom or (small) molecule. In  thought-experiments we sometimes assume that we do; this invariably entails ridiculous consequences… we are not experimenting with single particles, any more than we can raise Ichtyosauria in the zoo.''}
+\textit{``We never experiment with just one electron or atom or (small) molecule. In  thought-experiments we sometimes assume that we do; this invariably entails ridiculous consequences … we are not experimenting with single particles, any more than we can raise Ichtyosauria in the zoo.''}
 \\
 
 \section{The Second Quantum Revolution}
 Since its development numerous experiments have verified the surprising features of quantum mechanics in a variety of systems such as single photons, trapped atoms and ions, superconducting circuits and single spins in semiconductors or color centers. With the increasing experimental control over quantum systems, efforts are shifting from testing quantum mechanics towards using it in new technologies: The second quantum revolution.
 
-Perhaps the most well-known example of quantum technology is the quantum computer which performs calculations with hardware based on two-level quantum systems called quantum bits or qubits. Like the bits in a classical computer these quantum bits are represented by a logical 0 or 1, but unlike classical bits, qubits can also be in a superposition state: representing 0 and 1 at the same time. As a result the degrees of freedom that can be represented simultaneously for a system of \textit{N} qubits grows exponentially as $2^N$. Richard Feynman realized that this property could be used to simulate complex systems in nature that are incomputable even with the fastest modern computers. Roughly a decade later the first quantum algorithms were introduced, predicting an exponential speed-up in factorizing large numbers and a quadratic speed-up for searching unsorted data.
+Perhaps the most well-known example of quantum technology is the \textbf{quantum computer} which performs calculations with hardware based on two-level quantum systems called quantum bits or qubits. Like the bits in a classical computer these quantum bits are encoding a logical state labeled 0 or 1, but unlike classical bits, qubits can also be in a superposition state: representing 0 and 1 at the same time. As a result the degrees of freedom that can be represented simultaneously for a system of \textit{N} qubits grows exponentially as $2^N$. Richard Feynman realized that this property could be used to simulate complex systems in nature that are incomputable even with the fastest modern computers. Roughly a decade later the first quantum algorithms were introduced, predicting an exponential speed-up in factorizing large numbers and a quadratic speed-up for searching unsorted data.
 
-Another exciting idea is to connect remote locations via entangled quantum states to built a quantum network. This could facilitate the scaling up of small quantum processors to a larger quantum computer. Furthermore it will enable secure communication since the encryption of information sent over the quantum internet can be guaranteed by the laws of quantum mechanics.
+Another exciting idea is to connect remote locations via entangled quantum states to built a \textbf{quantum network}. This could facilitate the scaling up of small quantum processors to a larger quantum computer. Furthermore it will enable secure communication since the encryption of information sent over the quantum internet can be guaranteed by the laws of quantum mechanics.
 
-Since quantum systems are extremely sensitive to interactions with the environment they can also be employed for precision measurements. Quantum sensors based on single spins for instance can measure temperature, and electric-, and magnetic-fields at the nanoscale, while atomic clocks allow for accurate frequency measurements.
+Since quantum systems are extremely sensitive to interactions with the environment they can also be employed for precision measurements. \textbf{Quantum sensors} based on single spins for instance can measure magnetic fields at the nanoscale, while atomic clocks allow for accurate frequency measurements.
 
-The development of quantum technology is still in an early stage and most of the proof-of-principle experiments to date involve only passive control. However, small perturbations to quantum states can be detrimental and therefore many future applications will require active stabilization of the system. The focus of this thesis is to develop robust quantum measurements and active feedback protocols for quantum information and sensing.
+The development of quantum technology is still in an early stage and most of the proof-of-principle experiments to date involve only passive control. However, small perturbations to quantum states can be detrimental and therefore many future applications will require active stabilization of the system. The focus of this thesis is to develop robust quantum measurements and active feedback protocols for quantum information and sensing. At the same time these new techniques are used for further testing of quantum mechanics, because even in the second quantum revolution the field of foundations of quantum mechanics is still very active and questions about the reality of the wavefunction or the measurement problem still remain unanswered. 
 
 \section{Diamonds are for quantum}
+
+Atomic defects in diamond have recently emerged as promising building blocks for future quantum technologies since they display atomic-like properties such as stable optical transitions and long-lived spin states in a solid-state environment. While many color centers exist in the diamond lattice the Nitrogen-Vacancy (NV) center, consisting of a substitutional Nitrogen atom and a missing atom at an adjacent site, is currently the most advanced in terms of quantum control.
+
+A remarkable property of the NV center is that even at room-temperature its effective electron spin displays long coherence times and can been initialized and read out via optical excitation. Owing to the coupling to nearby nuclear spins the NV center forms a natural multi-qubit spin register that has be used for demonstrations of elementary quantum algorithms and error correction as well as fundamental tests of quantum mechanics.
+
+The electron spin compatibility with room-temperature control and the robustness of the diamond host lattice also make NV centers excellent quantum sensors. They can detect a wide variety of physical parameters such as temperature, strain and electric-, and magnetic fields. Because the electron wavefunction is localized to the atomic defect they can reach very high spatial resolution and NV centers in nanocrystals can even be inserted in living cells.
+
+At temperatures below 10 K the Zero Phonon Line (ZPL) exhibits spin-selective optical transitions that enable single-shot readout and high-fidelity initialization of the electron spin and the generation of spin-photon entanglement. This optical interface is a crucial prerequisite for making quantum networks based on NV centers.
+
+The NV center is a hybrid quantum system with its long-lived nuclear spins that allow for storing quantum states, its electron spin for single shot readout and coupling to photons that can be used as 'flying qubits'. These properties make it an excellent system to study quantum measurement and feedback protocols as presented in this thesis.
+
+\section{Thesis overview}
+
+In \textbf{chapter 2} of this thesis we provide a detailed description of the NV center as well as the experimental methods used in this thesis (all at low temperature).
+
+In \textbf{chapter 3} we implement a quantum non-demolition measurement of the electron spin and a variable-strength measurement of the nitrogen spin. This allows us to study the fundamental trade-off between information and disturbance associated with quantum measurements and using a digital feedback protocol to manipulate a quantum state using only the backaction of adaptive measurements.
+
+In \textbf{chapter 4} we demonstrate an analog feedback protocol based on bayesian estimation for magnetometry with the electron spin. These results show that adaptive estimation techniques can improve the performance of quantum sensors.
+
+In \textbf{chapter 5} we present two experiments where two electron spins in different diamonds, separated by 3 meters are entangled via a heralded protocol. With this protocol we then demonstrate the unconditional teleportation of a nuclear spin in one diamond to the electron spin of the other. This first demonstration of unconditional teleportation establishes the NV center as a prime candidate for building quantum networks.
+
+In \textbf{chapter 6} and \textbf{chapter 7} we present a theoretical model and initial experimental results to analyze the ability of weakly coupled $^{13}$C-spins to serve as quantum memory for a local node in a quantum network.
 
 \clearpage
 
