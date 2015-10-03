@@ -39,7 +39,8 @@ L.~K. Grover.
 
 \bibitem{Kimble_Nature_2008}
 H.~J. Kimble.
-\newblock The quantum internet \textbf{453}, 1023 (2008).
+\newblock The quantum internet.
+\newblock \textit{Nature} \textbf{453}, 1023 (2008).
 
 \bibitem{Gisin_NatPhoton_2007}
 N.~Gisin and R.~Thew.
@@ -53,8 +54,8 @@ J.~M. Taylor \textit{et~al.}
 
 \bibitem{Diddams_Science_2001}
 S.~A. Diddams \textit{et~al.}
-\newblock An optical clock based on a single trapped {199Hg+} ion \textbf{293},
-  825 (2001).
+\newblock An optical clock based on a single trapped {199Hg+} ion.
+\newblock \textit{Science} \textbf{293}, 825 (2001).
 
 \bibitem{Wiseman__2010}
 H.~M. Wiseman and G.~J. Milburn.
@@ -80,7 +81,8 @@ L.~Childress and R.~Hanson.
 \bibitem{Lange_Science_2010}
 G.~de~Lange, Z.~H. Wang, D.~Rist{\`e}, V.~V. Dobrovitski and R.~Hanson.
 \newblock Universal dynamical decoupling of a single solid-state spin from a
-  spin bath \textbf{330}, 60 (2010).
+  spin bath.
+\newblock \textit{Science} \textbf{330}, 60 (2010).
 
 \bibitem{Ryan_Phys.Rev.Lett._2010}
 C.~A. Ryan, J.~S. Hodges and D.~G. Cory.
@@ -111,32 +113,36 @@ R.~Hanson, F.~M. Mendoza, R.~J. Epstein and D.~D. Awschalom.
 \bibitem{Childress_Science_2006}
 L.~Childress \textit{et~al.}
 \newblock Coherent dynamics of coupled electron and nuclear spin qubits in
-  diamond \textbf{314}, 281 (2006).
+  diamond.
+\newblock \textit{Science} \textbf{314}, 281 (2006).
 
 \bibitem{Dutt_Science_2007}
 M.~V.~G. Dutt \textit{et~al.}
 \newblock Quantum register based on individual electronic and nuclear spin
-  qubits in diamond \textbf{316}, 1312 (2007).
+  qubits in diamond.
+\newblock \textit{Science} \textbf{316}, 1312 (2007).
 
 \bibitem{Neumann_Science_2008}
 P.~Neumann \textit{et~al.}
-\newblock Multipartite entanglement among single spins in diamond \textbf{320},
-  1326 (2008).
+\newblock Multipartite entanglement among single spins in diamond.
+\newblock \textit{Science} \textbf{320}, 1326 (2008).
 
 \bibitem{Neumann_Science_2010}
 P.~Neumann \textit{et~al.}
-\newblock Single-shot readout of a single nuclear spin \textbf{329}, 542
-  (2010).
+\newblock Single-shot readout of a single nuclear spin.
+\newblock \textit{Science} \textbf{329}, 542 (2010).
 
 \bibitem{vanderSar_Nature_2012}
 T.~{van der Sar} \textit{et~al.}
 \newblock Decoherence-protected quantum gates for a hybrid solid-state spin
-  register \textbf{484}, 82 (2012).
+  register.
+\newblock \textit{Nature} \textbf{484}, 82 (2012).
 
 \bibitem{Jacques_Science_2007}
 V.~Jacques \textit{et~al.}
 \newblock Experimental realization of wheeler's delayed-choice gedanken
-  experiment \textbf{315}, 966 (2007).
+  experiment.
+\newblock \textit{Science} \textbf{315}, 966 (2007).
 
 \bibitem{Waldherr_Phys.Rev.Lett._2011}
 G.~Waldherr, P.~Neumann, S.~F. Huelga, F.~Jelezko and J.~Wrachtrup.
@@ -179,16 +185,19 @@ F.~Dolde \textit{et~al.}
 
 \bibitem{Kucsko_Nature_2013}
 G.~Kucsko \textit{et~al.}
-\newblock Nanometre-scale thermometry in a living cell \textbf{500}, 54 (2013).
+\newblock Nanometre-scale thermometry in a living cell.
+\newblock \textit{Nature} \textbf{500}, 54 (2013).
 
 \bibitem{Robledo_Nature_2011}
 L.~Robledo \textit{et~al.}
 \newblock High-fidelity projective read-out of a solid-state spin quantum
-  register \textbf{477}, 574 (2011).
+  register.
+\newblock \textit{Nature} \textbf{477}, 574 (2011).
 
 \bibitem{Togan_Nature_2010}
 E.~Togan \textit{et~al.}
 \newblock Quantum entanglement between an optical photon and a solid-state spin
-  qubit \textbf{466}, 730 (2010).
+  qubit.
+\newblock \textit{Nature} \textbf{466}, 730 (2010).
 
 \end{thebibliography}
