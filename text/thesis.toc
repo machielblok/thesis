@@ -79,3 +79,9 @@
 \contentsline {section}{\numberline {7.3}Dephasing of a carbon spin upon optical excitation of the electron spin.}{99}{section.7.3}
 \contentsline {section}{\numberline {7.4}Bibliography}{101}{section.7.4}
 \gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-10}
+\contentsline {chapter}{\chapternumberline {8}Conclusions and outlook}{103}{chapter.8}
+\contentsline {section}{\numberline {8.1}Summary}{104}{section.8.1}
+\contentsline {section}{\numberline {8.2}Summary}{104}{section.8.2}
+\contentsline {section}{\numberline {8.3}Bibliography}{104}{section.8.3}
+\gdef \the@ipfilectr {}

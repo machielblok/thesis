@@ -62,6 +62,11 @@ H.~M. Wiseman and G.~J. Milburn.
 \newblock \textit{Quantum Measurement and Control}.
 \newblock Cambridge University Press (2010).
 
+\bibitem{Devoret_Science_2013}
+M.~H. Devoret and R.~J. Schoelkopf.
+\newblock Superconducting circuits for quantum information: An outlook.
+\newblock \textit{Science} \textbf{339}, 1169 (2013).
+
 \bibitem{Pusey_NatPhys_2012}
 M.~F. Pusey, J.~Barrett and T.~Rudolph.
 \newblock On the reality of the quantum state.
@@ -138,6 +143,17 @@ T.~{van der Sar} \textit{et~al.}
   register.
 \newblock \textit{Nature} \textbf{484}, 82 (2012).
 
+\bibitem{Waldherr_Nature_2014}
+G.~Waldherr \textit{et~al.}
+\newblock Quantum error correction in a solid-state hybrid spin register.
+\newblock \textit{Nature} \textbf{advance online publication} (2014).
+
+\bibitem{Taminiau_NatNano_2014}
+T.~H. Taminiau, J.~Cramer, T.~van~der Sar, V.~V. Dobrovitski and R.~Hanson.
+\newblock Universal control and error correction in multi-qubit spin registers
+  in diamond.
+\newblock \textit{Nat Nano} \textbf{9}, 171 (2014).
+
 \bibitem{Jacques_Science_2007}
 V.~Jacques \textit{et~al.}
 \newblock Experimental realization of wheeler's delayed-choice gedanken
@@ -165,6 +181,12 @@ R.~Schirhagl, K.~Chang, M.~Loretz and C.~L. Degen.
 \newblock Nitrogen-vacancy centers in diamond: Nanoscale sensors for physics
   and biology.
 \newblock \textit{Annu. Rev. Phys. Chem.} \textbf{65}, 83 (2014).
+
+\bibitem{Acosta_Phys.Rev.Lett._2010}
+V.~M. Acosta \textit{et~al.}
+\newblock Temperature dependence of the nitrogen-vacancy magnetic resonance in
+  diamond.
+\newblock \textit{Phys. Rev. Lett.} \textbf{104}, 070801 (2010).
 
 \bibitem{Toyli_PNAS_2013}
 D.~M. Toyli, C.~F. de~las Casas, D.~J. Christle, V.~V. Dobrovitski and D.~D.
