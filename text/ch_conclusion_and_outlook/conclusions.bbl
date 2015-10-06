@@ -1,3 +1,262 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{Moehring_Nature_2007}
+D.~L. Moehring \textit{et~al.}
+\newblock Entanglement of single-atom quantum bits at a distance.
+\newblock \textit{Nature} \textbf{449}, 68 (2007).
+
+\bibitem{Hofmann_Science_2012}
+J.~Hofmann \textit{et~al.}
+\newblock Heralded entanglement between widely separated atoms.
+\newblock \textit{Science} \textbf{337}, 72 (2012).
+
+\bibitem{Ritter_Nature_2012}
+S.~Ritter \textit{et~al.}
+\newblock An elementary quantum network of single atoms in optical cavities.
+\newblock \textit{Nature} \textbf{484}, 195 (2012).
+
+\bibitem{Chou_Nature_2005}
+C.~W. Chou \textit{et~al.}
+\newblock Measurement-induced entanglement for excitation stored in remote
+  atomic ensembles.
+\newblock \textit{Nature} \textbf{438}, 828 (2005).
+
+\bibitem{Vijay_Nature_2012}
+R.~Vijay \textit{et~al.}
+\newblock Stabilizing rabi oscillations in a superconducting qubit using
+  quantum feedback.
+\newblock \textit{Nature} \textbf{490}, 77 (2012).
+
+\bibitem{Riste_Nature_2013}
+D.~Rist{\`e} \textit{et~al.}
+\newblock Deterministic entanglement of superconducting qubits by parity
+  measurement and feedback.
+\newblock \textit{Nature} \textbf{502}, 350 (2013).
+
+\bibitem{Gillett_Phys.Rev.Lett._2010}
+G.~G. Gillett \textit{et~al.}
+\newblock Experimental feedback control of quantum systems using weak
+  measurements.
+\newblock \textit{Phys. Rev. Lett.} \textbf{104}, 080503 (2010).
+
+\bibitem{Sayrin_Nature_2011}
+C.~Sayrin \textit{et~al.}
+\newblock Real-time quantum feedback prepares and stabilizes photon number
+  states.
+\newblock \textit{Nature} \textbf{477}, 73 (2011).
+
+\bibitem{Cramer_arXiv_2015}
+J.~Cramer \textit{et~al.}
+\newblock Repeated quantum error correction on a continuously encoded qubit by
+  real-time feedback.
+\newblock \textit{arXiv:1508.01388}  (2015).
+
+\bibitem{Casanova_arXiv_2015}
+J.~Casanova, J.~F. Haase, Z.-Y. Wang and M.~B. Plenio.
+\newblock Robust dynamical decoupling sequences for individual nuclear spin
+  addressing.
+\newblock \textit{arXiv:1506.03766}  (2015).
+
+\bibitem{Liu_NatCommun_2013}
+G.-Q. Liu, H.~C. Po, J.~Du, R.-B. Liu and X.-Y. Pan.
+\newblock Noise-resilient quantum evolution steered by dynamical decoupling.
+\newblock \textit{Nat Commun} \textbf{4}, 2254 (2013).
+
+\bibitem{Dolde_NatCommun_2014}
+F.~Dolde \textit{et~al.}
+\newblock High-fidelity spin entanglement using optimal control.
+\newblock \textit{Nat Commun} \textbf{5} (2014).
+
+\bibitem{Taminiau_Phys.Rev.Lett._2012}
+T.~H. Taminiau \textit{et~al.}
+\newblock Detection and control of individual nuclear spins using a weakly
+  coupled electron spin.
+\newblock \textit{Phys. Rev. Lett.} \textbf{109}, 137602 (2012).
+
+\bibitem{Nickerson_NatCommun_2013}
+N.~H. Nickerson, Y.~Li and S.~C. Benjamin.
+\newblock Topological quantum computing with a very noisy network and local
+  error rates approaching one percent.
+\newblock \textit{Nat Commun} \textbf{4}, 1756 (2013).
+
+\bibitem{Kaupp_Phys.Rev.A_2013}
+H.~Kaupp \textit{et~al.}
+\newblock Scaling laws of the cavity enhancement for nitrogen-vacancy centers
+  in diamond.
+\newblock \textit{Phys. Rev. A} \textbf{88}, 053812 (2013).
+
+\bibitem{Albrecht_Phys.Rev.Lett._2013}
+R.~Albrecht, A.~Bommer, C.~Deutsch, J.~Reichel and C.~Becher.
+\newblock Coupling of a single nitrogen-vacancy center in diamond to a
+  fiber-based microcavity.
+\newblock \textit{Phys. Rev. Lett.} \textbf{110}, 243602 (2013).
+
+\bibitem{Janitz_arXiv_2015}
+E.~Janitz \textit{et~al.}
+\newblock A fabry-perot microcavity for diamond-based photonics.
+\newblock \textit{arXiv:1508.06588}  (2015).
+
+\bibitem{Raussendorf_Phys.Rev.Lett._2001}
+R.~Raussendorf and H.~J. Briegel.
+\newblock A one-way quantum computer.
+\newblock \textit{Phys. Rev. Lett.} \textbf{86}, 5188 (2001).
+
+\bibitem{Benjamin_Laser&Photon.Rev._2009}
+S.~Benjamin, B.~Lovett and J.~Smith.
+\newblock Prospects for measurement-based quantum computing with solid state
+  spins.
+\newblock \textit{Laser \& Photon. Rev.} \textbf{3}, 556 (2009).
+
+\bibitem{Hensen_arXiv_2015}
+B.~Hensen \textit{et~al.}
+\newblock Experimental loophole-free violation of a bell inequality using
+  entangled electron spins separated by 1.3 km.
+\newblock \textit{arXiv:1508.05949}  (2015).
+
+\bibitem{DeGreve_Nature_2012}
+K.~De~Greve \textit{et~al.}
+\newblock Quantum-dot spin-photon entanglement via frequency downconversion to
+  telecom wavelength.
+\newblock \textit{Nature} \textbf{491}, 421 (2012).
+
+\bibitem{Zaske_Phys.Rev.Lett._2012}
+S.~Zaske \textit{et~al.}
+\newblock Visible-to-telecom quantum frequency conversion of light from a
+  single quantum emitter.
+\newblock \textit{Phys. Rev. Lett.} \textbf{109}, 147404 (2012).
+
+\bibitem{Campbell_Phys.Rev.Lett._2008}
+E.~T. Campbell and S.~C. Benjamin.
+\newblock Measurement-based entanglement under conditions of extreme photon
+  loss.
+\newblock \textit{Phys. Rev. Lett.} \textbf{101}, 130502 (2008).
+
+\bibitem{Briegel_Phys.Rev.Lett._1998}
+H.-J. Briegel, W.~D{\"u}r, J.~I. Cirac and P.~Zoller.
+\newblock Quantum repeaters: The role of imperfect local operations in quantum
+  communication.
+\newblock \textit{Phys. Rev. Lett.} \textbf{81}, 5932 (1998).
+
+\bibitem{Taylor_NatPhys_2008}
+J.~M. Taylor \textit{et~al.}
+\newblock High-sensitivity diamond magnetometer with nanoscale resolution.
+\newblock \textit{Nat Phys} \textbf{4}, 810 (2008).
+
+\bibitem{Schirhagl__2014}
+R.~Schirhagl, K.~Chang, M.~Loretz and C.~L. Degen.
+\newblock Nitrogen-vacancy centers in diamond: Nanoscale sensors for physics
+  and biology.
+\newblock \textit{Annu. Rev. Phys. Chem.} \textbf{65}, 83 (2014).
+
+\bibitem{Acosta_Phys.Rev.Lett._2010}
+V.~M. Acosta \textit{et~al.}
+\newblock Temperature dependence of the nitrogen-vacancy magnetic resonance in
+  diamond.
+\newblock \textit{Phys. Rev. Lett.} \textbf{104}, 070801 (2010).
+
+\bibitem{Toyli_PNAS_2013}
+D.~M. Toyli, C.~F. de~las Casas, D.~J. Christle, V.~V. Dobrovitski and D.~D.
+  Awschalom.
+\newblock Fluorescence thermometry enhanced by the quantum coherence of single
+  spins in diamond \textbf{110}, 8417 (2013).
+
+\bibitem{Ovartchaiyapong_NatCommun_2014}
+P.~Ovartchaiyapong, K.~W. Lee, B.~A. Myers and A.~C.~B. Jayich.
+\newblock Dynamic strain-mediated coupling of a single diamond spin to a
+  mechanical resonator.
+\newblock \textit{Nat Commun} \textbf{5} (2014).
+
+\bibitem{Dolde_NatPhys_2011}
+F.~Dolde \textit{et~al.}
+\newblock Electric-field sensing using single diamond spins.
+\newblock \textit{Nat Phys} \textbf{7}, 459 (2011).
+
+\bibitem{Balasubramanian_Nature_2008}
+G.~Balasubramanian \textit{et~al.}
+\newblock Nanoscale imaging magnetometry with diamond spins under ambient
+  conditions.
+\newblock \textit{Nature} \textbf{455}, 648 (2008).
+
+\bibitem{Maletinsky_NatNano_2012}
+P.~Maletinsky \textit{et~al.}
+\newblock A robust scanning diamond sensor for nanoscale imaging with single
+  nitrogen-vacancy centres.
+\newblock \textit{Nat Nano} \textbf{7}, 320 (2012).
+
+\bibitem{Rondin__2012}
+L.~Rondin \textit{et~al.}
+\newblock Nanoscale magnetic field mapping with a single spin scanning probe
+  magnetometer.
+\newblock \textit{Appl. Phys. Lett.} \textbf{100}, 153118 (2012).
+
+\bibitem{Pelliccione_Phys.Rev.Applied_2014}
+M.~Pelliccione, B.~Myers, L.~Pascal, A.~Das and A.~Bleszynski~Jayich.
+\newblock Two-dimensional nanoscale imaging of gadolinium spins via scanning
+  probe relaxometry with a single spin in diamond.
+\newblock \textit{Phys. Rev. Applied} \textbf{2}, 054014 (2014).
+
+\bibitem{Haberle_NatNano_2015}
+T.~H{\"a}berle, D.~Schmid-Lorch, F.~Reinhard and J.~Wrachtrup.
+\newblock Nanoscale nuclear magnetic imaging with chemical contrast.
+\newblock \textit{Nat Nano} \textbf{10}, 125 (2015).
+
+\bibitem{Kolkowitz_Science_2015}
+S.~Kolkowitz \textit{et~al.}
+\newblock Probing johnson noise and ballistic transport in normal metals with a
+  single-spin qubit.
+\newblock \textit{Science} \textbf{347}, 1129 (2015).
+
+\bibitem{vanderSar_NatCommun_2015}
+T.~{van der Sar}, F.~Casola, R.~Walsworth and A.~Yacoby.
+\newblock Nanometre-scale probing of spin waves using single-electron spins.
+\newblock \textit{Nat Commun} \textbf{6}, 7886 (2015).
+
+\bibitem{LeSage_Nature_2013}
+D.~Le~Sage \textit{et~al.}
+\newblock Optical magnetic imaging of living cells.
+\newblock \textit{Nature} \textbf{496}, 486 (2013).
+
+\bibitem{Kucsko_Nature_2013}
+G.~Kucsko \textit{et~al.}
+\newblock Nanometre-scale thermometry in a living cell.
+\newblock \textit{Nature} \textbf{500}, 54 (2013).
+
+\bibitem{Pusey_NatPhys_2012}
+M.~F. Pusey, J.~Barrett and T.~Rudolph.
+\newblock On the reality of the quantum state.
+\newblock \textit{Nat Phys} \textbf{8}, 475 (2012).
+
+\bibitem{Aharonov_Phys.Rev.Lett._1988}
+Y.~Aharonov, D.~Z. Albert and L.~Vaidman.
+\newblock How the result of a measurement of a component of the spin of a
+  spin-1/2 particle can turn out to be 100.
+\newblock \textit{Phys. Rev. Lett.} \textbf{60}, 1351 (1988).
+
+\bibitem{Ferrie_Phys.Rev.Lett._2014}
+C.~Ferrie and J.~Combes.
+\newblock How the result of a single coin toss can turn out to be 100 heads.
+\newblock \textit{Phys. Rev. Lett.} \textbf{113}, 120404 (2014).
+
+\bibitem{Pusey_Phys.Rev.Lett._2014}
+M.~F. Pusey.
+\newblock Anomalous weak values are proofs of contextuality.
+\newblock \textit{Phys. Rev. Lett.} \textbf{113}, 200401 (2014).
+
+\bibitem{Diosi_PhysicsLettersA_1987}
+L.~Di{\'o}si.
+\newblock A universal master equation for the gravitational violation of
+  quantum mechanics.
+\newblock \textit{Physics Letters A} \textbf{120}, 377 (1987).
+
+\bibitem{Penrose_Phil.Trans.R.Soc.Lond.A_1998}
+R.~Penrose.
+\newblock Quantum computation, entanglement and state reduction.
+\newblock \textit{Phil. Trans. R. Soc. Lond. A} \textbf{356}, 1927 (1998).
+
+\bibitem{Wezel_Proc.R.Soc.A_2012}
+J.~van Wezel and T.~H. Oosterkamp.
+\newblock A nanoscale experiment measuring gravity's role in breaking the
+  unitarity of quantum dynamics.
+\newblock \textit{Proc. R. Soc. A} \textbf{468}, 35 (2012).
 
 \end{thebibliography}

@@ -83,5 +83,7 @@
 \contentsline {chapter}{\chapternumberline {8}Conclusions and outlook}{103}{chapter.8}
 \contentsline {section}{\numberline {8.1}Summary}{104}{section.8.1}
 \contentsline {section}{\numberline {8.2}Quantum Information Processing with NV centers in diamond}{104}{section.8.2}
-\contentsline {section}{\numberline {8.3}Bibliography}{105}{section.8.3}
+\contentsline {section}{\numberline {8.3}Single spin sensors}{106}{section.8.3}
+\contentsline {section}{\numberline {8.4}Fundamentals of quantum mechanics}{106}{section.8.4}
+\contentsline {section}{\numberline {8.5}Bibliography}{106}{section.8.5}
 \gdef \the@ipfilectr {}
