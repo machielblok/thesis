@@ -151,12 +151,26 @@ In addition to the nitrogen nuclear spin, each NV center is surrounded by a uniq
 H_{e,N,C} = H_{e,N} + \gamma_C \mathbf{B} \cdot \mathbf{I_C} + A_{\parallel,C} S_z I_{C_z} + A_{\perp,C} S_z I_{C_x},
 \end{equation}
 
-with $I_{C_i}$ the Pauli spin matrices for the Carbon spin, $\gamma_C = 1.0705$ kHz/G the gyromagnetic ratio of the Carbon spin and the hyperfine parameters $A_{\parallel,C}$ and $A_{\perp,C}$ that depend on the distance between the Carbon spin and the electron spin and on the angle with respect to the quantization axis of the NV center. Carbon spins with high coupling strength compared to the dephasing time of the electron spin ($A_C > 1/T_2^*$) can be spectrally resolved via the electron spin and allow for similar control techniques as used for the nitrogen spin \cite{Jelezko_Phys.Rev.Lett._2004,Dutt_Science_2007,Neumann_Science_2008,Jiang_Science_2009,Smeltzer_Phys.Rev.A_2009}. A signature of a strongly coupled carbon spin can be seen in figure \ref{fig:tam-fig7-erabi}b (bottom panel). Recently it was shown that dynamical decoupling techniques can overcome the limitation set by the electron spin decoherence to detect\cite{Taminiau_Phys.Rev.Lett._2012,Kolkowitz_Phys.Rev.Lett._2012,Zhao_NatNano_2012} and control\cite{Taminiau_NatNano_2014} weakly coupled Carbon spins. In chapter \ref{ch:cdl} and ADDREF!! we investigate the feasibility to use these weakly coupled carbon spins as quantum memories that are robust against optical excitation of the electron spin.
+with $I_{C_i}$ the Pauli spin matrices for the Carbon spin, $\gamma_C = 1.0705$ kHz/G the gyromagnetic ratio of the Carbon spin and the hyperfine parameters $A_{\parallel,C}$ and $A_{\perp,C}$ that depend on the distance between the Carbon spin and the electron spin and on the angle with respect to the quantization axis of the NV center. Carbon spins with high coupling strength compared to the dephasing time of the electron spin ($A_C > 1/T_2^*$) can be spectrally resolved via the electron spin and allow for similar control techniques as used for the nitrogen spin \cite{Jelezko_Phys.Rev.Lett._2004,Dutt_Science_2007,Neumann_Science_2008,Jiang_Science_2009,Smeltzer_Phys.Rev.A_2009}. A signature of a strongly coupled carbon spin can be seen in figure \ref{fig:tam-fig7-erabi}b (bottom panel). Recently it was shown that dynamical decoupling techniques can overcome the limitation set by the electron spin decoherence to detect\cite{Taminiau_Phys.Rev.Lett._2012,Kolkowitz_Phys.Rev.Lett._2012,Zhao_NatNano_2012} and control\cite{Taminiau_NatNano_2014} weakly coupled Carbon spins. In chapter \ref{ch:CDL} and \ref{ch:CDP} we investigate the feasibility to use these weakly coupled carbon spins as quantum memories that are robust against optical excitation of the electron spin.
 
-%\section{Quantum measurements}
-%\section{Methods}
+\section{Initialization by Quantum measurement}
+The nuclear spins (nitrogen or carbon) can be prepared via measurement-based initialization\cite{Robledo_Nature_2011}. According to Born's rule a projective measurement associated with operator $\hat{A}$ of a system initially in a state $\ket{\psi_S}$ collapses the system to one of the eigenstates $\ket{\lambda_i}$ of $\hat{A}$ with probability $p_i = |\braket{\lambda_i}{\psi_S}|^2$. When the system is initially in an unknown state described by the density matrix $\rho_S$ the post-measurement density matrix, given measurement outcome $\lambda_i$ is
 
+\begin{equation}
+\rho_{S|\lambda_i} = \frac{1}{p_i}\hat{P}\rho_S\hat{P}
+\end{equation}
 
+with $\hat{P}=\ket{\lambda_i}\bra{\lambda_i}$, leaving the system in a pure state even if the initial density matrix is mixed. For the nitrogen spin the qubit states are eigenstates of the operator $I_{N_z}$. Thus to initialize it we perform a measurement of this operator and continue with the experiment when the measurement result corresponds to the desired state.
+
+We perform a measurement of $I_{N_z}$ of the nitrogen spin by implementing an indirect von Neumann measurement using the electron spin (Fig. \ref{fig:tam-fig11-mbi}). In this scheme the system (nitrogen spin) is first mapped onto a probe (electron spin) with an entangling operation. As a result the information about the system is encoded in the probe which is then measured. In our case the electron is initially prepared in $m_s= \pm 1$ and then flipped with a microwave pulse that is conditional on an eigenstate of the nitrogen. When the subsequent electron spin readout yields $m_s = 0$, the nitrogen spin is projected to the corresponding eigenstate as verified by electron spin resonance (Fig. \ref{fig:tam-fig11-mbi}).
+
+\begin{figure*}
+	\centering
+	\includegraphics{MBI}
+	\caption{\label{fig:tam-fig11-mbi} \textbf{} (a) }
+\end{figure*}
+
+For measurement-based protocols like initialization by measurement and quantum error correction\cite{Devoret_Science_2013} it is crucial that the measurement is quantum non-demolition (QND)\cite{Braginsky_Science_1980}, meaning that the final state of the system is exactly the eigenstate associated with the measurement outcome such that two consecutive measurements of the same observable yield the same result. In practice this is not always the case since a measurement could completely destroy the system (as is the case for measuring a photon with an APD) or the measurement process itself can introduce additional disturbance. An example is the optical readout of the electron spin where a finite spin-flip probability in the excited state can leave the electron spin in a dark state regardless of the measurement outcome.In chapter \ref{ch:LDE} we introduce a QND measurement of the electron spin and use it to implement a partial measurement of the nitrogen spin and study the measurement back-action. In chapter \ref{ch:LDE} of this thesis we use a projective measurement to prepare two remote qubits in an entangled state.
 
 \newpage
 \bibliographystyle{../thesis}

@@ -171,6 +171,22 @@ F.~Dolde \textit{et~al.}
 \newblock Electric-field sensing using single diamond spins.
 \newblock \textit{Nat Phys} \textbf{7}, 459 (2011).
 
+\bibitem{Kolkowitz_Science_2015}
+S.~Kolkowitz \textit{et~al.}
+\newblock Probing johnson noise and ballistic transport in normal metals with a
+  single-spin qubit.
+\newblock \textit{Science} \textbf{347}, 1129 (2015).
+
+\bibitem{vanderSar_NatCommun_2015}
+T.~{van der Sar}, F.~Casola, R.~Walsworth and A.~Yacoby.
+\newblock Nanometre-scale probing of spin waves using single-electron spins.
+\newblock \textit{Nat Commun} \textbf{6}, 7886 (2015).
+
+\bibitem{LeSage_Nature_2013}
+D.~Le~Sage \textit{et~al.}
+\newblock Optical magnetic imaging of living cells.
+\newblock \textit{Nature} \textbf{496}, 486 (2013).
+
 \bibitem{Balasubramanian_Nature_2008}
 G.~Balasubramanian \textit{et~al.}
 \newblock Nanoscale imaging magnetometry with diamond spins under ambient
@@ -200,37 +216,20 @@ T.~H{\"a}berle, D.~Schmid-Lorch, F.~Reinhard and J.~Wrachtrup.
 \newblock Nanoscale nuclear magnetic imaging with chemical contrast.
 \newblock \textit{Nat Nano} \textbf{10}, 125 (2015).
 
-\bibitem{Kolkowitz_Science_2015}
-S.~Kolkowitz \textit{et~al.}
-\newblock Probing johnson noise and ballistic transport in normal metals with a
-  single-spin qubit.
-\newblock \textit{Science} \textbf{347}, 1129 (2015).
-
-\bibitem{vanderSar_NatCommun_2015}
-T.~{van der Sar}, F.~Casola, R.~Walsworth and A.~Yacoby.
-\newblock Nanometre-scale probing of spin waves using single-electron spins.
-\newblock \textit{Nat Commun} \textbf{6}, 7886 (2015).
-
-\bibitem{LeSage_Nature_2013}
-D.~Le~Sage \textit{et~al.}
-\newblock Optical magnetic imaging of living cells.
-\newblock \textit{Nature} \textbf{496}, 486 (2013).
-
 \bibitem{Kucsko_Nature_2013}
 G.~Kucsko \textit{et~al.}
 \newblock Nanometre-scale thermometry in a living cell.
 \newblock \textit{Nature} \textbf{500}, 54 (2013).
 
+\bibitem{Chu_NanoLett._2014}
+Y.~Chu \textit{et~al.}
+\newblock Coherent optical transitions in implanted nitrogen vacancy centers.
+\newblock \textit{Nano Lett.} \textbf{14}, 1982 (2014).
+
 \bibitem{Pusey_NatPhys_2012}
 M.~F. Pusey, J.~Barrett and T.~Rudolph.
 \newblock On the reality of the quantum state.
 \newblock \textit{Nat Phys} \textbf{8}, 475 (2012).
-
-\bibitem{Aharonov_Phys.Rev.Lett._1988}
-Y.~Aharonov, D.~Z. Albert and L.~Vaidman.
-\newblock How the result of a measurement of a component of the spin of a
-  spin-1/2 particle can turn out to be 100.
-\newblock \textit{Phys. Rev. Lett.} \textbf{60}, 1351 (1988).
 
 \bibitem{Ferrie_Phys.Rev.Lett._2014}
 C.~Ferrie and J.~Combes.
