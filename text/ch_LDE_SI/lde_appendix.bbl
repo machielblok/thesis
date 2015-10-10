@@ -1,0 +1,54 @@
+\begin{thebibliography}{1}
+
+\bibitem{Robledo:2011fs}
+L.~Robledo \textit{et~al.}
+\newblock {High-fidelity projective read-out of a solid-state spin quantum
+  register}.
+\newblock \textit{Nature} \textbf{477}, 574 (2011).
+
+\bibitem{Pfaff:2012ue}
+W.~Pfaff \textit{et~al.}
+\newblock {Demonstration of entanglement-by-measurement of solid-state qubits}.
+\newblock \textit{Nature Phys.}  (2012).
+
+\bibitem{Robledo2010}
+L.~Robledo, H.~Bernien, I.~van Weperen and R.~Hanson.
+\newblock {Control and Coherence of the Optical Transition of Single Nitrogen
+  Vacancy Centers in Diamond}.
+\newblock \textit{Phys. Rev. Lett.} \textbf{105}, 177403 (2010).
+
+\bibitem{Blinov2004a}
+B.~B. Blinov, D.~L. Moehring, L.-M. Duan and C.~Monroe.
+\newblock {Observation of entanglement between a single trapped atom and a
+  single photon}.
+\newblock \textit{Nature} \textbf{428}, 153 (2004).
+
+\bibitem{Lindsey:ub}
+J.~K. Lindsey.
+\newblock \textit{{Parametric Statistical Inference}}.
+\newblock Clarendon Press, Oxford, UK (1996).
+
+\bibitem{2003PhRvA..67d2308C}
+H.~K. Cummins, G.~Llewellyn and J.~A. Jones.
+\newblock {Tackling systematic errors in quantum logic gates with composite
+  rotations}.
+\newblock \textit{Phys. Rev. A} \textbf{67}, 42308 (2003).
+
+\bibitem{Childress2006}
+L.~Childress \textit{et~al.}
+\newblock {Coherent dynamics of coupled electron and nuclear spin qubits in
+  diamond.}
+\newblock \textit{Science} \textbf{314}, 281 (2006).
+
+\bibitem{Gullion:1990uj}
+T.~Gullion, D.~B. Baker and M.~S. Conradi.
+\newblock {New, compensated carr-purcell sequences}.
+\newblock \textit{J. Magn. Reson.} \textbf{89}, 479 (1990).
+
+\bibitem{Legero:2006ur}
+T.~Legero, T.~Wilk, A.~Kuhn and G.~Rempe.
+\newblock {Characterization of Single Photons Using Two-Photon Interference}.
+\newblock M.~O. Scully and G.~Rempe (editors), \textit{Advances In Atomic,
+  Molecular, and Optical Physics}, Academic Press, 253--289 (2006).
+
+\end{thebibliography}
