@@ -92,3 +92,7 @@
 \contentsline {section}{\numberline {8.4}Fundamentals of quantum mechanics}{108}{section.8.4}
 \contentsline {section}{\numberline {8.5}Bibliography}{109}{section.8.5}
 \gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-12}
+\contentsline {appendix}{\chapternumberline {A}Adaptive sensing protocols}{113}{appendix.A}
+\contentsline {section}{\numberline {A.1}Comparison of sensing protocols: numerical simulations}{113}{section.A.1}
+\gdef \the@ipfilectr {}
