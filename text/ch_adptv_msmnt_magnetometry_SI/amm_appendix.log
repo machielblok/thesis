@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  11 OCT 2015 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.17)  11 OCT 2015 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -147,7 +147,11 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(./amm_appendix.aux)
+(./amm_appendix.aux
+
+LaTeX Warning: Label `fig:ammS6' multiply defined.
+
+)
 \openout1 = `amm_appendix.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -162,8 +166,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
-
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count102
 \scratchdimen=\dimen116
@@ -242,24 +245,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
+<figures/fig_S3_new.pdf, id=24, 425.59pt x 141.52875pt>
+File: figures/fig_S3_new.pdf Graphic file (type pdf)
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+<use figures/fig_S3_new.pdf>
+Package pdftex.def Info: figures/fig_S3_new.pdf used on input line 83.
+(pdftex.def)             Requested size: 341.43306pt x 113.54924pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--88
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-
- []
-
-[5] <figures/fig_S6.pdf, id=30, 722.7pt x 505.89pt>
+[4] [5 <./figures/fig_S3_new.pdf>]
+<figures/fig_S6.pdf, id=46, 722.7pt x 505.89pt>
 File: figures/fig_S6.pdf Graphic file (type pdf)
  <use figures/fig_S6.pdf>
-Package pdftex.def Info: figures/fig_S6.pdf used on input line 96.
+Package pdftex.def Info: figures/fig_S6.pdf used on input line 101.
 (pdftex.def)             Requested size: 341.43306pt x 239.0034pt.
 
 [6 <./figures/fig_S6.pdf>]
-Overfull \hbox (0.83383pt too wide) in paragraph at lines 106--108
+Overfull \hbox (0.83383pt too wide) in paragraph at lines 111--113
 []\OT1/cmr/m/n/10 This sug-gests the pos-si-bil-ity that adap-tive sens-ing, wh
 ich reaches Heisenberg-
  []
@@ -267,13 +272,13 @@ ich reaches Heisenberg-
 [7]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 118.
+               Default added (so using `tbp') on input line 123.
 
-[8] <figures/Rabi_diff_hf_lines.pdf, id=124, 569.05598pt x 398.99063pt>
+[8] <figures/Rabi_diff_hf_lines.pdf, id=139, 569.05598pt x 398.99063pt>
 File: figures/Rabi_diff_hf_lines.pdf Graphic file (type pdf)
 
 <use figures/Rabi_diff_hf_lines.pdf>
-Package pdftex.def Info: figures/Rabi_diff_hf_lines.pdf used on input line 145.
+Package pdftex.def Info: figures/Rabi_diff_hf_lines.pdf used on input line 150.
 
 (pdftex.def)             Requested size: 341.43306pt x 239.40231pt.
 
@@ -281,52 +286,55 @@ Package pdftex.def Info: figures/Rabi_diff_hf_lines.pdf used on input line 145.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (1.18883pt too wide) in paragraph at lines 151--151
+Overfull \hbox (1.18883pt too wide) in paragraph at lines 156--156
 []\OT1/cmr/bx/n/12 NV charge state and op-ti-cal res-o-nance pre- and post-
  []
 
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-<figures/Failed_CR_checks.pdf, id=125, 228.59937pt x 154.96959pt>
+<figures/Failed_CR_checks.pdf, id=140, 228.59937pt x 154.96959pt>
 File: figures/Failed_CR_checks.pdf Graphic file (type pdf)
 
 <use figures/Failed_CR_checks.pdf>
-Package pdftex.def Info: figures/Failed_CR_checks.pdf used on input line 158.
+Package pdftex.def Info: figures/Failed_CR_checks.pdf used on input line 163.
 (pdftex.def)             Requested size: 341.43306pt x 231.46536pt.
  [9]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [10] [11 <./figures/Rabi_diff_hf_lines.pdf>] [12 <./figures/Failed_CR_checks.pd
-f>] (./amm_appendix.aux) ) 
+f>] (./amm_appendix.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2698 strings out of 493117
- 35599 string characters out of 6135433
- 110063 words of memory out of 5000000
- 6133 multiletter control sequences out of 15000+600000
+ 2703 strings out of 493117
+ 35720 string characters out of 6135433
+ 111102 words of memory out of 5000000
+ 6137 multiletter control sequences out of 15000+600000
  9983 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,16n,35p,1493b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr5.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.
-pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
-b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
->
-Output written on amm_appendix.pdf (12 pages, 646867 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on amm_appendix.pdf (12 pages, 857303 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
+ 244 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
