@@ -1,6 +1,7 @@
 \documentclass{report}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage[table,xcdraw]{xcolor}
 \begin{document}
 
 \graphicspath{{./ch_adptv_msmnt_cntrl_SI/figures/}}
@@ -90,6 +91,12 @@ At room-temperature, the spin-selective optical transitions within the zero-phon
 \frac{1}{C} = \sqrt{1+\frac{2(\alpha_0 + \alpha_1)}{(\alpha_0+\alpha_1)^2R}}
 \end{equation}
 
+\begin{figure*}[h]
+	\centering
+	\includegraphics[width=12cm]{figures/fig_S6}
+	\caption{\label{fig:ammS6} \textbf{Adaptive protocol for room-temperature} Simulations comparing the minimum magnetic field sensitivity (in nT Hz$^{-\frac{1}{2}}$) for the optimized adaptive and the non-adaptive protocols at room-temperature and low-temperature ($T_2^* = 96 \mu$s, $N = 10$, $G = 5$). 
+	}
+\end{figure*}
 This contrast $C$ is related to the fidelity with which the two states can be distinguished and, since luminescence detection is shot-noise limited, the error scales at the standard quantum limit as $R^{-\frac{1}{2}}$. Nusran et al. achieve a fidelity of 0.99, in their experiment [PS-5], by using 50000 readout repetitions per step. The achieved contrast as a function of readout repetitions is plotted in Supplementary Figure S5.
 A contrast $C = 0.75$ can be achieved with $R = 1350$ repetitions, while $R = 3600$ repetitions are needed for $C = 0.88$, significantly less than the repetitions (50000) needed for almost perfect readout ($C = 0.99$). 
 In the simulations in Supplementary Figure S6, for consistency with previous results, we assume asymmetric readout fidelity ($F_1 = 0.993$,$F_0 = C+(1-F_1)$), based on the contrast $C$ achieved with a given number of readout repetitions. The asymmetry of the readout fidelity can be controlled at will by choosing the threshold in photo-counts distinguishing $m_s = 0$ from $m_s = 1$.
@@ -108,12 +115,36 @@ Due to the hyperfine coupling to the host $^{14}$N spin, the electron spin trans
 \subsection{Bayesian estimation with microprocessor}
 The microprocessor code for Bayesian update minimizes the number of coefficients $p_k$ (Eq. S-E2) to be tracked and stored, to avoid exceeding the memory bounds of the microprocessor, and to optimize speed. We only use the coefficients which are known to be non-zero and contribute to the choice of the controlled phase $\vartheta$, neglecting the rest. Since the probability distribution is real ($p_k^* = p_{-k}$), we can further reduce the computational requirements by only storing the coefficients for $k>0$. Considering all this, the number of coefficients that needs to be processed, at each step $n$, is on the order of $M = G+F(n-1)$.
 
+\begin{table}[]
+\centering
+\begin{tabular}{ccccc}
+\hline
+\multicolumn{1}{l}{\textbf{N}} & \multicolumn{1}{l}{\textbf{\begin{tabular}[c]{@{}l@{}}initialization\\ time {[}ms{]}\end{tabular}}} & \multicolumn{1}{l}{\textbf{\begin{tabular}[c]{@{}l@{}}sensing\\ time {[}ms{]}\end{tabular}}} & \multicolumn{1}{l}{\textbf{\begin{tabular}[c]{@{}l@{}}readout\\ time {[}ms{]}\end{tabular}}} & \multicolumn{1}{l}{\textbf{\begin{tabular}[c]{@{}l@{}}computational\\ time {[}ms{]}\end{tabular}}} \\ \hline
+\rowcolor[HTML]{C0C0C0} 
+\textbf{5}  & 9.0 & 0.004 & 1.80 & 4.0 \\
+\textbf{7}  & 15.4 & 0.018 & 3.08  & 8.0  \\
+\rowcolor[HTML]{C0C0C0} 
+\textbf{8}  & 19.2 & 0.035 & 3.84 & 10.8  \\
+\textbf{9}  & 23.4 & 0.071 & 4.68 & 13.9 \\
+\rowcolor[HTML]{C0C0C0} 
+\textbf{10} & 28.0 & 0.140 & 5.60  & 17.6 \\
+\textbf{12} & 38.4 & 0.573 & 7.68  & 26.8  \\ \hline
+\end{tabular}
+\caption{\textbf{Temporal budget of the estimation protocol.} Total time, measured by the internal microprocessor clock, spent by the optimized-adaptive protocol in different tasks within the whole estimation sequence. The computational time (i.e. the time spent by the processor in performing the Bayesian update), is similar to that spent on spin initialization. Given that initialization and Bayesian update can be performed simultaneously, the computational time represents no additional overhead. }
+\label{my-label}
+\end{table}
 In the case ($G = 5$, $F = 2$), the time spent by the microprocessor in the Bayesian update after each Ramsey experiment increases linearly from 80 $\mu$s (for $n = 2$) to 190 $\mu$s (for $n = 12$). This time is comparable with the spin initialization duration (200 $\mu$s). In table 1 we show the total times associated with sensing, initialization, and computation of the Bayesian estimate. While in this work we performed the initialization and the Bayesian estimate sequentially, both operations can be performed simultaneously. In this way the real-time Bayesian estimation, a crucial prerequisite for the adaptive technique, does not add any temporal overhead to the protocol. In future implementations, the Bayesian estimation could be implemented with a dedicated FPGA, instead of a general-purpose microprocessor, which would allow a further reduction of the calculation time.
 
 \subsection{Microwave pusles and coupling to the $^{14}$N spin}
-When using the electron spin of the NV center as a sensor in a Ramsey interferometry experiment, the coupling to its host $^{14}$N nuclear spin has to be taken into account. The hyperfine interaction ($\hat{H}_{hf}=A_{hf} \hat{S}_z \hat{I}_z$, neglecting small off-diagonal terms) effectively splits the electron spin $m_s = 0 $ to $m_s = -1$ transition in three lines (Supplementary Figure S7b).  Although these three lines can be addressed simultaneously by selecting a Rabi frequency larger than the coupling strength, the phase acquired during free evolution will depend on the state of the $^{14}$N spin. This creates ambiguity in the frequency estimation protocol, since the aim is to sense only the change in energy levels introduced by the Zeeman shift induced by the applied magnetic field, not the coupling to the $^{14}$N spin.
+When using the electron spin of the NV center as a sensor in a Ramsey interferometry experiment, the coupling to its host $^{14}$N nuclear spin has to be taken into account. The hyperfine interaction ($\hat{H}_{hf}=A_{hf} \hat{S}_z \hat{I}_z$, neglecting small off-diagonal terms) effectively splits the electron spin $m_s = 0 $ to $m_s = -1$ transition in three lines (Fig. \ref{fig:ammS7}b).  Although these three lines can be addressed simultaneously by selecting a Rabi frequency larger than the coupling strength, the phase acquired during free evolution will depend on the state of the $^{14}$N spin. This creates ambiguity in the frequency estimation protocol, since the aim is to sense only the change in energy levels introduced by the Zeeman shift induced by the applied magnetic field, not the coupling to the $^{14}$N spin.
 
-To circumvent this problem, we perform three sequential Ramsey sequences where, in each sequence, the microwave pulses are resonant with one of the three $m_s = 0$ to $m_s = -1$ transitions and the acquired phase only depends on the Zeeman shift. We choose the Rabi frequency (140 kHz) such that the pulses in each sequence only address selectively one of the three transitions. In Fig S7a, we show that we can perform Rabi oscillations selectively on the Nitrogen spin. Here the microwave pulses only drive the electron spin $m_s = 0$ to $m_s = -1$ transition if they are on resonance, thus for the $^{14}$N spin in a mixed state, a contrast of 1/3 is expected. Full contrast is recovered when the three pulses are applied sequentially (Supplementary Figure S7c).
+To circumvent this problem, we perform three sequential Ramsey sequences where, in each sequence, the microwave pulses are resonant with one of the three $m_s = 0$ to $m_s = -1$ transitions and the acquired phase only depends on the Zeeman shift. We choose the Rabi frequency (140 kHz) such that the pulses in each sequence only address selectively one of the three transitions. In Fig S7a, we show that we can perform Rabi oscillations selectively on the Nitrogen spin. Here the microwave pulses only drive the electron spin $m_s = 0$ to $m_s = -1$ transition if they are on resonance, thus for the $^{14}$N spin in a mixed state, a contrast of 1/3 is expected. Full contrast is recovered when the three pulses are applied sequentially (Fig. \ref{fig:ammS7}c).
+
+\begin{figure*}[h]
+	\centering
+	\includegraphics[width=12cm]{figures/Rabi_diff_hf_lines}
+	\caption{\label{fig:ammS7} \textbf{Electron spin driving.} a) Rabi oscillations of the electron spin conditional on the state of the  nitrogen spin ($^{14}$N , $I = 1$). We tune the frequency of the microwave pulses in resonance with one of the three $m_s = 0$ to $m_s = -1$ transitions, corresponding to the nitrogen spin being either in $m_I = -1 , 0$ or $+1$ (top, middle bottom) and vary the length of the pulse. From a sinusoidal fit (grey line) we find Rabi frequencies of  (144, 140 and 142 $\pm$ 2 kHz) respectively b) Energy level spectrum for the electron $m_s = 0$ to $m_s = -1$ transition. We initialize the electron spin in $m_s = 0$ and then vary the frequency of a microwave pulse with fixed length. The pulse detuning is with respect to a reference frequency of 2.845334 GHz.  The spectrum shows three lines owing to the hyperfine interaction with the $^{14}$N spin with $|A_{hf}| = 2\pi x (2.185  \pm 0.006)$ MHz. c) Rabi oscillation of the electron spin unconditional on the state of the nitrogen spin. We apply three sequential microwave pulses each on resonance with one of the hyperfine lines. From the sinusoidal fit (grey line) we find a Rabi frequency of $(142 \pm 3)$ kHz.}
+\end{figure*}
 
 We note that this method requires the electron transition energies and therefore the static magnetic field to be known within the bandwidth of the pulses ($\sim$ 140 kHz). This is not a problem for our implementation, where the effect of an external field is implemented as an artificial detuning by adjusting the phase of the final $\pi$/2 pulse. When estimating a real magnetic field possible solutions would be to initialize the nitrogen spin, adjust the frequency estimation protocol to allow for sensing of multiple frequencies with fixed offset or adjust the interaction times such that the phase acquired during free evolution is independent of the state of the nitrogen spin ($2 \pi = \tau A_{hf}$).
 
@@ -121,12 +152,11 @@ We note that this method requires the electron transition energies and therefore
 Due to environmental charge noise, the optical transitions of the NV centre shift in frequency on a range larger than the linewidth. Moreover, resonant excitation can result in ionization of the NV- charged state into the neutral NV$^0$ state.
 Before each estimation sequence, we check that the centre is in the NV$^-$ state, with optical transitions resonant with the excitation lasers. We turn both the initialization and readout lasers (on transitions E’ and $E_y$, respectively) for 150 $\mu$s and count luminescence photons. Only if the luminescence photo-counts are larger than a given threshold (40 counts), the estimation sequence is started (charge and optical resonance pre-selection). We take the absence of luminescence photo-counts as an indication that the centre is ionized into the NV$^0$ state: the correct charge state is restored by resonant optical excitation of the NV$^0$ transition at 575 nm.
 An estimation sequence can consists of a large series of Ramsey experiments, with spin initialization and readout. Ionization of the defect or large frequency shifts of the optical transitions during the sequence results in incorrect spin readout and errors in the magnetic field estimation. Therefore, we perform a new check of the charge and optical resonance conditions at the end of the estimation sequence and consider it as a valid estimation only if more than 10 luminescence photo-counts are detected (charge and optical resonance post-selection).
-In the histograms in Supplementary Figure S8, we report an example of the number of rejected runs for 252 repetitions of the estimation sequence. While the average number of rejections in the post-selection process is around 50\%, we have a consistent fraction of events (75/225) with no rejections, and other runs with 80\% failure rate. This large spread is due to the fact that the data was taken in long automated measurement session during nights, with infrequent optimizations of the experimental parameters (like spatial overlap of laser beams on the NV centre). We believe that the percentage of rejected runs can be drastically reduced by optimizing the experimental settings and procedures.
-
-\begin{figure*}
+In the histograms in Fig. ref{fig:ammS8}, we report an example of the number of rejected runs for 252 repetitions of the estimation sequence. While the average number of rejections in the post-selection process is around 50\%, we have a consistent fraction of events (75/225) with no rejections, and other runs with 80\% failure rate. This large spread is due to the fact that the data was taken in long automated measurement session during nights, with infrequent optimizations of the experimental parameters (like spatial overlap of laser beams on the NV centre). We believe that the percentage of rejected runs can be drastically reduced by optimizing the experimental settings and procedures.
+\begin{figure*}[h]
 	\centering
-	\includegraphics[width=12cm]{figures/fig_S6}
-	\caption{\label{fig:ammS6} \textbf{bla}}
+	\includegraphics[width=12cm]{figures/Failed_CR_checks}
+	\caption{\label{fig:ammS8} \textbf{Charge resonance statistics}Histograms of the percentage of rejected runs in charge and optical resonance post-selection.}
 \end{figure*}
 %\bibliographystyle{../thesis}
 %\bibliography{amm_appendix}
