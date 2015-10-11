@@ -94,8 +94,8 @@
 \contentsline {section}{\numberline {A.11}State steering by real-time adaptive measurements}{111}{section.A.11}
 \contentsline {subsection}{\numberline {A.11.1}Ideal protocol}{111}{subsection.A.11.1}
 \contentsline {subsection}{\numberline {A.11.2}Error analysis}{111}{subsection.A.11.2}
-\contentsline {subsection}{\numberline {A.11.3}Dynamical-stop electron read-out}{116}{subsection.A.11.3}
-\contentsline {section}{\numberline {A.12}Bibliography}{117}{section.A.12}
+\contentsline {subsection}{\numberline {A.11.3}Dynamical-stop electron read-out}{115}{subsection.A.11.3}
+\contentsline {section}{\numberline {A.12}Bibliography}{116}{section.A.12}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-13}
 \contentsline {appendix}{\chapternumberline {B}Heralded entanglement}{119}{appendix.B}
