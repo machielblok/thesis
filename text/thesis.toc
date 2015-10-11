@@ -94,8 +94,8 @@
 \contentsline {section}{\numberline {A.11}State steering by real-time adaptive measurements}{111}{section.A.11}
 \contentsline {subsection}{\numberline {A.11.1}Ideal protocol}{111}{subsection.A.11.1}
 \contentsline {subsection}{\numberline {A.11.2}Error analysis}{111}{subsection.A.11.2}
-\contentsline {subsection}{\numberline {A.11.3}Dynamical-stop electron read-out}{116}{subsection.A.11.3}
-\contentsline {section}{\numberline {A.12}Bibliography}{117}{section.A.12}
+\contentsline {subsection}{\numberline {A.11.3}Dynamical-stop electron read-out}{115}{subsection.A.11.3}
+\contentsline {section}{\numberline {A.12}Bibliography}{116}{section.A.12}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-13}
 \contentsline {appendix}{\chapternumberline {B}Heralded entanglement}{119}{appendix.B}
@@ -145,8 +145,4 @@
 \contentsline {subsection}{\numberline {C.3.3}Teleportation fidelity by Bell-state measurement outcome}{147}{subsection.C.3.3}
 \contentsline {subsection}{\numberline {C.3.4}Probability of BSM outcomes}{147}{subsection.C.3.4}
 \contentsline {section}{\numberline {C.4}Bibliography}{155}{section.C.4}
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-12}
-\contentsline {appendix}{\chapternumberline {A}Adaptive sensing protocols}{113}{appendix.A}
-\contentsline {section}{\numberline {A.1}Comparison of sensing protocols: numerical simulations}{113}{section.A.1}
 \gdef \the@ipfilectr {}
