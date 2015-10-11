@@ -1,7 +1,9 @@
 \documentclass{report}
 \usepackage{amsmath}
+\usepackage{graphicx}
 \begin{document}
-%\graphicspath{{./ch_adptv_msmnt_cntrl_SI/figures/}}
+
+\graphicspath{{./ch_adptv_msmnt_cntrl_SI/figures/}}
 
 \chapter[Adaptive sensing protocols]{Adaptive sensing protocols}
 \label{ch:AMMappendix}
@@ -120,6 +122,12 @@ Due to environmental charge noise, the optical transitions of the NV centre shif
 Before each estimation sequence, we check that the centre is in the NV$^-$ state, with optical transitions resonant with the excitation lasers. We turn both the initialization and readout lasers (on transitions E’ and $E_y$, respectively) for 150 $\mu$s and count luminescence photons. Only if the luminescence photo-counts are larger than a given threshold (40 counts), the estimation sequence is started (charge and optical resonance pre-selection). We take the absence of luminescence photo-counts as an indication that the centre is ionized into the NV$^0$ state: the correct charge state is restored by resonant optical excitation of the NV$^0$ transition at 575 nm.
 An estimation sequence can consists of a large series of Ramsey experiments, with spin initialization and readout. Ionization of the defect or large frequency shifts of the optical transitions during the sequence results in incorrect spin readout and errors in the magnetic field estimation. Therefore, we perform a new check of the charge and optical resonance conditions at the end of the estimation sequence and consider it as a valid estimation only if more than 10 luminescence photo-counts are detected (charge and optical resonance post-selection).
 In the histograms in Supplementary Figure S8, we report an example of the number of rejected runs for 252 repetitions of the estimation sequence. While the average number of rejections in the post-selection process is around 50\%, we have a consistent fraction of events (75/225) with no rejections, and other runs with 80\% failure rate. This large spread is due to the fact that the data was taken in long automated measurement session during nights, with infrequent optimizations of the experimental parameters (like spatial overlap of laser beams on the NV centre). We believe that the percentage of rejected runs can be drastically reduced by optimizing the experimental settings and procedures.
+
+\begin{figure*}
+	\centering
+	\includegraphics[width=12cm]{figures/fig_S6}
+	\caption{\label{fig:ammS6} \textbf{bla}}
+\end{figure*}
 %\bibliographystyle{../thesis}
 %\bibliography{amm_appendix}
 \end{document}
