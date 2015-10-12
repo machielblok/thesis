@@ -1,3 +1,47 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{Cappellaro_Phys.Rev.A_2012}
+P.~Cappellaro.
+\newblock Spin-bath narrowing with adaptive parameter estimation.
+\newblock \textit{Phys. Rev. A} \textbf{85}, 030301 (2012).
+
+\bibitem{Said_Phys.Rev.B_2011}
+R.~S. Said, D.~W. Berry and J.~Twamley.
+\newblock Nanoscale magnetometry using a single-spin system in diamond.
+\newblock \textit{Phys. Rev. B} \textbf{83}, 125410 (2011).
+
+\bibitem{Waldherr_NatNano_2012}
+G.~Waldherr \textit{et~al.}
+\newblock High-dynamic-range magnetometry with a single nuclear spin in
+  diamond.
+\newblock \textit{Nat Nano} \textbf{7}, 105 (2012).
+
+\bibitem{Nusran_NatNano_2012}
+N.~M. Nusran, M.~U. Momeen and M.~V.~G. Dutt.
+\newblock High-dynamic-range magnetometry with a single electronic spin in
+  diamond.
+\newblock \textit{Nat Nano} \textbf{7}, 109 (2012).
+
+\bibitem{Hayes_Phys.Rev.A_2014}
+A.~J.~F. Hayes and D.~W. Berry.
+\newblock Swarm optimization for adaptive phase measurements with low
+  visibility.
+\newblock \textit{Phys. Rev. A} \textbf{89}, 013838 (2014).
+
+\bibitem{Hentschel_Phys.Rev.Lett._2010}
+A.~Hentschel and B.~C. Sanders.
+\newblock Machine learning for precise quantum measurement.
+\newblock \textit{Phys. Rev. Lett.} \textbf{104}, 063603 (2010).
+
+\bibitem{Bratton__2007}
+D.~Bratton and J.~Kennedy.
+\newblock Defining a standard for particle swarm optimization.
+\newblock \textit{{IEEE} Swarm Intelligence Symposium, 2007. {SIS} 2007}
+  (2007), 120--127.
+
+\bibitem{Taylor_NatPhys_2008}
+J.~M. Taylor \textit{et~al.}
+\newblock High-sensitivity diamond magnetometer with nanoscale resolution.
+\newblock \textit{Nat Phys} \textbf{4}, 810 (2008).
 
 \end{thebibliography}

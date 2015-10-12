@@ -1,3 +1,84 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{Pfaff_NatPhys_2012}
+W.~Pfaff \textit{et~al.}
+\newblock {Demonstration of entanglement-by-measurement of solid-state qubits.}
+\newblock \textit{Nature Physics} 29--33 (2012).
+
+\bibitem{Slichter__1996}
+C.~P. Slichter.
+\newblock \textit{Principles of Magnetic Resonance}.
+\newblock Springer Science \& Business Media (1996).
+
+\bibitem{Robledo_Nature_2011}
+L.~Robledo \textit{et~al.}
+\newblock {High-fidelity projective read-out of a solid-state spin quantum
+  register.}
+\newblock \textit{Nature} \textbf{477}, 574 (2011).
+
+\bibitem{Cummins_PRA_2003}
+H.~K. Cummins, G.~Llewellyn and J.~A. Jones.
+\newblock {Tackling systematic errors in quantum logic gates with composite
+  rotations}.
+\newblock \textit{Phys. Rev. A} \textbf{67}, 42308 (2003).
+
+\bibitem{Nielsen__2000}
+M.~A. Nielsen and I.~L. Chuang.
+\newblock \textit{Quantum Computation and Quantum Information}.
+\newblock Cambridge University Press (2000).
+
+\bibitem{Bongioanni_Phys.Rev.A_2010}
+I.~Bongioanni, L.~Sansoni, F.~Sciarrino, G.~Vallone and P.~Mataloni.
+\newblock Experimental quantum process tomography of non-trace-preserving maps.
+\newblock \textit{Phys. Rev. A} \textbf{82}, 042307 (2010).
+
+\bibitem{Aharonov_PRL_1988}
+Y.~Aharonov, D.~Z. Albert and L.~Vaidman.
+\newblock {How the result of a measurement of a component of the spin of a
+  spin-1/2 particle can turn out to be 100.}
+\newblock \textit{Physical Review Letters} \textbf{60}, 1351 (1988).
+
+\bibitem{Kofman_PhysicsReports_2012}
+A.~G. Kofman, S.~Ashhab and F.~Nori.
+\newblock Nonperturbative theory of weak pre- and post-selected measurements.
+\newblock \textit{Physics Reports} \textbf{520}, 43 (2012).
+
+\bibitem{Dressel_Phys.Rev.Lett._2010}
+J.~Dressel, S.~Agarwal and A.~N. Jordan.
+\newblock Contextual values of observables in quantum measurements.
+\newblock \textit{Phys. Rev. Lett.} \textbf{104}, 240401 (2010).
+
+\bibitem{Williams_PRL_2008}
+N.~S. Williams and A.~N. Jordan.
+\newblock {Weak values and the Leggett-Garg inequality in solid-state qubits.}
+\newblock \textit{Physical Review Letters} \textbf{100}, 026804 (2008).
+
+\bibitem{Groen_PRL_2013}
+J.~Groen \textit{et~al.}
+\newblock {Partial-Measurement Backaction and Nonclassical Weak Values in a
+  Superconducting Circuit.}
+\newblock \textit{Physical Review Letters} \textbf{111}, 090506 (2013).
+
+\bibitem{Jordan_PRB_2006}
+A.~N. Jordan and A.~N. Korotkov.
+\newblock {Qubit feedback and control with kicked quantum nondemolition
+  measurements: A Bayesian approach.}
+\newblock \textit{Phys. Rev. B} \textbf{74}, 085307 (2006).
+
+\bibitem{Koashi_Phys.Rev.Lett._1999}
+M.~Koashi and M.~Ueda.
+\newblock Reversing measurement and probabilistic quantum error correction.
+\newblock \textit{Phys. Rev. Lett.} \textbf{82}, 2598 (1999).
+
+\bibitem{Korotkov_Phys.Rev.Lett._2006}
+A.~N. Korotkov and A.~N. Jordan.
+\newblock Undoing a weak quantum measurement of a solid-state qubit.
+\newblock \textit{Phys. Rev. Lett.} \textbf{97}, 166805 (2006).
+
+\bibitem{Katz_Phys.Rev.Lett._2008}
+N.~Katz \textit{et~al.}
+\newblock Reversal of the weak measurement of a quantum state in a
+  superconducting phase qubit.
+\newblock \textit{Phys. Rev. Lett.} \textbf{101}, 200401 (2008).
 
 \end{thebibliography}

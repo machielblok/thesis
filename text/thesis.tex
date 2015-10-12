@@ -20,7 +20,7 @@
 % \usepackage{showkeys} % Shows all labels
 % \usepackage{layouts}
 % our text width is 369.0 pts = 12.967 cm
-
+\usepackage[table,xcdraw]{xcolor}
 % for annotations in the WIP-version
 \usepackage[]{todonotes}
 
@@ -41,6 +41,7 @@
 \usepackage{tabu}
 \usepackage{multirow}
 
+
 %for using .eps
 \usepackage{epstopdf}
 
@@ -52,7 +53,13 @@
 
 % depth of the TOC
 \setcounter{tocdepth}{4}
+\usepackage[toc,page]{appendix}
+\usepackage{etoolbox}
+\appto\appendix{\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}}
 
+% reinstate the correct level for list of tables and figures
+\appto\listoffigures{\addtocontents{lof}{\protect\setcounter{tocdepth}{1}}}
+\appto\listoftables{\addtocontents{lot}{\protect\setcounter{tocdepth}{1}}}
 % style of the section headings
 %\usepackage{titlesec}
 %\titleformat{\section}{\sffamily\bfseries\Large}{\thesection}{1em}{}
@@ -68,7 +75,7 @@
 % Front matter
 \frontmatter
 \include{frontmatter}
-\include{summary}
+
 %% Main text
 \mainmatter
 %
@@ -89,14 +96,14 @@
 \include{ch_conclusion_and_outlook/conclusions}
 \appendix
 
-%\include{ch_adptv_msmnt_magnetometry_SI/amm_appendix}
 \include{ch_adptv_msmnt_cntrl_SI/amc_appendix}
+\include{ch_adptv_msmnt_magnetometry_SI/amm_appendix}
 \include{ch_LDE_SI/lde_appendix}
 \include{ch_LDE_teleportation_SI/ch_LDE_teleportation_appendix}
 
 \backmatter
-
-%\include{ch_at_the_end/acknowledgements}
+\include{summary}
+\include{ch_at_the_end/acknowledgements}
 %\include{ch_at_the_end/publications}
 %\include{ch_at_the_end/cv}
 %

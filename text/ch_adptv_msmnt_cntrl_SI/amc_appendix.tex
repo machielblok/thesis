@@ -1,7 +1,7 @@
 \graphicspath{{./ch_adptv_msmnt_cntrl_SI/figures/}}
 
 
-\chapter[Implementation of partial measurements]{Implementation of partial measurements}
+\chapter{Implementation of partial measurements}
 \label{ch:AMCappendix}
 
 \def\bra#1{\left<#1\right|}
@@ -9,7 +9,7 @@
 \def\dm#1{\left|#1\right> \left<#1\right|}
 
 
-\section{Levels and Hamiltonian}
+\section*{Levels and Hamiltonian}
 The NV center forms a natural two qubit system: the electron spin serves as the ancilla qubit, while the system qubit is implemented on the spin of the NV nitrogen atom. The relevant levels are plotted in Fig. \ref{fig:levels}: the full level scheme can be found in the Supporting Online Material of Pfaff \textit{et al}. \cite{Pfaff_NatPhys_2012}.\\
 The electron spin is given by the collective spin of the the six unpaired electrons of the negatively-charged state of the center, which constitute a spin $S=1$ system. The $m_s=0$ state is separated from the $m_s=\pm1$ states by the zero-field splitting ($D = 2.878 \pm 0.001$ GHz). The $m_s=-1$ and $m_s=+1$ states are split by $ 98$ MHz by an external magnetic field ($B = 17.5 G$). The ancilla qubit is defined by the $m_s=0  (\ket{0})$ and $m_s=-1  (\ket{1})$ states. Electron spin rotations are performed by microwave pulses, with a Rabi frequency of $ 7.67$ MHz. The probability to excite the $m_s=+1$ spin state when driving microwaves is negligible. The electron spin coherence time has been measured to be $T_2^* = (1.35 \pm 0.03)$ $\mu$s by a Ramsey experiment.\\
 The NV's nitrogen atom ($^{14}N$) carries $I=1$ spin and the system qubit is defined by the $m_I = -1 (\ket{\Uparrow})$ and $m_I=0 (\ket{\Downarrow})$ levels, separated in frequency by $\Omega_N = |Q| + g_N \mu_N B \sim 2 \pi \times 5$ MHz, where $Q$ is the nuclear quadrupole splitting $Q = -2\pi \times 4.98 $ MHz. The hyperfine interaction between the electron and nuclear spin has the form $\mathcal{\hat{H}}_{hf} \sim A_z \hat{I}_z \hat{S}_z$ (neglecting small off$-$diagonal terms), which further splits the nuclear levels by an amount $A_z = -2\pi \times 2.184 \pm 0.002$ MHz when the electron is in the $m_s=-1$ manifold.
@@ -50,7 +50,8 @@ The Hamiltonian in Eq. \ref{Eq:ham0} is time-dependent and state evolution has, 
 
 The energy levels, in the rotating-wave approximation, are shown on the right side of Fig. \ref{fig:levels}. We define the positive quantity $A$ to be $A = |A_z|$ in the rest of the Supplementary Information.
 
-\section{Qubit initialization}
+\section*{Qubit initialization}
+\label{sec:qubitinit}
 The electron spin is initialized in the $m_s=0$ state by optical spin-pumping with a fidelity $0.983 \pm 0.006$ \cite{Robledo_Nature_2011}. We use the forbidden transition of $E_{y}$ which is detuned by $\Delta$ from the spin-preserving $E_{y}$-transition. This transition is well suited for a reset of the electron spin during the protocol, since flip-flops with the nuclear spin are suppressed due to selection rules. \\
 
 \begin{figure} [h]
@@ -70,8 +71,8 @@ During the selective microwave pulse, the electron spin undergoes significant de
 \end{itemize}
 
 
-\section {Nucleus-independent electron spin rotations}
-
+\section* {Nucleus-independent electron spin rotations}
+\label{sec:uncond_rot_MW}
 The maximum Rabi frequency we achieve in the setup is $\sim 8$ MHz (Fig. \ref{fig:rabi}). Given the hyperfine splitting of 2.184 MHz, these pulses introduce off-resonant driving errors that limit the weakest measurement we could achieve to $\theta = 15$ degrees ($C = 0.27$, see equation \ref{eq:concurrence}). To overcome this problem, we use CORPSE pulses \cite{Cummins_PRA_2003}, a composite pulse sequence designed to compensate for off-resonance errors. The weakest measurement we achieve with the CORPSE pulses is $\theta_{min} = 5$ degrees, corresponding to $\tau = 12$ ns (obtained from a fit of the Ramsey fringes in Fig. \ref{fig:amc-fig1}b of the main text)
 
 \begin{figure} 
@@ -81,8 +82,8 @@ The maximum Rabi frequency we achieve in the setup is $\sim 8$ MHz (Fig. \ref{fi
 \label{fig:rabi}
 \end{figure} 
 
-\section{Electron-independent nuclear spin rotation}
-\label {sec:uncond_rot_RF}
+\section*{Electron-independent nuclear spin rotation}
+\label{sec:uncond_rot_RF}
 For quantum state tomography and for weak-value measurements, we need to be able to perform nuclear spin rotations, unconditional on the electron spin state. This is not trivial if the electron and nuclear spins are entangled.
 In particular, when the electron is in the $\left| m_s=-1 \right \rangle$ state, the splitting between $\left| \Downarrow \right \rangle$ and $\left| \Uparrow \right \rangle$ is $\omega_N^{(-1)} = |Q+A_z| = 2\pi \times 7.164$ MHz, while when the electron in the $\left| m_s=0 \right \rangle$ state, $\omega_N^{(0)} = |Q| = 2\pi \times 4.98$ MHz. Given that the Rabi frequency of the nuclear spin is much smaller than the hyperfine interaction, the simple use of a hard $\pi$-pulse, as done for the electron, does not work. \\
 We implemented the unconditional nuclear spin rotation using the scheme depicted in Fig. \ref{fig:RF}a. First we apply an RF pulse (RF-1) at $\omega_N^{(-1)}$, to rotate the nuclear spin when the electron spin is in the $\left| m_s=-1 \right \rangle$ manifold. We then apply a hard $\pi$-pulse to the electron and apply a second RF pulse (RF-2) at the same frequency $\omega_N^{(-1)}$.\\
@@ -103,7 +104,7 @@ Furthermore, care should be taken that in general, while applying the first RF p
 
 
 
-\section{Partial measurements with controlled strength: Theory}
+\section*{Partial measurements with controlled strength: Theory}
 \label{sec:theory}
 The protocol starts by initializing the nucleus in $\ket{\psi_N} = \frac{1}{\sqrt{2}} \left( \ket{\Downarrow}+\ket{\Uparrow} \right)$ and the electron in $\ket{\psi_e} = \ket{0}$.\\
 The tunable-entangling gate consists of three steps. First, a $\pi/2$-pulse is applied around $x$ to the electron spin, creating the equal superposition state:
@@ -166,7 +167,8 @@ Increasing the measurement strength, the initial pure state becomes increasingly
 \end{equation}
 Now, the resulting state remains pure, but it is increasingly rotated towards $\ket{\Uparrow}$ for increasing measurement strength. 
 
-\section{Characterization of the partial measurements}
+\section*{Characterization of the partial measurements}
+\label{sec:charpartialmsmnt}
 The partial measurement was characterized by performing quantum state tomography, as explained in the main text. In Fig \ref{fig:backaction}, we plot the elements of the density matrix of the nuclear spin after the partial measurement as a function of the measurement strength, for three different input states $\{ \ket{\Uparrow}, \ket{x}, \ket{y} \}$. On the upper row we do not take the measurement outcome of the electron into account, while on the lower row we show the data conditioned on the detection of a photon (ancilla projected to $\ket{0}$).\\
 When we condition on a measurement result for the ancilla, the operation on the system qubit is a projection with increasing strength (completely projective along $z$ for measurement strength 1). In the unconditioned case, we observe measurement-induced dephasing.
 
@@ -219,7 +221,8 @@ In this case, the process is coherent and the off-diagonal terms are, in general
 \label{fig:QPT_fid}
 \end{figure} 
 
-\section {Weak value and conditioned average}
+\section* {Weak value and conditioned average}
+\label{sec:weakvaluecondave}
 Given an observable $\mathcal{I}$, the weak value of the associated quantum operator $\hat{I}$, as introduced by Aharonov, Albert and Vaidman \cite{Aharonov_PRL_1988,Kofman_PhysicsReports_2012}, is defined by
 
 \begin{equation}
@@ -247,7 +250,7 @@ In our case, for a measurement operator $\hat{E}_j = (1/2) (\mathbb{\hat{1}} \pm
 This quantity reduces to the quantum weak value for $\sin\theta = 0$ and does not diverge for finite measurement strength. Note that from this expression \cite{Williams_PRL_2008,Groen_PRL_2013}, it is possible to observe values lying outside the range of the operator eigenvalues for any finite measurement strength.
 \\
 
-\section {Experimental quantum weak value for a spin qubit}
+\section* {Experimental quantum weak value for a spin qubit}
 A measurement of the conditional average $ _f \left \langle I_z \right \rangle$ is performed with the pulse sequence shown in Fig. \ref{fig:amc-fig1}a of the main text, starting from the initial state $\ket{x} = (1/\sqrt{2}) \left( \ket{\Downarrow} + \ket{\Uparrow} \right)$. The scheme consists of a partial measurement (strength $\theta$) followed by a projective measurement in a rotated basis (angle $\phi$), post-selecting on the result of the projective measurement. In the first set of measurements (large panel in Fig. \ref{fig:amc-fig2}d of the main text) we fix the strength of the first measurement and sweep the basis rotation angle $\phi$ before the projective measurement. For the inset of Fig. \ref{fig:amc-fig2}d of the main text we sweep the measurement strength $\theta$ and choose $\phi$ to yield the maximum weak value. \\
 We post-select on the measurement outcome $\ket{0}$ for the ancilla read-out (system in $\ket{\Uparrow}$), corresponding to the detection of a photon (electron spin in $m_s=0$). \\
 The conditional average can be calculated with the expression in Eq. \ref {eq:cond_avg} where $p_{ij}$ is the probability of outcome $i$ for the ancilla read-out of the partial measurement and measurement outcome $j$ for the ancilla read-out of the projective measurement (assuming perfect readout). From Eq. \ref{eq:state}, we calculate the dependence of $p_{ij}$ on $\phi$ and $\theta$:
@@ -296,7 +299,7 @@ p_{00}
 The theoretical curve in Fig. \ref{fig:amc-fig2}d of the main text is calculated without fit-parameters, using the read-out correction of Eq. \ref{ROcor} and assuming an asymmetric spin-flip rate $f= 0.02$ between the first and second read-out. This spin-flip probability arises during the reset of the ancilla by optically exciting the forbidden transition of Ey. The value $f$ is determined from independent measurements. \\
 
 
-\section{Partial measurements as probabilistic rotations}
+\section*{Partial measurements as probabilistic rotations}
 Starting from the state $\ket{\psi_{init}} =  \cos\theta_i \ket{\Downarrow}+ \sin\theta_i \ket{\Uparrow} $, we perform a partial measurement with strength $\theta_m$. With probability $\cos^2\theta$, we obtain the state:
 \begin{equation}
  \ket{\psi_0} = \frac{1}{\mathcal{N}_0} \left[ \cos \left( \pi/4 + \theta_m/2 \right) \cos\theta_i \ket{\Downarrow} +  \cos \left( \pi/4 - \theta_m/2 \right) \sin\theta_i \ket{\Uparrow} \right]
@@ -323,7 +326,7 @@ In other words, as shown in \cite{Jordan_PRB_2006}, a partial measurement is equ
 \end{figure} 
 
 
-\section{Heralded sequential measurements: un-collapse and steering}
+\section*{Heralded sequential measurements: un-collapse and steering}
 In Fig. \ref{fig:uncollapse}, we implement two heralded sequential partial measurements. We post-select on the case of photon detection, using short read-out times to minimize electron spin-flips, at the price of reduced success probabilities. We can do this with high fidelity, maintaining a good coherence of the state after two measurements. No spin-pumping between the two measurements is performed, in order to avoid electron spin-flips that would destroy nuclear-spin coherence.\\
 We first perform a measurement with strength $\theta_1=20$ degrees, followed by a measurement with the same strength but projecting on the opposite electron state (equivalent to a measurement with strength $\theta_2=-20$ degrees). This brings us back to the original quantum state, in a probabilistic un-collapse of the state. This technique has been used to probabilistically recover a state subject to amplitude-damping decoherence \cite{Koashi_Phys.Rev.Lett._1999,Korotkov_Phys.Rev.Lett._2006,Katz_Phys.Rev.Lett._2008}.  \\
 In general, a partial quantum measurement is equivalent to a probabilistic rotation. For $\theta_1=\theta_2=+20$ degrees, two successive measurements result in a combined rotation of $39$ degrees, with success probability $0.16$. In our case, heralding on photon detection, this can be done quite effectively (fidelity $0.78$).
@@ -335,8 +338,9 @@ In general, a partial quantum measurement is equivalent to a probabilistic rotat
 \label{fig:uncollapse}
 \end{figure} 
 
-\section{State steering by real-time adaptive measurements}
-\subsection{Ideal protocol}
+\section*{State steering by real-time adaptive measurements}
+\label{sec:steeringpartmsmnt}
+\subsection*{Ideal protocol}
 We start in the state $\left| \psi_0 \right \rangle = \ket{x} = (1/\sqrt{2}) \left(\left| \Downarrow \right \rangle + \left| \Uparrow \right \rangle \right)$, with the goal to reach a target state $\left| \psi_T \right \rangle = \cos\theta_T \left| \Downarrow \right \rangle + \sin\theta_T \left| \Uparrow \right \rangle$.\\
 First, we do a measurement with strength $\theta_1 = \pi/2-2\theta_T$. With probability $0.5$ the system reaches the target state, while in the rest of the cases it is shifted in the oppposite direction, to the state:
 \begin{equation}
@@ -375,7 +379,7 @@ The probability to steer the state to the desired target, after two measurements
 \end{figure} 
 
 
-\subsection{Error analysis}
+\subsection*{Error analysis}
 The protocol described in the last Section assumes ideal measurements. In practice, however, we are subject to several non-ideal conditions \cite{Robledo_Nature_2011}:
 \begin{itemize}
  \item the electron-spin read-out is not perfect. Given that the electron is in $m_s=0$, if we excite the $E_{y}$ transition, we are supposed to detect photons. However, such photons are detected with a finite efficiency (due to losses in the diamond, the collection optics and the finite efficiency of the detector). This results in a read-out fidelity $F_0 < 1$. In the first measurement, this leads us to make the wrong decision and apply a correction although we had already reached the target state.
@@ -473,7 +477,7 @@ Combining $\rho_C$ and $\rho_{NC}$, we get $\rho_{succ}$. Two features are impor
 
 In Fig. \ref{fig:exp_adapt_fullRO}, we plot the experimental results obtained using full electron-spin read-out. Compared to the results reported in the main text (Fig. 4, dynamical-stop read-out), the state is completely dephased after about $20 \mu$s and the fidelity decreases quickly to around $0.6$.
 
-\subsection{Dynamical-stop electron read-out}
+\subsection*{Dynamical-stop electron read-out}
 
 
 As described in the main text, dynamical-stop electron spin read-out allows us to reduce the dephasing on the nuclear spin induced by electron measurement. To model the effect of dynamical-stop read-out we take the assumption that read-out stops as soon as a photon is detected, causing no electron spin-flip and no nuclear-spin dephasing. The assumption of no nuclear-spin dephasing is not confirmed by experimental data in Fig. 3c of the main text: however, it is justified to use it here for a simple model that gives a higher bound on the expected fidelity. \\
@@ -489,4 +493,5 @@ The results of the model for dynamical-stop read-out are reported in Fig. \ref{f
 
 \newpage
 \bibliographystyle{../thesis}
-\bibliography{amcappendix}
+\setcounter{tocdepth}{1}
+\bibliography{amc_appendix}

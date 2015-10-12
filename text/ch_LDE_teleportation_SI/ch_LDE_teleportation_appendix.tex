@@ -40,7 +40,7 @@ We perform the desired rotation on the nitrogen spin for the $\msmone$ manifold,
     \right).
 \ee
 \end{widetext}
-Note that the states associated with $\ket{00}$ on Alice's side accumulate a phase during free evolution time, $t$, due to the choice of rotating frame. $t_0$ is the time at which the $\pi$-pulse on the electron is performed during preparation. By chosing the evolution time such that $A(t-t_0)$ is a multiple of $2\pi$ the initial state can be factorized. We implement the unconditional rotation of the electron spin with a CORPSE pulse that provides a $\pi$ rotation that is insensitive against detuning over a range of a few MHz~{\em (43)}. %\cite{2003PhRvA..67d2308C}.
+Note that the states associated with $\ket{00}$ on Alice's side accumulate a phase during free evolution time, $t$, due to the choice of rotating frame. $t_0$ is the time at which the $\pi$-pulse on the electron is performed during preparation. By chosing the evolution time such that $A(t-t_0)$ is a multiple of $2\pi$ the initial state can be factorized. We implement the unconditional rotation of the electron spin with a CORPSE pulse that provides a $\pi$ rotation that is insensitive against detuning over a range of a few MHz\cite{2003PhRvA..67d2308C}.
 
 
 \subsubsection{Bell-state measurement}
@@ -86,7 +86,7 @@ To protect the target state against dephasing during the BSM, we perform an XY4 
         + & \ket{11} \left( \beta\ket0 + \alpha\ket1 \right)
     \bigg].
 \end{align}
-Because we do not intialize the nuclear spin on Bob's side we perform all electron spin rotations with CORPSE pulses~{\em (43)}. %\cite{2003PhRvA..67d2308C}.
+Because we do not intialize the nuclear spin on Bob's side we perform all electron spin rotations with CORPSE pulses\cite{2003PhRvA..67d2308C}.
 
 \subsubsection{Feed-forward}
 The required feed-forward operations to re-create $\ket{\psi}$ on the target spin can be taken straight-forward from Eq.~\ref{eq:BSM-outcomes}. For the estimation of the fidelity of the teleported state with the ideal source state it is sufficient to read out in the basis aligned with the source state vector. We achieve this readout by modifying the feed-forward operation such that we rotate the target state $U_{i,j}\ket \psi$ directly into the $z$-basis, conditional on the outcome of the BSM. The operations we apply in practice are summarized in Table \ref{tab:psiminus-operations}.
@@ -107,13 +107,13 @@ In general we simulate the experimental results by modeling the system by a $2\t
 
 \subsection{CNOT pulses}
 
-The fidelity of Alice's electron spin rotations that are selective on the \nfourteen\ spin state are limited by the finite linewidth of the electron spin transitions. We simulate the effect of the pulse on the different hyperfine populations by evaluating the probability for inversion versus detuning using a master equation solver {\em (44)}, %\cite{2013CoPhC.184.1234J} 
+The fidelity of Alice's electron spin rotations that are selective on the \nfourteen\ spin state are limited by the finite linewidth of the electron spin transitions. We simulate the effect of the pulse on the different hyperfine populations by evaluating the probability for inversion versus detuning using a master equation solver \cite{2013CoPhC.184.1234J}, 
 and integrating over the transition line shapes. In this way we compute the probabilities for an erroneous inversion for $m_\mathrm I = -1$ and non-inversion for $m_\mathrm I = 0$ to be both 0.01. Our calculation is based on a finite linewidth that is determined by the electron spin dephasing time, $T_2^* = 2\,\mu\mathrm s$. In our model we assume that in case of an error the spin state is dephased (i.e., we numerically set the respective coherences in the resulting density matrix to zero).
 
 \subsection{Nuclear spin initialization}
 
-When preparing the source state to be teleported, the following errors can occur: (1) Initialization by measurement into $\mimone$ succeeds with a fidelity $p_{-1}$, and fails for the initial state in either $\mizero$ or $\mipone$, with probabilities $p_0$ and $p_{+1}$, respectively; (2) After each failed attempt to generate entanglement between Alice and Bob the electron is reset by optical spin-pumping~{\em (21)}. %\cite{2013Natur.497...86B}. 
-During this reset to $\mszero$ the nuclear spin can flip --- with $\Delta m_\mathrm I = \pm 1$ --- with a probability $p_\text{flip}$~{\em (24)}. %\cite{2010Sci...329..542N}.
+When preparing the source state to be teleported, the following errors can occur: (1) Initialization by measurement into $\mimone$ succeeds with a fidelity $p_{-1}$, and fails for the initial state in either $\mizero$ or $\mipone$, with probabilities $p_0$ and $p_{+1}$, respectively; (2) After each failed attempt to generate entanglement between Alice and Bob the electron is reset by optical spin-pumping\cite{2013Natur.497...86B}. 
+During this reset to $\mszero$ the nuclear spin can flip --- with $\Delta m_\mathrm I = \pm 1$ --- with a probability $p_\text{flip}$\cite{2010Sci...329..542N}.
 
 Assuming that the conditional probability for a nuclear spin flop accompanying an electron spin flip, $p_\text{flip}$, is identical for all $\Delta m_\mathrm I = \pm 1$, the equations describing the changes of populations in dependence of the number of electron spin flips, $n$, are
 \begin{widetext}
@@ -142,10 +142,10 @@ The influence of imperfect nuclear spin initialization can also be approximated 
 \subsection{Readout}
 \label{sec:readout-error}
 
-The major limitation of the Bell-state measurement fidelity is the finite single-shot readout fidelity of both electron and nuclear spin on Alice's side. Electron spin readout is achieved by resonant optical excitation of $E_y$. Detection of a least one photon during this interval is registered as readout result $\mszero$, otherwise the result is $\mspmone$. Nuclear spin readout is achieved by re-setting the electron spin to $\mszero$, mapping the nuclear spin state onto the electron spin by a CNOT, and reading out the electron spin. This procedure is performed twice in order to maximize the readout fidelity~{\em (18)}. %\cite{Robledo:2011fs}. 
+The major limitation of the Bell-state measurement fidelity is the finite single-shot readout fidelity of both electron and nuclear spin on Alice's side. Electron spin readout is achieved by resonant optical excitation of $E_y$. Detection of a least one photon during this interval is registered as readout result $\mszero$, otherwise the result is $\mspmone$. Nuclear spin readout is achieved by re-setting the electron spin to $\mszero$, mapping the nuclear spin state onto the electron spin by a CNOT, and reading out the electron spin. This procedure is performed twice in order to maximize the readout fidelity\cite{Robledo:2011fs}. 
 Readout result $\mizero$ is obtained for detection of at least one photon during either round.
 
-The electron spin readout is limited by finite photon collection efficiency and electron spin mixing in the excited state~{\em (18)}. %\cite{Robledo:2011fs}. 
+The electron spin readout is limited by finite photon collection efficiency and electron spin mixing in the excited state\cite{Robledo:2011fs}. 
 For Alice, we measure a mean single-shot readout fidelity of $F_\text{e-RO} = 0.963 \pm 0.005$. The nuclear spin readout is additionally limited by the CNOT fidelity. With two readout rounds we estimate a mean readout fidelity of $F_\text{N-RO} = 0.985$ from the electron spin readout and CNOT pulse simulations.
 
 In the simulation of the experimental results we use the single-shot readout fidelities to determine the conditional density matrices that arise after measuring the electronic and nuclear spin.
@@ -157,7 +157,7 @@ The entangled state between the two electronic spins can be modeled as
 \be
     \rho = V | \Psi^- \rangle \langle \Psi^- | + \frac{(1-V)}{2} \left( \ket{01}\bra{01} + \ket{10}\bra{10} \right ),
 \ee
-where the visibility $V$ describes the distinguishability between the photons emitted from Alice and Bob. Here we assume that all other imperfections are negligible compared to the photon distinguishability. The limitations of the Bell state fidelity are discussed in detail in Bernien {\em et al.}~{\em (21)}. %\cite{2013Natur.497...86B}
+where the visibility $V$ describes the distinguishability between the photons emitted from Alice and Bob. Here we assume that all other imperfections are negligible compared to the photon distinguishability. The limitations of the Bell state fidelity are discussed in detail in Bernien {\em et al.}\cite{2013Natur.497...86B}
 
 For modelling we treat $V$ as a free parameter used to match the average teleportation fidelity. Using the parameters as described above and setting $V = 0.74$ (corresponding to a Bell-state fidelity of $F_{\Psi^-}$ = 0.87) our simulation yields a mean teleportation fidelity of $F = 0.77$.
 
@@ -198,7 +198,7 @@ We verify in more detail that the teleportation works as intended by examining t
     \caption{
     \label{fig:teleportation-init} 
     System initialization.
-    \textbf{A,} We verify charge and resonance condition of Alice and Bob (asynchronously) by applying laser pulses on $E_y$ and $E_{1,2}$ simultaneously and putting a lower threshold on the number of phonon side band photons detected during those pulses. If the threshold is not met we reset the charge state: On Alice, we repump NV$^0$ $\rightarrow$ NV$^-$ using a laser at 575\,nm, on resonance with the ZPL of NV$^0$~{\em (22)}. %\cite{Siyushev:2013en}. 
+    \textbf{A,} We verify charge and resonance condition of Alice and Bob (asynchronously) by applying laser pulses on $E_y$ and $E_{1,2}$ simultaneously and putting a lower threshold on the number of phonon side band photons detected during those pulses. If the threshold is not met we reset the charge state: On Alice, we repump NV$^0$ $\rightarrow$ NV$^-$ using a laser at 575\,nm, on resonance with the ZPL of NV$^0$\cite{Siyushev:2013en}. 
     On Bob, we use off-resonant excitation at 532\,nm. We repeat verification and repump until success.
     \textbf{B,} Following spin-pumping into $\mspmone$ by excitation of $E_y$ we apply a CNOT on the electronic spin, such that rotation to $\mszero$ is only performed for $\mimone$. A PSB photon detected during a short readout pulse on $E_y$ signals a high-fidelity measurement of $\mszero$ and projection of the nuclear spin into $\mimone$. If no photon is detected, we re-try for a maximum of $N$ times (here, $N=100$), before charge and resonance are re-evalutated. In between attempts we apply $50\,\mu\mathrm s$ of illumination on both $E_y$ and $E_{1,2}$ in order to randomise the nuclear spin owed to off-diagonal terms in the hyperfine interaction in the optical excited state (not shown in the diagram).
     \textbf{C,} As soon as both Alice and Bob are initialised, we attempt to generate entanglement between them. Each attempt starts with an electron spin reset to $\mszero$. Two rounds of optical excitation with optical $\pi$-pulses on $E_y$ follow, separated by a MW $\pi$-pulse. Detection of exactly one ZPL photon after each pulse heralds creation of entanglement. We perform a maximum of $M$ attempts before re-initialisation (here, $M=250$). 
@@ -277,6 +277,6 @@ We verify in more detail that the teleportation works as intended by examining t
 
 \clearpage
 \bibliographystyle{../thesis}
-\bibliography{cd_LDE_teleportation_appendix}
+\bibliography{ch_LDE_teleportation_appendix}
 
 

@@ -1,5 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: tam.aux
 The style file: ../thesis.bst
 Database file #1: tam.bib
-Warning--I didn't find a database entry for "Braginsky_Science_1980"
-(There was 1 warning)
+Warning--string name "science" is undefined
+--line 3075 of file tam.bib
+Warning--empty journal in Braginsky_Science_1980
+(There were 2 warnings)

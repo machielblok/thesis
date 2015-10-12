@@ -1,3 +1,38 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{2003PhRvA..67d2308C}
+H.~K. Cummins, G.~Llewellyn and J.~A. Jones.
+\newblock {Tackling systematic errors in quantum logic gates with composite
+  rotations}.
+\newblock \textit{Phys. Rev. A} \textbf{67}, 42308 (2003).
+
+\bibitem{2013CoPhC.184.1234J}
+J.~R. Johansson, P.~D. Nation and F.~Nori.
+\newblock {QuTiP 2: A Python framework for the dynamics of open quantum
+  systems}.
+\newblock \textit{Computer Physics Communications} \textbf{184}, 1234 (2013).
+
+\bibitem{2013Natur.497...86B}
+H.~Bernien \textit{et~al.}
+\newblock {Heralded entanglement between solid-state qubits separated by three
+  metres.}
+\newblock \textit{Nature} \textbf{497}, 86 (2013).
+
+\bibitem{2010Sci...329..542N}
+P.~Neumann \textit{et~al.}
+\newblock {Single-Shot Readout of a Single Nuclear Spin}.
+\newblock \textit{Science} \textbf{329}, 542 (2010).
+
+\bibitem{Robledo:2011fs}
+L.~Robledo \textit{et~al.}
+\newblock {High-fidelity projective read-out of a solid-state spin quantum
+  register}.
+\newblock \textit{Nature} \textbf{477}, 574 (2011).
+
+\bibitem{Siyushev:2013en}
+P.~Siyushev \textit{et~al.}
+\newblock {Optically Controlled Switching of the Charge State of a Single
+  Nitrogen-Vacancy Center in Diamond at Cryogenic Temperatures}.
+\newblock \textit{Phys. Rev. Lett.} \textbf{110}, 167402 (2013).
 
 \end{thebibliography}

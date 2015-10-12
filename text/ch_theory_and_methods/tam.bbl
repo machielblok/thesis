@@ -47,6 +47,12 @@ L.~Robledo \textit{et~al.}
   register.
 \newblock \textit{Nature} \textbf{477}, 574 (2011).
 
+\bibitem{Jarmola_Phys.Rev.Lett._2012}
+A.~Jarmola, V.~M. Acosta, K.~Jensen, S.~Chemerisov and D.~Budker.
+\newblock Temperature- and magnetic-field-dependent longitudinal spin
+  relaxation in nitrogen-vacancy ensembles in diamond.
+\newblock \textit{Phys. Rev. Lett.} \textbf{108}, 197601 (2012).
+
 \bibitem{Lange_Science_2010}
 G.~d. Lange, Z.~H. Wang, D.~Rist{\`e}, V.~V. Dobrovitski and R.~Hanson.
 \newblock Universal dynamical decoupling of a single solid-state spin from a
@@ -144,5 +150,9 @@ T.~H. Taminiau, J.~Cramer, T.~v.~d. Sar, V.~V. Dobrovitski and R.~Hanson.
 M.~H. Devoret and R.~J. Schoelkopf.
 \newblock Superconducting circuits for quantum information: An outlook.
 \newblock \textit{Science} \textbf{339}, 1169 (2013).
+
+\bibitem{Braginsky_Science_1980}
+V.~B. Braginsky, Y.~I. Vorontsov and K.~S. Thorne.
+\newblock Quantum nondemolition measurements \textbf{209}, 547 (1980).
 
 \end{thebibliography}
