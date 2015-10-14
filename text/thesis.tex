@@ -41,9 +41,11 @@
 \usepackage{tabu}
 \usepackage{multirow}
 
-
 %for using .eps
 \usepackage{epstopdf}
+
+%avoid word breaks
+\usepackage{hyphenat}
 
 % formatting the figure captions
 \definecolor{ocre}{RGB}{77,99,104}
@@ -104,7 +106,7 @@
 \backmatter
 \include{summary}
 \include{ch_at_the_end/acknowledgements}
-%\include{ch_at_the_end/publications}
-%\include{ch_at_the_end/cv}
+\include{ch_at_the_end/publications}
+\include{ch_at_the_end/cv}
 %
 \end{document}

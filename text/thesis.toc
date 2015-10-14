@@ -72,7 +72,7 @@
 \contentsline {section}{\numberline {8.2}Quantum Information Processing with NV centers in diamond}{90}{section.8.2}
 \contentsline {section}{\numberline {8.3}Single spin sensors}{92}{section.8.3}
 \contentsline {section}{\numberline {8.4}Fundamentals of quantum mechanics}{92}{section.8.4}
-\contentsline {section}{\numberline {8.5}Bibliography}{93}{section.8.5}
+\contentsline {section}{\numberline {8.5}Bibliography}{94}{section.8.5}
 \setcounter {tocdepth}{0}
 \contentsline {chapter}{Appendix}{96}{section.8.5}
 \gdef \the@ipfilectr {}
@@ -101,50 +101,55 @@
 \contentsline {subsection}{\numberline {C.0.4}Optical Rabi oscillations}{136}{subsection.C.0.4}
 \contentsline {section}{\numberline {C.1}Fidelity measure}{137}{section.C.1}
 \contentsline {section}{\numberline {C.2}Spin readout}{138}{section.C.2}
-\contentsline {subsection}{\numberline {C.2.1}Single-shot readout characterisation}{139}{subsection.C.2.1}
-\contentsline {subsection}{\numberline {C.2.2}Maximum likelihood estimate of the state probabilities}{139}{subsection.C.2.2}
+\contentsline {subsection}{\numberline {C.2.1}Single-shot readout characterisation}{138}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {C.2.2}Maximum likelihood estimate of the state probabilities}{140}{subsection.C.2.2}
 \contentsline {subsection}{\numberline {C.2.3}Maximum likelihood estimate of the fidelity}{140}{subsection.C.2.3}
 \contentsline {section}{\numberline {C.3}Error estimation}{141}{section.C.3}
 \contentsline {subsection}{\numberline {C.3.1}Spin state initialization}{141}{subsection.C.3.1}
 \contentsline {subsection}{\numberline {C.3.2}Spin-flips in the excited state manifold}{142}{subsection.C.3.2}
-\contentsline {subsection}{\numberline {C.3.3}Microwave Pulse Errors}{143}{subsection.C.3.3}
+\contentsline {subsection}{\numberline {C.3.3}Microwave Pulse Errors}{142}{subsection.C.3.3}
 \contentsline {subsection}{\numberline {C.3.4}Spin Coherence and Dynamical Decoupling}{144}{subsection.C.3.4}
 \contentsline {subsection}{\numberline {C.3.5}Residual laser photons}{144}{subsection.C.3.5}
 \contentsline {subsection}{\numberline {C.3.6}Detector dark counts}{144}{subsection.C.3.6}
-\contentsline {subsection}{\numberline {C.3.7}Off-resonant excitation}{145}{subsection.C.3.7}
+\contentsline {subsection}{\numberline {C.3.7}Off-resonant excitation}{144}{subsection.C.3.7}
 \contentsline {subsection}{\numberline {C.3.8}APD After-pulsing}{145}{subsection.C.3.8}
 \contentsline {subsection}{\numberline {C.3.9}Dephasing}{146}{subsection.C.3.9}
-\contentsline {section}{\numberline {C.4}TPQI signature}{147}{section.C.4}
+\contentsline {section}{\numberline {C.4}TPQI signature}{146}{section.C.4}
 \contentsline {section}{\numberline {C.5}Phase of the entangled state}{148}{section.C.5}
-\contentsline {subsection}{\numberline {C.5.1}Relation to TPQI visibility}{151}{subsection.C.5.1}
-\contentsline {section}{\numberline {C.6}Bibliography}{153}{section.C.6}
+\contentsline {subsection}{\numberline {C.5.1}Relation to TPQI visibility}{150}{subsection.C.5.1}
+\contentsline {section}{\numberline {C.6}Bibliography}{152}{section.C.6}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-14}
-\contentsline {appendix}{\chapternumberline {D}Teleportation}{155}{appendix.D}
-\contentsline {subsection}{\numberline {D.0.1}Conventions}{155}{subsection.D.0.1}
-\contentsline {subsubsection}{Hamiltonian of Alice}{155}{section*.86}
-\contentsline {subsection}{\numberline {D.0.2}Desired state evolution}{156}{subsection.D.0.2}
-\contentsline {subsubsection}{Source state preparation}{156}{section*.87}
-\contentsline {subsubsection}{Bell-state measurement}{156}{section*.88}
-\contentsline {subsubsection}{Phase calibration}{157}{section*.89}
-\contentsline {paragraph}{Dynamical decoupling of Bob's electron spin}{157}{section*.90}
-\contentsline {subsubsection}{Feed-forward}{157}{section*.91}
-\contentsline {section}{\numberline {D.1}Data analysis}{158}{section.D.1}
-\contentsline {section}{\numberline {D.2}Error model}{158}{section.D.2}
-\contentsline {subsection}{\numberline {D.2.1}CNOT pulses}{158}{subsection.D.2.1}
-\contentsline {subsection}{\numberline {D.2.2}Nuclear spin initialization}{159}{subsection.D.2.2}
-\contentsline {subsection}{\numberline {D.2.3}Readout}{160}{subsection.D.2.3}
-\contentsline {subsection}{\numberline {D.2.4}Photon indistinguishability and entangled state fidelity}{160}{subsection.D.2.4}
-\contentsline {section}{\numberline {D.3}Further analysis of the teleporter performance}{160}{section.D.3}
-\contentsline {subsection}{\numberline {D.3.1}Effect of the feed-forward operation}{160}{subsection.D.3.1}
-\contentsline {subsection}{\numberline {D.3.2}Correction for intialization}{161}{subsection.D.3.2}
-\contentsline {subsection}{\numberline {D.3.3}Teleportation fidelity by Bell-state measurement outcome}{161}{subsection.D.3.3}
-\contentsline {subsection}{\numberline {D.3.4}Probability of BSM outcomes}{161}{subsection.D.3.4}
-\contentsline {section}{\numberline {D.4}Bibliography}{169}{section.D.4}
+\contentsline {appendix}{\chapternumberline {D}Teleportation}{153}{appendix.D}
+\contentsline {subsection}{\numberline {D.0.1}Conventions}{153}{subsection.D.0.1}
+\contentsline {subsubsection}{Hamiltonian of Alice}{153}{section*.86}
+\contentsline {subsection}{\numberline {D.0.2}Desired state evolution}{154}{subsection.D.0.2}
+\contentsline {subsubsection}{Source state preparation}{154}{section*.87}
+\contentsline {subsubsection}{Bell-state measurement}{154}{section*.88}
+\contentsline {subsubsection}{Phase calibration}{155}{section*.89}
+\contentsline {paragraph}{Dynamical decoupling of Bob's electron spin}{155}{section*.90}
+\contentsline {subsubsection}{Feed-forward}{155}{section*.91}
+\contentsline {section}{\numberline {D.1}Data analysis}{156}{section.D.1}
+\contentsline {section}{\numberline {D.2}Error model}{156}{section.D.2}
+\contentsline {subsection}{\numberline {D.2.1}CNOT pulses}{156}{subsection.D.2.1}
+\contentsline {subsection}{\numberline {D.2.2}Nuclear spin initialization}{157}{subsection.D.2.2}
+\contentsline {subsection}{\numberline {D.2.3}Readout}{158}{subsection.D.2.3}
+\contentsline {subsection}{\numberline {D.2.4}Photon indistinguishability and entangled state fidelity}{158}{subsection.D.2.4}
+\contentsline {section}{\numberline {D.3}Further analysis of the teleporter performance}{158}{section.D.3}
+\contentsline {subsection}{\numberline {D.3.1}Effect of the feed-forward operation}{158}{subsection.D.3.1}
+\contentsline {subsection}{\numberline {D.3.2}Correction for intialization}{159}{subsection.D.3.2}
+\contentsline {subsection}{\numberline {D.3.3}Teleportation fidelity by Bell-state measurement outcome}{159}{subsection.D.3.3}
+\contentsline {subsection}{\numberline {D.3.4}Probability of BSM outcomes}{159}{subsection.D.3.4}
+\contentsline {section}{\numberline {D.4}Bibliography}{167}{section.D.4}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-15}
-\contentsline {chapter}{Summary}{171}{appendix*.99}
+\contentsline {chapter}{Summary}{169}{appendix*.99}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-16}
-\contentsline {chapter}{Acknowledgements}{173}{appendix*.100}
+\contentsline {chapter}{Acknowledgements}{171}{appendix*.100}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-17}
+\contentsline {chapter}{List of Publications}{173}{appendix*.101}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-18}
 \gdef \the@ipfilectr {}

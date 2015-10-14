@@ -143,19 +143,7 @@ p_{\downarrow\downarrow}
 \end{array}
 \right ),
 \ee
-where $p_{ij}$ is the probability for measurement outcome $i,j \in \{\uparrow,\downarrow\}$, and the induced error is described by 
-\be
-E = E_\mathrm A \otimes E_\mathrm B = \left(
-\begin{array}{cccc}
- \fid^\mathrm A_\uparrow \fid^\mathrm B_\uparrow & \fid^\mathrm A_\uparrow(1-\fid^\mathrm B_\downarrow) & (1-\fid^\mathrm A_\downarrow)\fid^\mathrm B_\uparrow & (1-\fid^\mathrm A_\downarrow)(1-\fid^\mathrm B_\downarrow) \\
-\fid^\mathrm A_\uparrow (1-\fid^\mathrm B_\uparrow) & \fid^\mathrm A_\uparrow \fid^\mathrm B_\downarrow & (1-\fid^\mathrm A_\downarrow) (1-\fid^\mathrm B_\uparrow) & (1-\fid^\mathrm A_\downarrow) \fid^\mathrm B_\downarrow \\
- (1-\fid^\mathrm A_\uparrow) \fid^\mathrm B_\uparrow & (1-\fid^\mathrm A_\uparrow) (1-\fid^\mathrm B_\downarrow) & \fid^\mathrm A_\downarrow \fid^\mathrm B_\uparrow & \fid^\mathrm A_\downarrow (1-\fid^\mathrm B_\downarrow) \\
- (1-\fid^\mathrm A_\uparrow) (1-\fid^\mathrm B_\uparrow) & (1-\fid^\mathrm A_\uparrow) \fid^\mathrm B_\downarrow & \fid^\mathrm A_\downarrow (1-\fid^\mathrm B_\uparrow) & \fid^\mathrm A_\downarrow \fid^\mathrm B_\downarrow
-\end{array}
-\right),
-\ee
-where A, B denote the two different NVs. 
-
+where $p_{ij}$ is the probability for measurement outcome $i,j \in \{\uparrow,\downarrow\}$, and the induced error is described by $E =  E^A \otimes E^B$, where $E^{A,B}$ describe descirbe the independent readout errors on both NV's.
 
 \subsection{Single-shot readout characterisation}
 

@@ -367,7 +367,7 @@ in a retrieval system, or transmitted, in any form or by any means,
 without prior permission from the copyright owner.\\[0.5\baselineskip]
 
 ISBN \@isbnno\\[0.5\baselineskip]
-Casimir PhD Series Delft-Leiden 2015\\[0.5\baselineskip]
+Casimir PhD Series Delft-Leiden 2015-26\\[0.5\baselineskip]
 Cover design: L.D. Swakman\\[0.5\baselineskip]
 Printed by  \\[0.5\baselineskip]
 An electronic version of this thesis is available at www.library.tudelft.nl/dissertations\\[0.5\baselineskip]
