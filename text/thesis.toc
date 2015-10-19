@@ -78,7 +78,7 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-11}
 \contentsline {appendix}{\chapternumberline {A}Implementation of partial measurements}{97}{appendix.A}
-\contentsline {section}{\numberline {A.1}Bibliography}{117}{section.A.1}
+\contentsline {section}{\numberline {A.1}Bibliography}{116}{section.A.1}
 \setcounter {tocdepth}{0}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-12}
