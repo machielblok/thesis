@@ -16,8 +16,8 @@
 \contentsline {section}{\numberline {2.4}Ground state spin control}{13}{section.2.4}
 \contentsline {section}{\numberline {2.5}Electron spin coherence times}{14}{section.2.5}
 \contentsline {section}{\numberline {2.6}Coupling to individual nuclear spins}{16}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Host nitrogen spin}{16}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}$^{13}C$ spins}{17}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.1}Host nitrogen spin}{17}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}$^{13}$C spins}{17}{subsection.2.6.2}
 \contentsline {section}{\numberline {2.7}Initialization by Quantum measurement}{18}{section.2.7}
 \contentsline {section}{\numberline {2.8}Bibliography}{20}{section.2.8}
 \gdef \the@ipfilectr {}
@@ -78,7 +78,7 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-11}
 \contentsline {appendix}{\chapternumberline {A}Implementation of partial measurements}{97}{appendix.A}
-\contentsline {section}{\numberline {A.1}Bibliography}{116}{section.A.1}
+\contentsline {section}{\numberline {A.1}Bibliography}{117}{section.A.1}
 \setcounter {tocdepth}{0}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-12}
@@ -146,10 +146,7 @@
 \contentsline {chapter}{Summary}{169}{appendix*.99}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-16}
-\contentsline {chapter}{Acknowledgements}{171}{appendix*.100}
+\contentsline {chapter}{List of Publications}{171}{appendix*.100}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-17}
-\contentsline {chapter}{List of Publications}{173}{appendix*.101}
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-18}
 \gdef \the@ipfilectr {}
