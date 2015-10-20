@@ -8,3 +8,5 @@ text/thesis.log
 text/thesis.fdb_latexmk
 
 *.gz
+/text/ch_at_the_end/acknowledgements.pdf
+/text/ch_at_the_end/acknowledgements.log

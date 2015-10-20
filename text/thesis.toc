@@ -35,12 +35,12 @@
 \contentsline {chapter}{\chapternumberline {4}Optimized quantum sensing using real-time adaptive measurements}{37}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{38}{section.4.1}
 \contentsline {section}{\numberline {4.2}D.C. Magnetometry}{38}{section.4.2}
-\contentsline {section}{\numberline {4.3}Adaptive frequency estimation protocol}{41}{section.4.3}
+\contentsline {section}{\numberline {4.3}Adaptive frequency estimation protocol}{40}{section.4.3}
 \contentsline {section}{\numberline {4.4}Comparison between adaptive and non-adaptive protocols}{44}{section.4.4}
-\contentsline {section}{\numberline {4.5}Methods}{46}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Sample and experimental setup}{46}{subsection.4.5.1}
+\contentsline {section}{\numberline {4.5}Methods}{47}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Sample and experimental setup}{47}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}Adaptive algorithm}{47}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}Bibliography}{48}{section.4.6}
+\contentsline {section}{\numberline {4.6}Bibliography}{49}{section.4.6}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
 \contentsline {chapter}{\chapternumberline {5}Heralded entanglement and unconditional teleportation between remote qubits}{51}{chapter.5}

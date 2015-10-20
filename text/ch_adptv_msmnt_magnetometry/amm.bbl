@@ -112,6 +112,11 @@ S.~Kolkowitz \textit{et~al.}
   single-spin qubit.
 \newblock \textit{Science} \textbf{347}, 1129 (2015).
 
+\bibitem{Said_Phys.Rev.B_2011}
+R.~S. Said, D.~W. Berry and J.~Twamley.
+\newblock Nanoscale magnetometry using a single-spin system in diamond.
+\newblock \textit{Physical Review B} \textbf{83}, 125410 (2011).
+
 \bibitem{Waldherr_NatNano_2012}
 G.~Waldherr \textit{et~al.}
 \newblock High-dynamic-range magnetometry with a single nuclear spin in
@@ -146,11 +151,6 @@ L.~Robledo \textit{et~al.}
 \newblock High-fidelity projective read-out of a solid-state spin quantum
   register.
 \newblock \textit{Nature} \textbf{477}, 574 (2011).
-
-\bibitem{Said_Phys.Rev.B_2011}
-R.~S. Said, D.~W. Berry and J.~Twamley.
-\newblock Nanoscale magnetometry using a single-spin system in diamond.
-\newblock \textit{Physical Review B} \textbf{83}, 125410 (2011).
 
 \bibitem{Cappellaro_Phys.Rev.A_2012}
 P.~Cappellaro.
