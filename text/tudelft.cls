@@ -192,6 +192,7 @@
 \newcommand{\firstname}[1]{\gdef\@firstname{#1}}
 \newcommand{\lastname}[1]{\gdef\@lastname{#1}}
 \newcommand{\authortitle}[1]{\gdef\@authortitle{#1}}
+\newcommand{\authoruniversity}[1]{\gdef\@authoruniversity{#1}}
 \newcommand{\birthplace}[1]{\gdef\@birthplace{#1}}
 \newcommand{\titletop}[1]{\gdef\@titletop{\mbox{#1}}}
 \newcommand{\titlemiddle}[1]{\gdef\@titlemiddle{\mbox{#1}}}
@@ -216,6 +217,8 @@
 \newcounter{@membersprinted} \setcounter{@membersprinted}{0}
 \newcounter{@affiliationsprinted} \setcounter{@affiliationsprinted}{0}
 
+\newcounter{@indepmembersprinted} \setcounter{@indepmembersprinted}{0}
+\newcounter{@indepaffiliationsprinted} \setcounter{@indepaffiliationsprinted}{0}
 %% Loops for committee
 
 \newcounter{@members}
@@ -293,6 +296,7 @@
   {\Large \textbf{\@firstname\hspace{0pt} \MakeUppercase{\@lastname}} }\\
   \vspace{25.0pt}
   \@authortitle \halfendline
+  \@authoruniversity \halfendline
   geboren te \@birthplace  \\
 \end{centering}
 \vspace{1cm}
@@ -304,22 +308,67 @@
 \newcommand{\copyrightpage}{
 \thispagestyle{empty}
 
-\textsl{Dit proefschrift is goedgekeurd door de promotor:}\\[0.2\baselineskip]
+\textsl{This dissertation has been approved by the promotor:}\\[0.2\baselineskip]
 \@firstpromotor\\[\baselineskip]
 
 %\textsl{Copromotor:}\\[0.2\baselineskip]
 %\@secondpromotor\\[\baselineskip]
 %
-\textsl{Samenstelling promotiecommissie:}\\[0.5\baselineskip]
+\textsl{Composition of the doctoral committee:}\\[0.5\baselineskip]
 %
 \begin{minipage}[b]{0.34\textwidth}
 Rector Magnificus,\\
 \loop
-  \ifnum \value{@membersprinted} < \value{@members}
+  \ifnum \value{@membersprinted} < 2
     \addtocounter{@membersprinted}{1}
     \ifcase\value{@membersprinted}
       \typeout{Thesis style--internal error printing members.}\\ \or
         \@membera\\ \or
+        %\@memberb\\ \or
+        %\@memberc\\ \or
+        %\@memberd\\ \or
+        %\@membere\\ \or
+        %\@memberf\\ \or
+        %\@memberg\\ \or
+        %\@memberh\\ \or
+        %\@memberi\\ \or
+  \else \typeout{Thesis style--internal error printing members.}\\
+  \fi
+\repeat
+\end{minipage}
+%
+\hspace{0.2cm}
+\begin{minipage}[b]{0.64\textwidth}
+chairman\\
+\loop
+  \ifnum \value{@affiliationsprinted} < 2
+    \addtocounter{@affiliationsprinted}{1}
+    \ifcase\value{@affiliationsprinted}
+      \typeout{Thesis style--internal error printing member affiliations.} \or
+        \@affiliationa\\ \or
+        %\@affiliationb\\ \or
+        %\@affiliationc\\ \or
+        %\@affiliationd\\ \or
+        %\@affiliatione\\ \or
+        %\@affiliationf\\ \or
+        %\@affiliationg\\ \or
+        %\@affiliationh\\ \or
+        %\@affiliationi\\
+  \else \typeout{Thesis style--internal error printing affiliations.}
+  \fi
+\repeat
+\end{minipage}
+
+\textsl{Independent members: }\\[1.0\baselineskip]
+%
+\begin{minipage}[b]{0.34\textwidth}
+
+\loop
+  \ifnum \value{@indepmembersprinted} < 5
+    \addtocounter{@indepmembersprinted}{1}
+    \ifcase\value{@indepmembersprinted}
+      \typeout{Thesis style--internal error printing members.}\\ \or
+        %\@membera\\ \or
         \@memberb\\ \or
         \@memberc\\ \or
         \@memberd\\ \or
@@ -335,13 +384,13 @@ Rector Magnificus,\\
 %
 \hspace{0.2cm}
 \begin{minipage}[b]{0.64\textwidth}
-voorzitter\\
+
 \loop
-  \ifnum \value{@affiliationsprinted} < \value{@affiliations}
-    \addtocounter{@affiliationsprinted}{1}
-    \ifcase\value{@affiliationsprinted}
+  \ifnum \value{@indepaffiliationsprinted} < 5
+    \addtocounter{@indepaffiliationsprinted}{1}
+    \ifcase\value{@indepaffiliationsprinted}
       \typeout{Thesis style--internal error printing member affiliations.} \or
-        \@affiliationa\\ \or
+        %\@affiliationa\\ \or
         \@affiliationb\\ \or
         \@affiliationc\\ \or
         \@affiliationd\\ \or
@@ -354,6 +403,7 @@ voorzitter\\
   \fi
 \repeat
 \end{minipage}
+
 
 \vspace*{\fill}
 
@@ -369,7 +419,7 @@ without prior permission from the copyright owner.\\[0.5\baselineskip]
 ISBN \@isbnno\\[0.5\baselineskip]
 Casimir PhD Series Delft-Leiden 2015-26\\[0.5\baselineskip]
 Cover design: L.D. Swakman\\[0.5\baselineskip]
-Printed by  \\[0.5\baselineskip]
+Printed by Gildeprint Drukkerijen - www.gildeprint.nl \\[0.5\baselineskip]
 An electronic version of this thesis is available at www.library.tudelft.nl/dissertations\\[0.5\baselineskip]
 
 

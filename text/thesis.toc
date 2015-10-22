@@ -144,9 +144,14 @@
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-15}
 \contentsline {chapter}{Summary}{169}{appendix*.99}
+\contentsline {chapter}{Samenvatting}{171}{appendix*.100}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-16}
-\contentsline {chapter}{List of Publications}{171}{appendix*.100}
+\contentsline {chapter}{Acknowledgements}{173}{appendix*.101}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-17}
+\contentsline {chapter}{List of Publications}{177}{appendix*.102}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-18}
+\contentsline {chapter}{Curriculum Vitae}{179}{appendix*.103}
 \gdef \the@ipfilectr {}
