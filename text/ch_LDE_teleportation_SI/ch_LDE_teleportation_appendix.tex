@@ -2,7 +2,7 @@
 
 \chapter{Teleportation}
 
-\subsection{Conventions}
+\section{Conventions}
 
 The basis states used for the electrons are $\ket{0} = \ket{\mszero}$ and $\ket{1} = \ket{\msmone}$. For the nitrogen, $\ket{0} = \ket{\mizero}$ and $\ket{1} = \ket{\mimone}$. When specifying joint quantum states, the first qubit is the nitrogen on site A, the second the electron on site A, and the third the electron on site B. Teleportation is performed from qubit 1 onto qubit 3.
 
@@ -22,9 +22,9 @@ The relevant energy levels of the electron and nuclear spins of Alice are depict
 \ee
 where $A = 2\pi \times 2.19$\,MHz is the parallel hyperfine coupling constant of electron and nitrogen at low temperatures. The spin eigenstates are $\ket{00}, \ket{01}, \ket{10}, \ket{01}$.
 
-\subsection{Desired state evolution}
+\section{Desired state evolution}
 
-\subsubsection{Source state preparation}
+\subsection{Source state preparation}
 
 After generating entanglement, we start with the state 
 \be
@@ -43,7 +43,7 @@ We perform the desired rotation on the nitrogen spin for the $\msmone$ manifold,
 Note that the states associated with $\ket{00}$ on Alice's side accumulate a phase during free evolution time, $t$, due to the choice of rotating frame. $t_0$ is the time at which the $\pi$-pulse on the electron is performed during preparation. By chosing the evolution time such that $A(t-t_0)$ is a multiple of $2\pi$ the initial state can be factorized. We implement the unconditional rotation of the electron spin with a CORPSE pulse that provides a $\pi$ rotation that is insensitive against detuning over a range of a few MHz\cite{2003PhRvA..67d2308C}.
 
 
-\subsubsection{Bell-state measurement}
+\subsection{Bell-state measurement}
 
 The BSM consists of a CNOT rotation around the $+Y$ axis on Alice's electron spin, conditional on the nitrogen spin being in $\ket0$, followed by a $\pi/2$ rotation around the $+Y$ axis on the nitrogen spin. We implement the CNOT by rotating $\mimone$ by $\pi$ and $\mizero$ by $2\pi$, achieved by a pulse with Rabi frequency $A/\sqrt{3}$. During this pulse Alice's states $\ket{00}$ and $\ket{01}$ are not unaffected. In particular, the time-dependent phase of the state $\ket{00}$ is reduced compared to not performing the pulse (or compared to the case of an ideal CNOT gate in which only a real $\mathbb{1}$ operation would be applied to this state) because some population temporarily leaves this state. Conversely, $\ket{01}$ will acquire some phase because some population will temporarily be in $\ket{00}$. An unconditonal rotation of the nitrogen spin is achieved in the same was as for preparation, by performing the operation twice, with an electron flip in between. After these gate operations we have
 \begin{align}
@@ -60,7 +60,7 @@ The BSM consists of a CNOT rotation around the $+Y$ axis on Alice's electron spi
 \end{align}
 where $t_1$ is the time of the $\pi$-pulse on the electron and $\lambda,\kappa$ are the additional phases on $\ket{00}$ and $\ket{01}$.
 
-\subsubsection{Phase calibration}
+\subsection{Phase calibration}
 
 We can eliminate the undesired phases before the teleportation experiment by calibrating the rotation axis of the $\pi/2$ operation on the nitrogen in the BSM and the evolution times. After initializing the nitrogen and electron spin states of Alice into $\ket{1}(\ket{0} - \ket{1})/\sqrt{2}$ (equivalent to the entanglement operation on Alice, ignoring Bob), we prepare the nitrogen in $\ket{\bar x} = (\ket{0} - \ket{1})/\sqrt{2}$ (preparation operation is $y$) and perform the BSM, yielding
 \begin{align}

@@ -3,10 +3,10 @@
 \graphicspath{{./ch_LDE_SI/figures/}}
 
 \chapter{Heralded entanglement}
+\label{ch:LDEappendix}
 
 
-
-\subsection{Setup}
+\section{Setup}
 We perform the experiments with two home-built low-temperature confocal microscopes. Each setup features lasers for off-resonant and resonant excitation, cryogenic piezoelectric positioners and high-efficiency/low background fluorescence detection paths. The zero-phonon line (ZPL) detection paths of both setups lead to the common beam splitter and photon detectors used for the entanglement generation. Each setup has an independent microwave (MW) source (Rohde \& Schwarz SMB100A) and MW amplifier (Amplifier Research 20S1G4 and AR 40S1G4 for setups A and B, respectively) to drive the NV centre electron spins.
 
 Sample A is mounted on a XYZ stepper/scanner piezo stack (Attocube) in a Janis ST-500 flow cryostat and kept at $T \approx 8$\,K. Sample B is mounted on a XYZ stepper (Attocube) inside a custom-built Cryovac bath cryostat with optical access and kept at a temperature of $T \approx 4$\,K. 
@@ -15,7 +15,7 @@ Off resonant green excitation is provided for each of the setups by 532\,nm lase
 
 The photon emission of each NV is split into a ZPL part and an off-resonant phonon sideband (PSB) part by a dichroic long-pass filter (Semrock LPD01-633RS). The PSB emission is independently detected for each setup by avalanche photo-diodes (APDs; Perkin-Elmer SPCM). The ZPL emission is further filtered by a second dichroic filter (to remove green excitation light) and a tuneable band pass filter (Semrock TBP-700B). After filtering resonant excitation light by cross-polarisation rejection the ZPL emission of NVs A and B is coupled into the input ports of a fibre-coupled beam splitter (Evanescent Optics) by polarisation-maintaining fibres. The photons leaving the output ports of the beam splitter are detected by fibre-coupled avalanche photo-diodes (Picoquant Tau-SPAD) and time-tagged by a Picoquant Hydraharp 400 system.
 
-\subsection{Rejection of resonant excitation light}
+\section{Rejection of resonant excitation light}
 The experimental protocol requires the resonant excitation of a single optical transition and the detection of indistinguishable resonant photons from spontaneous emission of this transition. We use polarisation rejection and time-filtering to filter residual resonant excitation light --- stemming from reflections from optical elements and the sample surface --- from the signal.
 
 The excitation laser is linearly polarised and rotated using a half-wave-plate (HWP) to a non-zero angle $\varphi$  with respect to the (linear) dipole of the $\ket{\up}\leftrightarrow\ket{E_y}$ transition it excites (Fig.\,\ref{fig:resonant_detection}). In the detection path, the combination of a half-wave plate and polariser sets a detection axis with an angle $\theta$ in the opposite direction with respect to the NV transition dipole. A further quarter-wave-plate (QWP) corrects for circular polarisation components of the signal that are induced by optical elements in the detection path.  We find the optimum in laser-rejection, NV excitation efficiency and NV collection efficiency by varying the angles $\varphi,\theta$ while keeping $\varphi + \theta = 90^\circ$.
@@ -29,7 +29,7 @@ As can be seen in Fig.\,\ref{fig:laser_vs_nv}, reflections of the two-nanosecond
 \label{fig:resonant_detection}
 \end{figure}
 
-\subsection{Experimental control}
+\section{Experimental control}
 For the experiment to be feasible, a high repetition rate of the entanglement generation sequence is crucial, because the success probability per shot is small, $P_\mathrm s = 1/2 \times \eta_\mathrm A\eta_\mathrm B \approx 10^{-7}$. We achieve a reasonable repetition rate by employing a conditional protocol as follows (Fig.\,\ref{fig:conditional_measurement}): We first ensure that both NV centres are in the negative charge state and on resonance. To this end we independently re-set the charge and resonance state of the two NVs with green laser pulses until the resonant excitation lasers are on resonance \cite{Robledo:2011fs,Pfaff:2012ue}. After this preparation we run the spin-preparation and entanglement generation sequence. In case of successful generation of entanglement we read out both spins in a single shot and return to the charge and resonance (CR) check. Otherwise, we repeat spin-preparation and entanglement generation. After 300 unsuccessful entanglement attempts we start over with the CR check. The success probabilities for passing the CR check, $P_\mathrm{CR} \approx 2\%$, and for successfully generating entanglement let us predict an entanglement generation rate of $\sim 1/10\,\mathrm{minutes}$. For comparison, an unconditional protocol in which charge/resonance and entanglement generation are only verified in post-processing would yield an entanglement rate of only $\sim 1/50\,\mathrm{hours}$.
 
 \begin{figure}[h]
@@ -41,7 +41,7 @@ For the experiment to be feasible, a high repetition rate of the entanglement ge
 
 Conditional operation is implemented in the following manner: The CR check and readout is done independently for the two setups by two programmable micro-controllers with DAC- and counter modules (Adwin Gold II and Adwin Pro II for setup A and B, respectively). Once both CR checks pass, a start trigger is sent to the Arbitrary Waveform Generator (Tektronix AWG 5014C) that sequentially executes the entanglement protocol up to 300 times. For each round, the photon clicks are recorded and time-tagged by a Picoquant Hydraharp 400 system. In addition, the photon clicks are also monitored in real time by a programmable logic device (CPLD; Altera Max V development kit) that time-filters the signal and recognises a successful entanglement event; if a success occurs, a stop trigger is sent to the AWG within 50\,ns to prevent it from running the next entanglement cycle. Furthermore, the logic device triggers both ADwin micro controllers to start their readout sequence. Further (more selective) time filtering is done in post-processing for the successful events, by combining the time-tagged data and spin readout data.
 
-\subsection{Optical Rabi oscillations}
+\section{Optical Rabi oscillations}
 On resonance (i.e. in the absence of quasi-static spectral diffusion), the exponential damping time $\tau_{\text{rabi}}$ of the Rabi oscillations is determined by the pure optical dephasing time $T_2^{*,\text{opt}}$ via\cite{Robledo2010}
 \be
 \frac{1}{\tau_{\text{rabi}}}=\frac{3}{4 T_1} + \frac{1}{2T_2^{*,\text{opt}}},

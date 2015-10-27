@@ -84,7 +84,7 @@ The maximum Rabi frequency we achieve in the setup is $\sim 8$ MHz (Fig. \ref{fi
 
 \section*{Electron-independent nuclear spin rotation}
 \label{sec:uncond_rot_RF}
-For quantum state tomography and for weak-value measurements, we need to be able to perform nuclear spin rotations, unconditional on the electron spin state. This is not trivial if the electron and nuclear spins are entangled.
+For quantum state tomography and for weak-value measurements, we need to be able to perform nuclear spin rotations, unconditional on the electron spin state. This is not straight forward if the electron and nuclear spins are entangled.
 In particular, when the electron is in the $\left| m_s=-1 \right \rangle$ state, the splitting between $\left| \Downarrow \right \rangle$ and $\left| \Uparrow \right \rangle$ is $\omega_N^{(-1)} = |Q+A_z| = 2\pi \times 7.164$ MHz, while when the electron in the $\left| m_s=0 \right \rangle$ state, $\omega_N^{(0)} = |Q| = 2\pi \times 4.98$ MHz. Given that the Rabi frequency of the nuclear spin is much smaller than the hyperfine interaction, the simple use of a hard $\pi$-pulse, as done for the electron, does not work. \\
 We implemented the unconditional nuclear spin rotation using the scheme depicted in Fig. \ref{fig:RF}a. First we apply an RF pulse (RF-1) at $\omega_N^{(-1)}$, to rotate the nuclear spin when the electron spin is in the $\left| m_s=-1 \right \rangle$ manifold. We then apply a hard $\pi$-pulse to the electron and apply a second RF pulse (RF-2) at the same frequency $\omega_N^{(-1)}$.\\
 As explained in Section \ref{sec:theory} (Eq. \ref{eq:state}), the partial measurement introduces a phase shift to the system qubit that depends on the measurement strength. The phase shift is proportional to the interaction time $\tau$ of the measurement. In order to characterize the phase shift, we used the following protocol:
@@ -174,7 +174,7 @@ When we condition on a measurement result for the ancilla, the operation on the 
 
 \begin{figure} 
 \includegraphics [width = 12 cm]{SOM/fig04_backAction.eps}
-\caption{\textit{Density matrix elements of the states after a partial measurement, as a function of the measurement strength, for three different input states. On the upper row, data not taking the electron spin readout into account. On the lower row, data conditioned on detection of a photon (electron spin projected to $m_s = 0$). Solid lines represent theoretical prediction from Eq. \ref{eq:uncondRho} and Eq. \ref{eq:condRho}}}
+\caption{\textit{Density matrix elements of the states after a partial measurement, as a function of the measurement strength, for three different input states. On the upper row, data not taking the electron spin readout into account. On the lower row, data conditioned on detection of a photon (electron spin projected to $m_s = 0$). Solid lines represent theoretical prediction from Eq. \ref{eq:uncondRho} and Eq. \ref{eq:condRho}.}}
 \label{fig:backaction}
 \end{figure} 
 
@@ -321,7 +321,7 @@ In other words, as shown in \cite{Jordan_PRB_2006}, a partial measurement is equ
 \begin{figure} 
 \centering
 \includegraphics [width = 12 cm]{SOM/fig07_prob_rotation.eps}
-\caption{\textit{A partial measurement is equivalent to a probabilistic rotation. Given a an initial superposition with angle $\theta_i$ ($\ket{\psi_{init}} =  \cos\theta_i \ket{\Downarrow}+ \sin\theta_i \ket{\Uparrow} $) and a partial measurement with strength $\theta_m$, one gets the rotation angle plotted on the upper left subplot in case the electron spin is measured to be in $\ket{0}$ (probability $\cos^2 \theta_i$, plot on the bottom left) or the rotation angle plotted on the upper right in case the electron spin is measured to be in $\ket{1}$ (probability $\sin^2 \theta_i$, plot on the bottom right)}}
+\caption{\textit{A partial measurement is equivalent to a probabilistic rotation. Given a an initial superposition with angle $\theta_i$ ($\ket{\psi_{init}} =  \cos\theta_i \ket{\Downarrow}+ \sin\theta_i \ket{\Uparrow} $) and a partial measurement with strength $\theta_m$, one gets the rotation angle plotted on the upper left subplot in case the electron spin is measured to be in $\ket{0}$ (probability $\cos^2 \theta_i$, plot on the bottom left) or the rotation angle plotted on the upper right in case the electron spin is measured to be in $\ket{1}$ (probability $\sin^2 \theta_i$, plot on the bottom right).}}
 \label{fig:prob_rot}
 \end{figure} 
 

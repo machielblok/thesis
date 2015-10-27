@@ -1,12 +1,12 @@
 %%
-%% This is file `gijs.bst',
+%% This is file `machiel.bst',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
 %%
 %% merlin.mbs  (with options: `seq-no,nm-init,ed-au,nmlm,x5,m1,mcite,mct-1,mct-x5,yr-par,xmth,vol-bf,vnum-x,volp-com,jpg-1,num-xser,ser-vol,jnm-x,pre-pub,edpar,in-x,ppx,xedn,jabr,and-xcom,etal-xc,etal-it,em-it,nfss,')
 %% ----------------------------------------
-%% *** Gijs thesis ***
+%% *** Machiel thesis ***
 %% 
 %% Copyright 1994-2011 Patrick W Daly
  % ===============================================================
@@ -1209,4 +1209,4 @@ FUNCTION {end.bib}
 EXECUTE {end.bib}
 %% End of customized bst file
 %%
-%% End of file `gijs.bst'.
+%% End of file `machiel.bst'.
