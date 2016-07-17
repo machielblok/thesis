@@ -1,0 +1,93 @@
+Delivered-To: machielblok@gmail.com
+Received: by 10.79.84.4 with SMTP id i4csp408197ivb;
+        Thu, 11 Feb 2016 12:22:18 -0800 (PST)
+X-Received: by 10.60.128.133 with SMTP id no5mr50677058oeb.9.1455222138722;
+        Thu, 11 Feb 2016 12:22:18 -0800 (PST)
+Return-Path: <member_services@healthnet.com>
+Received: from mailgate02.healthnet.com (mailgate02.healthnet.com. [204.107.52.52])
+        by mx.google.com with ESMTPS id ok6si3796945oeb.2.2016.02.11.12.22.18
+        for <machielblok@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 11 Feb 2016 12:22:18 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of member_services@healthnet.com designates 204.107.52.52 as permitted sender) client-ip=204.107.52.52;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of member_services@healthnet.com designates 204.107.52.52 as permitted sender) smtp.mailfrom=member_services@healthnet.com
+X-WSS-ID: 0O2EGL0-0B-HDE-02
+X-M-MSG: 
+Received: from maverick.healthnet.com (mail.healthnet.com [167.238.169.64])
+	(using TLSv1 with cipher ECDHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mailgate02.healthnet.com (Postfix) with ESMTPS id 255052933296
+	for <machielblok@gmail.com>; Thu, 11 Feb 2016 12:22:11 -0800 (PST)
+X-WSS-ID: 0O2EGL2-0F-A94-02
+X-M-MSG: 
+Received: from bld-dlpp06.healthnet.com (bld-hn-svraccsw8.healthnet.com [167.238.129.125])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by maverick.healthnet.com (Postfix) with ESMTPS id 296D5183A766
+	for <machielblok@gmail.com>; Thu, 11 Feb 2016 12:22:13 -0800 (PST)
+Received: from maverick.healthnet.com (mail.healthnet.com [167.238.169.64])
+	by bld-dlpp06.healthnet.com (8.13.8/8.13.1) with ESMTP id u1BKQX9q017705
+	for <machielblok@gmail.com>; Thu, 11 Feb 2016 13:26:33 -0700
+X-WSS-ID: 0O2EGL1-0F-A93-02
+X-M-MSG: 
+Received: from web-prdapp8 (web-prdapp8.healthnet.com [192.168.74.106])
+	by maverick.healthnet.com (Postfix) with ESMTP id 2A9DB183A770
+	for <machielblok@gmail.com>; Thu, 11 Feb 2016 12:22:12 -0800 (PST)
+From: Health Net Web Services <member_services@healthnet.com>
+To: <machielblok@gmail.com>
+Message-ID: <17807792.18118.1455222133434.JavaMail.customerservice@healthnet.com>
+Subject: Your Sign-in Seal Has Been Updated
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_18117_23275777.1455222133433"
+Date: Thu, 11 Feb 2016 12:22:12 -0800 (PST)
+X-RCIS-Action: ALLOW
+
+------=_Part_18117_23275777.1455222133433
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<html>
+<body>
+				
+					Dear Health Net Member, <br>
+<br>
+	
+					Per your request, we have updated your sign-in seal. <br>
+<br>
+					
+					If you did not request a change to your sign-in seal, please call the number on the back of your ID card immediately. <br>
+<br>
+					
+					Learn more about our <a href="https://www.healthnet.com/portal/member/protected/changeDDP.ndo?campaign=default">Electronic Document Delivery</a> process and view our <a href="https://www.healthnet.com/portal/common/content/iwc/corp_info/book/legal_info.action#topic-anchor">Electronic Document Delivery Agreement</a>. <br>
+<br>
+					
+					Stay in touch with Health Net. Follow us on <a href="https://www.facebook.com/HealthNetInc">Facebook</a> or <a href="https://twitter.com/">Twitter</a>. Sign up for email <a href="https://www.healthnet.com/static/member/unprotected/pdfs/ca/hn_news_ca_spring_2014.pdf">newsletters</a> and check out our <a href="http://healthnetpulse.com/member/">member blog</a>.  <br>
+<br>
+					
+					Sincerely, <br>	
+					Health Net <br>
+<br>
+<hr style="border-top: dotted 1px;">
+					
+					Please do not respond to this email. This email was sent from an address that cannot accept incoming email. We're happy to 
+					help you with any questions or concerns you may have. Please contact us directly by calling the phone number on the 
+					back of your ID card. To ensure emails from Health Net are successfully delivered to your email address, please add 
+					donotreply@healthnet.com to your contacts list.<br>
+<br>
+
+					This message, together with any attachments, is intended only for the use of the individual or entity to which it is addressed. 
+					It may contain information that is confidential and prohibited from disclosure. If you are not the intended recipient, you are
+					hereby notified that any dissemination or copying of this message or any attachment is strictly prohibited. If you have received 
+					this message in error, please notify the original sender immediately by telephone and delete this message, along with any attachments,
+					from your computer. 
+  					<br>
+<br>
+					
+					Material ID # Y0035_2014_0840 (H0351, H0562, H5439, H5520, H6815) Compliance Approved 05092014 H3237_2014_0840 Compliance Approved 05092014
+					
+				</body>
+</html>
+
+------=_Part_18117_23275777.1455222133433--
